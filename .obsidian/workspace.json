@@ -16,19 +16,65 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":23},\"to\":{\"line\":1,\"ch\":23}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59b805aa6d0d9e05",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":94},\"to\":{\"line\":1,\"ch\":94}}}"
+                },
+                {
+                  "title": "Misc",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Journals Hierarchy - Research",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":2},\"to\":{\"line\":12,\"ch\":2}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Presentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -147,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Honey Accounts in Windows AD/Presentation.md"
               }
             }
           },
@@ -253,8 +299,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8263fd8f6978b1df",
+  "active": "59b805aa6d0d9e05",
   "lastOpenFiles": [
+    "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Presentation.md",
+    "Honey Accounts in Windows AD/Misc.md",
+    "Journals Hierarchy - Research.md",
+    "Top Journals,",
     "README.md",
     "Honey Accounts in Windows AD",
     "SIEM Framework"
