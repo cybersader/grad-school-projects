@@ -1,13 +1,31 @@
-# Ideas, Paper, and Paper Search Queries
+# Ideas, Paper, and Paper Search Queries - Related to Postgres
 - IAM - identity and access management
 	- Cloud, IAM, Databases
 		- [Cloud Security: The Future of Data Storage | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-3961-6_9) 
 	- Postgres IAM 
 		- [User Management and Securing Databases (Postgres) | SpringerLink](https://link.springer.com/chapter/10.1007/978-1-4842-5663-3_3) 
 		- 
-- Backing up, disaster recovery, immutable storage, ransomware protection
-	- [Detecting Database File Tampering through Page Carving (Conference Paper) | NSF PAGES](https://par.nsf.gov/biblio/10078874) 
-	- 
+- Backing up, immutable storage, ransomware protection, restoring, data recovery, backup retention, BCDR (business continuity & disaster recovery), redundancy, replication, redundancy, NAS
+	- Research
+		- Ransomware detection
+			- [Detecting Database File Tampering through Page Carving (Conference Paper) | NSF PAGES](https://par.nsf.gov/biblio/10078874) 
+	- Postgres Backups, BCDR
+		- Backup Terms
+			- Incremental backups, differential backups, snapshots, full backups
+		- https://github.com/dhamaniasad/awesome-postgres#backups 
+		- [okhosting/awesome-storage: A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.](https://github.com/okhosting/awesome-storage) 
+		- https://github.com/okhosting/awesome-storage#backups-replication-distribution 
+		- Immutable Postgres backups?
+			- Azure Blob with immutability
+			- S3 with object lock?
+		- Postgres Backups
+			- **pg_dump and pg_restore**: These are built-in PostgreSQL utilities for dumping and restoring databases.
+			- **Backup Software**: Commercial backup solutions like Veeam, Commvault, and Acronis can be used to create and manage database backups.
+			- **Continuous Data Protection (CDP)**: Solutions like ZFS or SAN-based replication can provide continuous, point-in-time recovery options.
+	- Ransomware resources
+		- [bbbbbrie/awesome-ransomware: Curated list of ransomware-related resources; awesome style.](https://github.com/bbbbbrie/awesome-ransomware) 
+		- [Sokow86/awesome-malware-resources: Just another collection of links, tools, reports and other stuff](https://github.com/Sokow86/awesome-malware-resources) 
+		- 
 - MFA, SSO Implementation
 - Vulnerability management PostgreSQL
 	- [Securing Relational Databases against Security Vulnerabilities: A Case of Microsoft SQL Server and PostgreSQL: Journal of Applied Security Research: Vol 18, No 3](https://www.tandfonline.com/doi/abs/10.1080/19361610.2021.2006032)  
@@ -26,3 +44,7 @@
 		- [Recent Papers Related To Fuzzing | FuzzingPaper](https://wcventure.github.io/FuzzingPaper/) 
 		- [Sequence Directed Hybrid Fuzzing | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/9054807) 
 		- [A model-based fuzzing approach for DBMS | Semantic Scholar](https://www.semanticscholar.org/paper/A-model-based-fuzzing-approach-for-DBMS-Wang-Zhang/a58239f7a8f2839db3b2ccf91e668904f44a3ced) 
+- Postgres DFIR, malware removal and/or analysis, etc
+	- Crypto miners on Postgres instances? (PGminer)
+		- [How my server got infected with a crypto mining malware and how I fixed it - BigBinary Blog](https://www.bigbinary.com/blog/how-my-server-got-infected-with-a-crypto-mining-malware-and-how-i-fixed-it)
+		- [Investigation into Postgres malware (hack?) - DEV Community](https://dev.to/sanchitsharma/investigation-into-postgres-malware-hack-2ai0) 
