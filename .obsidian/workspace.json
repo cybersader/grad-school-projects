@@ -45,6 +45,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Misc",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Project Content",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
@@ -67,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Presentation.md",
+                "file": "DB Sec/Project Proposal.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Presentation.md",
+                "file": "DB Sec/Project Proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Presentation.md",
+                "file": "DB Sec/Project Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Presentation.md"
+                "file": "DB Sec/Project Proposal.md"
               }
             }
           },
@@ -301,9 +307,11 @@
   },
   "active": "59b805aa6d0d9e05",
   "lastOpenFiles": [
+    "Honey Accounts in Windows AD/Misc.md",
+    "DB Sec/Project Proposal.md",
+    "DB Sec",
     "Honey Accounts in Windows AD/Project Content.md",
     "Honey Accounts in Windows AD/Presentation.md",
-    "Honey Accounts in Windows AD/Misc.md",
     "Journals Hierarchy - Research.md",
     "Top Journals,",
     "README.md",

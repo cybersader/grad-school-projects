@@ -1,0 +1,28 @@
+# Ideas, Paper, and Paper Search Queries
+- IAM - identity and access management
+	- Cloud, IAM, Databases
+		- [Cloud Security: The Future of Data Storage | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-3961-6_9) 
+	- Postgres IAM 
+		- [User Management and Securing Databases (Postgres) | SpringerLink](https://link.springer.com/chapter/10.1007/978-1-4842-5663-3_3) 
+		- 
+- Backing up, disaster recovery, immutable storage, ransomware protection
+	- [Detecting Database File Tampering through Page Carving (Conference Paper) | NSF PAGES](https://par.nsf.gov/biblio/10078874) 
+	- 
+- MFA, SSO Implementation
+- Vulnerability management PostgreSQL
+	- [Securing Relational Databases against Security Vulnerabilities: A Case of Microsoft SQL Server and PostgreSQL: Journal of Applied Security Research: Vol 18, No 3](https://www.tandfonline.com/doi/abs/10.1080/19361610.2021.2006032)  
+	- [Applied Sciences | Free Full-Text | Vulnerability Management Models Using a Common Vulnerability Scoring System](https://www.mdpi.com/2076-3417/11/18/8735) 
+- SQL Injection Detection
+- Configuration management
+	- [Enabling Secure Cloud Governance using Policy as Code](https://odr.chalmers.se/items/a15a77b7-7005-4412-9dd3-5f3f639b558e) 
+- Secrets Managment
+	- [Security and Secrets Management | SpringerLink](https://link.springer.com/chapter/10.1007/978-1-4842-8673-9_9) 
+- Data Privacy
+	- Anonymization, Preservation
+- Pentesting
+	- DBMS Fuzzing?
+		- [Griffin : Grammar-Free DBMS Fuzzing | Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering](https://dl.acm.org/doi/abs/10.1145/3551349.3560431) 
+		- [Industry Practice of Coverage-Guided Enterprise-Level DBMS Fuzzing | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9401989) 
+		- [Recent Papers Related To Fuzzing | FuzzingPaper](https://wcventure.github.io/FuzzingPaper/) 
+		- [Sequence Directed Hybrid Fuzzing | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/9054807) 
+		- [A model-based fuzzing approach for DBMS | Semantic Scholar](https://www.semanticscholar.org/paper/A-model-based-fuzzing-approach-for-DBMS-Wang-Zhang/a58239f7a8f2839db3b2ccf91e668904f44a3ced) 
