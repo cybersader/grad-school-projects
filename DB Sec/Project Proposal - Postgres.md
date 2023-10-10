@@ -30,6 +30,7 @@
 - Vulnerability management PostgreSQL
 	- [Securing Relational Databases against Security Vulnerabilities: A Case of Microsoft SQL Server and PostgreSQL: Journal of Applied Security Research: Vol 18, No 3](https://www.tandfonline.com/doi/abs/10.1080/19361610.2021.2006032)  
 	- [Applied Sciences | Free Full-Text | Vulnerability Management Models Using a Common Vulnerability Scoring System](https://www.mdpi.com/2076-3417/11/18/8735) 
+	- 
 - SQL Injection Detection
 - Configuration management
 	- [Enabling Secure Cloud Governance using Policy as Code](https://odr.chalmers.se/items/a15a77b7-7005-4412-9dd3-5f3f639b558e) 
@@ -38,6 +39,7 @@
 - Data Privacy
 	- Anonymization, Preservation
 - Pentesting
+	- Enumerating vulnerable databases with Shodan
 	- DBMS Fuzzing?
 		- [Griffin : Grammar-Free DBMS Fuzzing | Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering](https://dl.acm.org/doi/abs/10.1145/3551349.3560431) 
 		- [Industry Practice of Coverage-Guided Enterprise-Level DBMS Fuzzing | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9401989) 
@@ -48,3 +50,43 @@
 	- Crypto miners on Postgres instances? (PGminer)
 		- [How my server got infected with a crypto mining malware and how I fixed it - BigBinary Blog](https://www.bigbinary.com/blog/how-my-server-got-infected-with-a-crypto-mining-malware-and-how-i-fixed-it)
 		- [Investigation into Postgres malware (hack?) - DEV Community](https://dev.to/sanchitsharma/investigation-into-postgres-malware-hack-2ai0) 
+		- 
+- Postgres Vulns
+	- https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=postgres
+- Database self hosting and remote connections
+	- Remote access related to self hosting a Postgres database (exposed to the internet while maintaining security)
+		- Proxy with cloud services
+			- Cloudflare tunnels
+			- Nginx Reverse Proxy
+		- Single stop methods 
+		- VPN solutions
+		- MFA
+		- SSO, IAM, IdP
+			- [casdoor/casdoor: An open-source Identity and Access Management (IAM)](https://github.com/casdoor/casdoor) 
+			- https://github.com/authelia/authelia 
+			- https://github.com/zitadel/zitadel
+			- https://goauthentik.io/ 
+			- https://www.keycloak.org/ - best candidate
+			- [FreeIPA - Identity, Policy, Audit — FreeIPA documentation](https://www.freeipa.org/) 
+			- [Gluu - Open Source Identity and Access Management](https://gluu.org/#) 
+				- [Janssen Documentation](https://docs.jans.io/v1.0.18/) 
+			- [Shibboleth Consortium - Shaping the future of Shibboleth Software](https://www.shibboleth.net/)
+		- Firewall
+- Cyber deception
+	- Canary tokens in Postgres database
+	- Canary files in databases
+	- Attribution malware and beaconing methods via macro-enabled documents stored in databases
+- Contributable and federated Postgres database with security in mind?
+	- Public internet users -> domain name -> authentication and authorization system (keycloak, OIDC, Oauth2) -> Postgres database table
+	- Contributable system implemented with IdP (like Keycloak)
+	- Somehow expose a Postgres server to the public and allow certain aspects of the table to be changed such as adding data or rows while maintaining a level of access control or security
+	- [Partitioning vs. Federation vs. Sharding](https://lethargy.org/~jesus/writes/partitioning-vs-federation-vs-sharding/) 
+	- It seems that there's nothing easy to implement for this
+		- "Are there any federated systems or tech for IAM implementation" - not really at least in terms of a system where a user can own the authentication piece of the system using cryptography
+	- Federated IdP or IAM?
+		- Keycloak
+			- https://www.keycloak.org/docs/latest/server_admin/ 
+	- Postgres resources
+		- [devton/awesome-postgresql: A curated list of awesome PostgreSQL tools, scripts, slides, and short examples. inspired by the other awesome lists](https://github.com/devton/awesome-postgresql) 
+		- 
+- 

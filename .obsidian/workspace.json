@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Misc",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "README",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
@@ -28,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Misc.md",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,6 +49,30 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Journals Hierarchy - Research",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":147},\"to\":{\"line\":36,\"ch\":147}},\"scroll\":28.22005049387614}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Misc",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.9826359079353817}"
+                },
+                {
+                  "title": "Project Proposal",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9930948398239857}"
                 },
                 {
                   "title": "Misc",
@@ -73,14 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB Sec/Project Proposal.md",
+                "file": "Honey Accounts in Windows AD/Project Content.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -199,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Sec/Project Proposal.md",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB Sec/Project Proposal.md",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Sec/Project Proposal.md"
+                "file": "DB Sec/Project Proposal - Postgres.md"
               }
             }
           },
@@ -300,19 +330,20 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templates:Insert template": false
     }
   },
-  "active": "59b805aa6d0d9e05",
+  "active": "8263fd8f6978b1df",
   "lastOpenFiles": [
     "Honey Accounts in Windows AD/Misc.md",
-    "DB Sec/Project Proposal.md",
-    "DB Sec",
     "Honey Accounts in Windows AD/Project Content.md",
-    "Honey Accounts in Windows AD/Presentation.md",
     "Journals Hierarchy - Research.md",
+    "DB Sec/Project Proposal - Postgres.md",
+    "DB Sec/Pre-Project Research",
+    "DB Sec",
+    "Honey Accounts in Windows AD/Presentation.md",
     "Top Journals,",
     "README.md",
     "Honey Accounts in Windows AD",
