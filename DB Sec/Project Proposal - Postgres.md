@@ -88,5 +88,6 @@
 			- https://www.keycloak.org/docs/latest/server_admin/ 
 	- Postgres resources
 		- [devton/awesome-postgresql: A curated list of awesome PostgreSQL tools, scripts, slides, and short examples. inspired by the other awesome lists](https://github.com/devton/awesome-postgresql) 
-		- 
-- 
+- Self-Hosted & Publicly Exposed PostgreSQL - Countering Reconnaissance & Vulnerability Scanning
+	- How to interface with a self hosted database
+	- How to expose it to the internet without allowing attackers to get much information about it or affect the operation of it

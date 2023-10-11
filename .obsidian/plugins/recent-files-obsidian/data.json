@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Project Content",
+      "path": "SIEM Framework/Project Content.md"
+    },
+    {
+      "basename": "Project Proposal - SIEM Framework",
+      "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
+    },
+    {
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
     },
     {
-      "basename": "Misc",
-      "path": "Honey Accounts in Windows AD/Misc.md"
-    },
-    {
       "basename": "Project Content",
       "path": "Honey Accounts in Windows AD/Project Content.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Honey Accounts in Windows AD/Misc.md"
     },
     {
       "basename": "Journals Hierarchy - Research",
