@@ -9,9 +9,6 @@
 		- Types of functions
 		- Correlation
 	- Community Marketplace / Database for Queries/Detections
-
-# Tech Stacks & Architectures
-
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
@@ -157,5 +154,7 @@
 - 
 - For specific systems:
 	- [Intelligent Threat Detection - Amazon GuardDuty - AWS](https://aws.amazon.com/guardduty/) 
+# Tech Stacks & Architectures
+## 
 # Fundamental Security Visibility & Data Engineering
 ![1000](SIEM_framework_2023)

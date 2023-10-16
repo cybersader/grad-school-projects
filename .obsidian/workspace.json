@@ -4,8 +4,37 @@
     "type": "split",
     "children": [
       {
+        "id": "a8572afce4203f35",
+        "type": "tabs",
+        "dimension": 51.67064439140812,
+        "children": [
+          {
+            "id": "231097c4c43ee066",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "0ed1ddeb821a4147",
         "type": "tabs",
+        "dimension": 48.32935560859188,
         "children": [
           {
             "id": "59b805aa6d0d9e05",
@@ -325,7 +354,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "59b805aa6d0d9e05",
+  "active": "231097c4c43ee066",
   "lastOpenFiles": [
     "Honey Accounts in Windows AD/Misc.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
