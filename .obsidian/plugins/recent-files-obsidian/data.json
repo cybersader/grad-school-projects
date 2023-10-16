@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "SIEM & Visibility Solution Curation",
-      "path": "SIEM Framework/SIEM & Visibility Solution Curation.md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
-      "basename": "SIEM_framework_2023",
-      "path": "SIEM Framework/SIEM_framework_2023.md"
+      "basename": "Misc",
+      "path": "Honey Accounts in Windows AD/Misc.md"
+    },
+    {
+      "basename": "Project Proposal - SIEM Framework",
+      "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
     },
     {
       "basename": "Project Content",
@@ -15,10 +19,6 @@
     {
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
-    },
-    {
-      "basename": "Misc",
-      "path": "Honey Accounts in Windows AD/Misc.md"
     },
     {
       "basename": "Project Content",

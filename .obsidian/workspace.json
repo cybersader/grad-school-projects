@@ -4,60 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "6ca3327ca11d7b44",
+        "id": "0ed1ddeb821a4147",
         "type": "tabs",
         "children": [
-          {
-            "id": "8263fd8f6978b1df",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SIEM_framework_2023",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"SIEM Framework/SIEM_framework_2023.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Project Content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":28.176006044937143}"
-                },
-                {
-                  "title": "Project Proposal - Postgres",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":24},\"to\":{\"line\":60,\"ch\":24}},\"scroll\":69.86502138042137}"
-                },
-                {
-                  "title": "Misc",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":23},\"to\":{\"line\":1,\"ch\":23}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIEM Framework/SIEM & Visibility Solution Curation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "59b805aa6d0d9e05",
             "type": "leaf",
@@ -69,10 +18,28 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Journals Hierarchy - Research",
+                  "title": "Project Proposal - SIEM Framework",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":147},\"to\":{\"line\":36,\"ch\":147}},\"scroll\":28.22005049387614}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Proposal - SIEM Framework.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Project Proposal - Postgres",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":57.80331753554503}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Project Content",
@@ -81,16 +48,22 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Misc",
+                  "title": "Project Content",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Misc.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.9826359079353817}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}}}"
                 },
                 {
-                  "title": "Project Proposal",
+                  "title": "Project Proposal - SIEM Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Proposal - SIEM Framework.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":195},\"to\":{\"line\":3,\"ch\":195}},\"scroll\":0}"
+                },
+                {
+                  "title": "Project Proposal - Postgres",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9930948398239857}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":30.057983193277312}"
                 },
                 {
                   "title": "Misc",
@@ -121,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Content.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -221,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -247,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIEM Framework/SIEM & Visibility Solution Curation.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIEM Framework/SIEM & Visibility Solution Curation.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIEM Framework/SIEM & Visibility Solution Curation.md"
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
               }
             }
           },
@@ -348,30 +320,30 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templates:Insert template": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8263fd8f6978b1df",
+  "active": "59b805aa6d0d9e05",
   "lastOpenFiles": [
+    "Honey Accounts in Windows AD/Misc.md",
+    "SIEM Framework/Project Proposal - SIEM Framework.md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "SIEM Framework/Project Content.md",
+    "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/IMG-20231013160009285.png",
     "SIEM Framework/IMG-20231013155729213.png",
-    "SIEM Framework/SIEM_framework_2023.md",
-    "SIEM Framework/Project Content.md",
-    "SIEM Framework/SIEM & Visibility Solution Curation.md",
-    "SIEM Framework/SIEM Architecture & Curation.md",
     "DB Sec/Project Proposal - Postgres.md",
-    "SIEM Framework/Project Proposal - SIEM Framework.md",
-    "SIEM Framework",
-    "Honey Accounts in Windows AD/Misc.md",
     "Honey Accounts in Windows AD/Project Content.md",
-    "Journals Hierarchy - Research.md",
-    "DB Sec/Pre-Project Research",
+    "New Text Document.txt",
+    "DB Sec/Project Proposal.md",
     "DB Sec",
     "Honey Accounts in Windows AD/Presentation.md",
+    "Journals Hierarchy - Research.md",
     "Top Journals,",
     "README.md",
-    "Honey Accounts in Windows AD"
+    "Honey Accounts in Windows AD",
+    "SIEM Framework"
   ]
 }
