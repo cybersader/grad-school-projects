@@ -155,6 +155,41 @@
 - For specific systems:
 	- [Intelligent Threat Detection - Amazon GuardDuty - AWS](https://aws.amazon.com/guardduty/) 
 # Tech Stacks & Architectures
-## 
+- Solution Group Numbers:
+	- 1- ETL Proxy
+	- 2- Data Ingestion
+	- 3- Data Storage
+	- 4- Data Processing
+	- 5- Data Analysis
+	- 6- Automation
+## SIEM Focus
+### Open Source
+- ELK Stack 
+	- ELK - Elasticsearch, Logstash, Kibana
+	- [ELK stack implementation tips for production : r/elasticsearch](https://www.reddit.com/r/elasticsearch/comments/112wcst/elk_stack_implementation_tips_for_production/) 
+	- https://logz.io/blog/open-source-elasticsearch-doubling-down/
+		- Logz.io offers a unified cloud observability platform with log management based on Kibana,  Prometheus as a service, distributed tracing based on Jaeger, and cloud SIEM.  The Logz.io team is intimately immersed with both Kibana and Elasticsearch.
+	- 
+
+- Graylog
+	- 
+### Proprietary
+- Sentinel
+	- 
+
+- Hive Project
+	- 
+
+- Matano
+	- 
+## Innovative Tech  Stack
+### Open Source
+- 
+### Proprietary
+- Loki, Grafana
+	- 
+
+- Databricks
+	- 
 # Fundamental Security Visibility & Data Engineering
 ![1000](SIEM_framework_2023)
