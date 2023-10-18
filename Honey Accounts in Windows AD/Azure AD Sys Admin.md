@@ -29,10 +29,10 @@
 ### AAD - Azure Active Directory
 - Cloud-based IAM service.  Helps employees access external resources like O365, Azure portal, and other SaaS apps
 
-![[Pasted image 20231017151312.png]]
+![[IMG-20231018143548186.png]]
 ## Azure AD compared to simple AD
 - [Compare Active Directory to Microsoft Entra ID - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-gb/azure/active-directory/fundamentals/compare) 
-- ![[Pasted image 20231017143551.png]]
+- ![[IMG-20231018143549559.png]]
 - AAD Features:
 	- Communication via REST over internet
 	- Auth with cloud-based protocols - OpenID, oAuth2, SAML, WS-Fed
@@ -49,14 +49,14 @@
 	  - LDAP, Kerberos/NTLM auth
   - Managed domains require a unique namspace (domain name) website.com - this is the only way to enable forest level trusts as names have to be unique
   - If any organisation that has on-premises Active Directory Domain Services, uses Azure (so has Azure AD) and when deployed a Azure AD Domain Services managed domain, they would look like this:
-	  - ![[Pasted image 20231017144420.png]]
+	  - ![[IMG-20231018143550322.png]]
   - For AADDS instances, Azure deploys two DCs, into a deciated virtual network, in a single region -- called a replica set.
   - Peered with other virtual network, or can be multiple replica sets providing local login for application, protecting if a region goes down
   - Since AADDS is PaaS, then vendor is responsible for updates, backups, monitoring, etc
 ### Syncronizing AADDS with On-Prem (Hybrid)
 - The managed domain has a one-way automatic sync from Azure AD. Azure AD provides the centralised set of users, groups and credentials. This is shown as (1) in the diagram below.
 - Azure AD Connect used to sync On-prem AD with Azure AD
-![[Pasted image 20231017145955.png]]
+![[IMG-20231018143550877.png]]
 ### Limitations & Considerations When Selecting AD Tech
 #### Simple AD
 - Needs to run on Windows Server - vm cost and license costs
@@ -147,4 +147,4 @@ A combination of two or more Active Directory products will need to be considere
 # AAD 101
 - [Azure Active Directory (AAD) 101. Hello Everyone! | by Kalpani Ranasinghe | Geek Culture | Medium](https://medium.com/geekculture/azure-active-directory-aad-101-3bd4383bbabe)
 
-![[Pasted image 20231017152700.png]]
+![[IMG-20231018143551387.png]]

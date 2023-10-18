@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Azure AD Sys Admin",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Azure AD Sys Admin.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Project Content",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
@@ -26,11 +32,9 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
-                "mode": "source",
-                "source": false
+                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png"
               }
             }
           }
@@ -153,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
+                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png"
               }
             }
           },
@@ -259,19 +263,22 @@
       "templates:Insert template": false
     }
   },
-  "active": "65fdb0aef05c7a01",
+  "active": "d97c98ee8bd1f8b1",
   "lastOpenFiles": [
-    "Pasted image 20231017152700.png",
-    "Pasted image 20231017151312.png",
-    "Pasted image 20231017145955.png",
-    "Pasted image 20231017144420.png",
-    "Pasted image 20231017143551.png",
-    "Honey Accounts in Windows AD/Project Content.md",
+    "__attachments/SIEM Framework",
+    "__attachments/Honey Accounts in Windows AD",
+    "__attachments",
     "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+    "__attachments/Honey Accounts in Windows AD/IMG-20231018143551387.png",
+    "__attachments/Honey Accounts in Windows AD/IMG-20231018143548186.png",
+    "__attachments/Honey Accounts in Windows AD/IMG-20231018143550877.png",
+    "__attachments/Honey Accounts in Windows AD/IMG-20231018143550322.png",
+    "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
+    "Honey Accounts in Windows AD/Project Content.md",
     "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/SIEM & Visibility Solution Curation.md",
-    "SIEM Framework/IMG-20231013160009285.png",
+    "__attachments/SIEM Framework/IMG-20231018143552299.png",
     "SIEM Framework/IMG-20231013155729213.png",
     "SIEM Framework/Project Content.md",
     "SIEM Framework/SIEM Architecture & Curation.md",
