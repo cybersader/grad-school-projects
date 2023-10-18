@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d613ee1bf673f29",
+        "id": "3b12373d8ca18380",
         "type": "tabs",
-        "dimension": 44.46308724832215,
         "children": [
           {
-            "id": "3622b17a068419da",
+            "id": "65fdb0aef05c7a01",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -17,41 +16,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "9e4a4db72548f575",
-        "type": "tabs",
-        "dimension": 55.536912751677846,
-        "children": [
-          {
-            "id": "1b71fb882ce463bf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -177,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
               }
             }
           },
@@ -283,12 +259,18 @@
       "templates:Insert template": false
     }
   },
-  "active": "d97c98ee8bd1f8b1",
+  "active": "65fdb0aef05c7a01",
   "lastOpenFiles": [
+    "Pasted image 20231017152700.png",
+    "Pasted image 20231017151312.png",
+    "Pasted image 20231017145955.png",
+    "Pasted image 20231017144420.png",
+    "Pasted image 20231017143551.png",
     "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/SIEM & Visibility Solution Curation.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/IMG-20231013160009285.png",
     "SIEM Framework/IMG-20231013155729213.png",
     "SIEM Framework/Project Content.md",
