@@ -1,3 +1,24 @@
+# Proposal
+## Objectives: 
+- My primary objective of this project is to show how you can implement a self-hosted PostgreSQL database (at home) that is securely exposed to the internet. This includes various architectures or tech stacks for self-hosting (hardware, software, and networking) and for methods of exposing local devices on the internet. 
+- To implement the networking and exposition of the server to the Internet, I plan on implementing either Cloudflare Tunnels, NGINX Reverse Proxy, or some other similar technology. This may also help defend against denial-of-service attacks which I will research, but realistically won’t be able to implement without various legal and ethical implications. 
+- The attacks that I will be threat modeling should include simple host discovery, port scanning, and general reconnaissance. 
+- I want to reiterate again that the main objective is to show how to self-host a database server to the public internet for use cases where the server needs to be exposed to the internet maybe as an interface for another system where there are tight constraints for the architecture. 
+-  In terms of attacks, I was also interested in whether the Postgres database allows for attacks on the operating system (privilege escalation, lateral movement, etc.) 
+
+## List of articles/papers to read or refer to: 
+- For tunneling and exposing the server: 
+	- https://github.com/anderspitman/awesome-tunneling 
+	- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/ 
+	- https://developers.cloudflare.com/cloudflare-one/connections/connectnetworks/get-started/ 
+- For recon: 
+	- https://www.shodan.io/ - maybe 
+	- https://nmap.org/ 
+- Related to attacks that I’ll research: 
+	- https://www.bigbinary.com/blog/how-my-server-got-infected-with-acrypto-mining-malware-and-how-i-fixed-it 
+	- https://dev.to/sanchitsharma/investigation-into-postgres-malwarehack-2ai0 
+	- https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=postgres
+
 # Ideas, Paper, and Paper Search Queries - Related to Postgres
 - IAM - identity and access management
 	- Cloud, IAM, Databases

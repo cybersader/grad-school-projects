@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b12373d8ca18380",
+        "id": "09c8a180fd8b3dd9",
         "type": "tabs",
         "children": [
           {
-            "id": "65fdb0aef05c7a01",
+            "id": "046a95acd55e739b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,23 +18,55 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Azure AD Sys Admin",
+                  "title": "Journals Hierarchy - Research",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Azure AD Sys Admin.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":141.5311542390194}"
+                },
+                {
+                  "title": "SIEM_framework_2023",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"SIEM Framework/SIEM_framework_2023.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Project Proposal - SIEM Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Proposal - SIEM Framework.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.511284722222221}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.949751861042184}"
                 },
                 {
                   "title": "Project Content",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Azure AD Sys Admin",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Azure AD Sys Admin.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png"
+                "file": "DB Sec/Project Proposal - Postgres.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -132,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292.5
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -157,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png"
+                "file": "DB Sec/Project Proposal - Postgres.md"
               }
             }
           },
@@ -258,40 +290,49 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templates:Insert template": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d97c98ee8bd1f8b1",
+  "active": "046a95acd55e739b",
   "lastOpenFiles": [
-    "__attachments/SIEM Framework",
-    "__attachments/Honey Accounts in Windows AD",
-    "__attachments",
-    "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
-    "__attachments/Honey Accounts in Windows AD/IMG-20231018143551387.png",
-    "__attachments/Honey Accounts in Windows AD/IMG-20231018143548186.png",
-    "__attachments/Honey Accounts in Windows AD/IMG-20231018143550877.png",
-    "__attachments/Honey Accounts in Windows AD/IMG-20231018143550322.png",
-    "__attachments/Honey Accounts in Windows AD/IMG-20231018143549559.png",
+    "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
+    "Honey Accounts in Windows AD/Project Deliverables.md",
     "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Project Tech Stack, Architecture, Tools.md",
+    "DB Sec/Project Proposal - Postgres.md",
+    "Honey Accounts in Windows AD/Project Workspace/Untitled.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace",
+    "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
+    "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat",
+    "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat Untitled sUntitled",
+    "__attachments/Honey Accounts in Windows AD/Untitled",
+    "Honey Accounts in Windows AD/Project Workspace",
+    "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+    "Honey Accounts in Windows AD/Misc.md",
+    "Honey Accounts in Windows AD/Research Papers.md",
+    "Journals Hierarchy - Research.md",
     "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
-    "SIEM Framework/SIEM & Visibility Solution Curation.md",
-    "__attachments/SIEM Framework/IMG-20231018143552299.png",
-    "SIEM Framework/IMG-20231013155729213.png",
-    "SIEM Framework/Project Content.md",
-    "SIEM Framework/SIEM Architecture & Curation.md",
-    "DB Sec/Project Proposal - Postgres.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
-    "SIEM Framework",
-    "Honey Accounts in Windows AD/Misc.md",
-    "Journals Hierarchy - Research.md",
-    "DB Sec/Pre-Project Research",
-    "DB Sec",
+    "SIEM Framework/Project Content.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png",
+    "__attachments/SIEM Framework",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001024.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001016.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001015.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001012.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000310.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000301.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000297.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000282.png",
+    "__attachments/Honey Accounts in Windows AD",
+    "__attachments",
+    "__attachments/Honey Accounts in Windows AD/Azure AD Sys Admin",
+    "DB Sec/Project Proposal.md",
     "Honey Accounts in Windows AD/Presentation.md",
-    "Top Journals,",
-    "README.md",
-    "Honey Accounts in Windows AD"
+    "README.md"
   ]
 }
