@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Tech Stack, Architecture, Tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Tech Stack, Architecture, Tools.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":20},\"to\":{\"line\":33,\"ch\":20}},\"scroll\":0}"
+                },
+                {
+                  "title": "Project Proposal - Postgres",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9886146465036773}"
+                },
+                {
                   "title": "Journals Hierarchy - Research",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
@@ -62,15 +74,35 @@
               ]
             },
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "DB Sec/self_hosting_architecture.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "d8e89d934edf92fc",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "DB Sec/Project Proposal - Postgres.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -164,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -189,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Sec/Project Proposal - Postgres.md",
+                "file": "DB Sec/self_hosting_architecture.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB Sec/Project Proposal - Postgres.md",
+                "file": "DB Sec/self_hosting_architecture.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Sec/Project Proposal - Postgres.md"
+                "file": "DB Sec/self_hosting_architecture.excalidraw.md"
               }
             }
           },
@@ -297,11 +329,14 @@
   },
   "active": "046a95acd55e739b",
   "lastOpenFiles": [
+    "DB Sec/Tech Stack, Architecture, Tools.md",
+    "DB Sec/self_hosting_architecture.excalidraw.md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
+    "DB Sec/Project Proposal - Postgres.md",
     "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
     "Honey Accounts in Windows AD/Project Deliverables.md",
     "Honey Accounts in Windows AD/Project Content.md",
-    "Honey Accounts in Windows AD/Project Tech Stack, Architecture, Tools.md",
-    "DB Sec/Project Proposal - Postgres.md",
     "Honey Accounts in Windows AD/Project Workspace/Untitled.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
@@ -313,7 +348,6 @@
     "Honey Accounts in Windows AD/Misc.md",
     "Honey Accounts in Windows AD/Research Papers.md",
     "Journals Hierarchy - Research.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
     "SIEM Framework/Project Content.md",

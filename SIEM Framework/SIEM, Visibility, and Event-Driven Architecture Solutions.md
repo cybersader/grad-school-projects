@@ -182,7 +182,7 @@
 
 - Matano
 	- 
-## Innovative Tech  Stack
+## Innovative Tech Stack
 ### Open Source
 - 
 ### Proprietary
