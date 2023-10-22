@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "DB Sec/Tech Stack, Architecture, Tools.md"
-    },
-    {
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
+    },
+    {
+      "basename": "Application Setup - Containers, Postgres",
+      "path": "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "DB Sec/Tech Stack, Architecture, Tools.md"
     },
     {
       "basename": "Hardware & OS Setup - RPI 3",
@@ -21,8 +25,12 @@
       "path": "DB Sec/self_hosting_architecture.excalidraw.md"
     },
     {
-      "basename": "Hosting Resources (misc)",
-      "path": "DB Sec/Hosting Resources (misc).md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
     },
     {
       "basename": "Azure Initialization",
@@ -51,10 +59,6 @@
     {
       "basename": "Journals Hierarchy - Research",
       "path": "Journals Hierarchy - Research.md"
-    },
-    {
-      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
-      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
       "basename": "SIEM_framework_2023",

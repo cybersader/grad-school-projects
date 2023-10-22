@@ -33,6 +33,9 @@ Framework that fundamentally maps users to a local service or application via an
 			- IDS/IPS
 		- Layer 5
 - Applications
+	- Docker
+	- Portainer
+	- PostgreSQL Database
 - DNS/IP Resolution
 - IAM 
 	- Authentication
@@ -42,8 +45,8 @@ Framework that fundamentally maps users to a local service or application via an
 ## Hardware & OS
 - Raspberry Pi 3
 - Virtualization:
-	- Proxmox
-- OS - Windows?
+	- Docker
+- OS - Ubuntu
 ## Secure Exposition Tech Stacks
 ### 1. Tunneled Architecture
 #### Cloudflare Tunnels
@@ -76,3 +79,4 @@ Framework that fundamentally maps users to a local service or application via an
 ### Recon Tech
 - [Zenmap - Official cross-platform Nmap Security Scanner GUI](https://nmap.org/zenmap/) 
 - [Shodan Search Engine](https://www.shodan.io/) 
+- 
