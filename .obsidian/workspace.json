@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "09c8a180fd8b3dd9",
+        "id": "b32b4e8948ecaa5d",
         "type": "tabs",
         "children": [
           {
@@ -18,16 +18,10 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Tech Stack, Architecture, Tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Tech Stack, Architecture, Tools.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":20},\"to\":{\"line\":33,\"ch\":20}},\"scroll\":0}"
-                },
-                {
                   "title": "Project Proposal - Postgres",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9886146465036773}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":25},\"to\":{\"line\":54,\"ch\":25}},\"scroll\":35.507109004739334}"
                 },
                 {
                   "title": "Journals Hierarchy - Research",
@@ -81,7 +75,28 @@
             }
           },
           {
-            "id": "d8e89d934edf92fc",
+            "id": "9680476ce3ecaef4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB Sec/Self-Hosting Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97df3649dcb5935a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -102,7 +117,34 @@
             }
           }
         ],
-        "stacked": true
+        "currentTab": 2
+      },
+      {
+        "id": "b6e62efe1421cf6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45be40a1b3d3c0ec",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB Sec/Project Proposal - Postgres.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292.5
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -221,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Sec/self_hosting_architecture.excalidraw.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB Sec/self_hosting_architecture.excalidraw.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Sec/self_hosting_architecture.excalidraw.md"
+                "file": "DB Sec/Tech Stack, Architecture, Tools.md"
               }
             }
           },
@@ -327,16 +369,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "046a95acd55e739b",
+  "active": "97df3649dcb5935a",
   "lastOpenFiles": [
-    "DB Sec/Tech Stack, Architecture, Tools.md",
-    "DB Sec/self_hosting_architecture.excalidraw.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
-    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "DB Sec/Project Proposal - Postgres.md",
+    "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md",
+    "DB Sec/Self-Hosting Resources.md",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021174312908.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021170429871.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165947400.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165902910.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165732624.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165556584.png",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165533135.png",
+    "__attachments/DB Sec/Project Workspace",
+    "__attachments/DB Sec",
+    "__attachments/DB Sec/Project Workspace/IMG-20231021165426668.png",
+    "DB Sec/Tech Stack, Architecture, Tools.md",
+    "DB Sec/Project Workspace",
+    "DB Sec/self_hosting_architecture.excalidraw.md",
+    "DB Sec/Hosting Resources (misc).md",
+    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
     "Honey Accounts in Windows AD/Project Deliverables.md",
     "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Project Tech Stack, Architecture, Tools.md",
     "Honey Accounts in Windows AD/Project Workspace/Untitled.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
@@ -348,23 +404,13 @@
     "Honey Accounts in Windows AD/Misc.md",
     "Honey Accounts in Windows AD/Research Papers.md",
     "Journals Hierarchy - Research.md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
     "SIEM Framework/Project Content.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png",
     "__attachments/SIEM Framework",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001024.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001016.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001015.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001012.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000310.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000301.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000297.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000282.png",
-    "__attachments/Honey Accounts in Windows AD",
-    "__attachments",
-    "__attachments/Honey Accounts in Windows AD/Azure AD Sys Admin",
     "DB Sec/Project Proposal.md",
     "Honey Accounts in Windows AD/Presentation.md",
     "README.md"
