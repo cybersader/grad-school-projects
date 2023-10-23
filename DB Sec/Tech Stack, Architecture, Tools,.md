@@ -73,6 +73,5 @@ Framework that fundamentally maps users to a local service or application via an
 	- 
 - IAM
 	- 
-### Recon Tech
-- [Zenmap - Official cross-platform Nmap Security Scanner GUI](https://nmap.org/zenmap/) 
-- [Shodan Search Engine](https://www.shodan.io/) 
+
+
