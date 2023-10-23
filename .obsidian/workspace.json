@@ -78,8 +78,14 @@
             "id": "97df3649dcb5935a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Workspace/Untitled.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -432,8 +438,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d97c98ee8bd1f8b1",
+  "active": "97df3649dcb5935a",
   "lastOpenFiles": [
+    "DB Sec/Project Proposal - Postgres.md",
+    "DB Sec/Related Lists & Curations.md",
+    "DB Sec/Project Workspace/Untitled.md",
     "__attachments/DB Sec/IMG-20231023002143310.png",
     "__attachments/DB Sec/IMG-20231023002143308.png",
     "__attachments/DB Sec/IMG-20231023002143306.png",
@@ -445,18 +454,14 @@
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
     "DB Sec/Project Content",
     "DB Sec/Tech Stack, Architecture, Tools,.md",
-    "DB Sec/Project Proposal - Postgres.md",
-    "DB Sec/Related Lists & Curations.md",
     "SIEM Framework/Project Content.md",
     "Journals Hierarchy - Research.md",
-    "DB Sec/Project Workspace/Untitled.md",
     "Honey Accounts in Windows AD/Project Content.md",
     "DB Sec/Self-Hosting Resources.md",
     "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md",
     "__attachments/DB Sec/IMG-20231021174312908.png",
     "__attachments/DB Sec/IMG-20231021170429871.png",
     "__attachments/DB Sec/IMG-20231021165947400.png",
-    "__attachments/DB Sec/IMG-20231021165902910.png",
     "__attachments/DB Sec/Project Workspace",
     "__attachments/DB Sec",
     "DB Sec/Project Workspace",

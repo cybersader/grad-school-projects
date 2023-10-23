@@ -27,6 +27,7 @@
 	- [What are some simple beginner friendly network security practices when self hosting? : r/selfhosted](https://www.reddit.com/r/selfhosted/comments/13tkkyt/what_are_some_simple_beginner_friendly_network/) 
 	- [awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted) 
 - 
-## IAM Stuff
+## Secure Networking & IAM Stuff
 - [Authelia - The Single Sign-On Multi-Factor portal for web apps](https://www.authelia.com/) 
-- 
+- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/ 
+- [Cloudflare Tunnel · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
