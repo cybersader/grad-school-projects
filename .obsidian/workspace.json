@@ -78,17 +78,17 @@
             "id": "97df3649dcb5935a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Workspace/Untitled.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Related Lists & Curations",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Related Lists & Curations.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":69},\"to\":{\"line\":31,\"ch\":69}},\"scroll\":12.229857819905213}"
                 },
                 {
                   "title": "Tech Stack, Architecture, Tools,",
@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB Sec/Related Lists & Curations.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
                 "mode": "source",
                 "source": false
               }
@@ -303,7 +303,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -332,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Sec/Related Lists & Curations.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB Sec/Related Lists & Curations.md",
+                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +400,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Sec/Related Lists & Curations.md"
+                "file": "DB Sec/Tech Stack, Architecture, Tools,.md"
               }
             }
           },
@@ -438,10 +439,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97df3649dcb5935a",
+  "active": "a1cc1db49e545b75",
   "lastOpenFiles": [
-    "DB Sec/Project Proposal - Postgres.md",
     "DB Sec/Related Lists & Curations.md",
+    "DB Sec/Project Proposal - Postgres.md",
     "DB Sec/Project Workspace/Untitled.md",
     "__attachments/DB Sec/IMG-20231023002143310.png",
     "__attachments/DB Sec/IMG-20231023002143308.png",
