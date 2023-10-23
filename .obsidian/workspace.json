@@ -4,135 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b32b4e8948ecaa5d",
+        "id": "9f9cbbce39011618",
         "type": "tabs",
         "children": [
           {
-            "id": "046a95acd55e739b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Project Proposal - Postgres",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":25},\"to\":{\"line\":54,\"ch\":25}},\"scroll\":35.507109004739334}"
-                },
-                {
-                  "title": "Journals Hierarchy - Research",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "SIEM, Visibility, and Event-Driven Architecture Solutions",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":141.5311542390194}"
-                },
-                {
-                  "title": "SIEM_framework_2023",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"SIEM Framework/SIEM_framework_2023.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Project Proposal - SIEM Framework",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Proposal - SIEM Framework.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.511284722222221}"
-                },
-                {
-                  "title": "Project Content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.949751861042184}"
-                },
-                {
-                  "title": "Project Content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Azure AD Sys Admin",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Azure AD Sys Admin.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DB Sec/self_hosting_architecture.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "97df3649dcb5935a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Related Lists & Curations",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Related Lists & Curations.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":69},\"to\":{\"line\":31,\"ch\":69}},\"scroll\":12.229857819905213}"
-                },
-                {
-                  "title": "Tech Stack, Architecture, Tools,",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Tech Stack, Architecture, Tools,.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Project Content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.220139771283353}"
-                },
-                {
-                  "title": "Journals Hierarchy - Research",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Journals Hierarchy - Research.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Workspace/Untitled.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Tech Stack, Architecture, Tools,",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Tech Stack, Architecture, Tools,.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe419a2238392663",
+            "id": "0cdf0e75409ccdc7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -146,21 +22,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
+                "file": "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b6e62efe1421cf6b",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "45be40a1b3d3c0ec",
+            "id": "e530f242a8fbf9bb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -168,18 +37,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Tech Stack, Architecture, Tools,",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Tech Stack, Architecture, Tools,.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":45.72156398104266}"
-                },
-                {
-                  "title": "Project Proposal - Postgres",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"DB Sec/Project Proposal - Postgres.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
@@ -191,29 +48,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9680476ce3ecaef4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB Sec/Self-Hosting Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,6 +78,30 @@
             "state": {
               "type": "file-explorer",
               "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1cc1db49e545b75",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -278,37 +139,12 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "a1cc1db49e545b75",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -333,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -359,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB Sec/Tech Stack, Architecture, Tools,.md",
+                "file": "DB Sec/Project Proposal - Postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Sec/Tech Stack, Architecture, Tools,.md"
+                "file": "DB Sec/Project Proposal - Postgres.md"
               }
             }
           },
@@ -439,39 +275,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1cc1db49e545b75",
+  "active": "e530f242a8fbf9bb",
   "lastOpenFiles": [
-    "DB Sec/Related Lists & Curations.md",
+    "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
     "DB Sec/Project Proposal - Postgres.md",
-    "DB Sec/Project Workspace/Untitled.md",
-    "__attachments/DB Sec/IMG-20231023002143310.png",
-    "__attachments/DB Sec/IMG-20231023002143308.png",
-    "__attachments/DB Sec/IMG-20231023002143306.png",
-    "__attachments/DB Sec/IMG-20231023002143304.png",
-    "__attachments/DB Sec/IMG-20231023002143303.png",
-    "__attachments/DB Sec/IMG-20231023002143301.png",
-    "__attachments/DB Sec/IMG-20231023002143296.png",
-    "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
+    "__attachments/DB Sec/IMG-20231023102241545.png",
+    "__attachments/DB Sec/IMG-20231023102241532.png",
+    "__attachments/DB Sec/IMG-20231023102241397.png",
+    "__attachments/DB Sec/IMG-20231023102241394.png",
+    "__attachments/DB Sec/IMG-20231023102241382.png",
+    "__attachments/DB Sec/IMG-20231023102241377.png",
+    "__attachments/DB Sec/IMG-20231023102241374.png",
+    "__attachments/DB Sec/IMG-20231023102241368.png",
+    "__attachments/DB Sec/IMG-20231023102241363.png",
+    "__attachments/DB Sec/IMG-20231023102241359.png",
+    "DB Sec/Tech Stack, Architecture, Tools,.md",
+    "DB Sec/Related Lists & Curations.md",
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
     "DB Sec/Project Content",
-    "DB Sec/Tech Stack, Architecture, Tools,.md",
-    "SIEM Framework/Project Content.md",
-    "Journals Hierarchy - Research.md",
-    "Honey Accounts in Windows AD/Project Content.md",
-    "DB Sec/Self-Hosting Resources.md",
+    "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
+    "DB Sec/Tech Stack, Architecture, Tools.md",
     "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md",
-    "__attachments/DB Sec/IMG-20231021174312908.png",
-    "__attachments/DB Sec/IMG-20231021170429871.png",
-    "__attachments/DB Sec/IMG-20231021165947400.png",
+    "DB Sec/Self-Hosting Resources.md",
+    "DB Sec/self_hosting_architecture.excalidraw.md",
     "__attachments/DB Sec/Project Workspace",
     "__attachments/DB Sec",
     "DB Sec/Project Workspace",
-    "DB Sec/self_hosting_architecture.excalidraw.md",
     "DB Sec/Hosting Resources (misc).md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
-    "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
     "Honey Accounts in Windows AD/Project Deliverables.md",
-    "Honey Accounts in Windows AD/Project Tech Stack, Architecture, Tools.md",
+    "Honey Accounts in Windows AD/Project Content.md",
     "Honey Accounts in Windows AD/Project Workspace/Untitled.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
@@ -481,10 +315,12 @@
     "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Misc.md",
     "Honey Accounts in Windows AD/Research Papers.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "Journals Hierarchy - Research.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
+    "SIEM Framework/Project Content.md",
     "DB Sec/Project Proposal.md",
-    "Honey Accounts in Windows AD/Presentation.md"
+    "Honey Accounts in Windows AD/Presentation.md",
+    "README.md"
   ]
 }

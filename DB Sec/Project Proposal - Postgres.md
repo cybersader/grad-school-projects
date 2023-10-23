@@ -1,6 +1,6 @@
 # Proposal
 ## Objectives: 
-- My primary objective of this project is to show how you can implement a self-hosted PostgreSQL database (at home) that is securely exposed to the internet. This includes various architectures or tech stacks for self-hosting (hardware, software, and networking) and for methods of exposing local devices on the internet. 
+- My primary objective of this project is to show how you can implement a self-hosted PostgreSQL database (at home) that is securely exposed to the internet. This includes various architectures or tech stacks for self-hosting (hardware, software, and networking) and for methods of exposing local devices on the internet.
 - To implement the networking and exposition of the server to the Internet, I plan on implementing either Cloudflare Tunnels, NGINX Reverse Proxy, or some other similar technology. This may also help defend against denial-of-service attacks which I will research, but realistically won’t be able to implement without various legal and ethical implications. 
 - The attacks that I will be threat modeling should include simple host discovery, port scanning, and general reconnaissance. 
 - I want to reiterate again that the main objective is to show how to self-host a database server to the public internet for use cases where the server needs to be exposed to the internet maybe as an interface for another system where there are tight constraints for the architecture. 
