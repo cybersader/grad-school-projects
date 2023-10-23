@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "Related Lists & Curations",
       "path": "DB Sec/Related Lists & Curations.md"
     },
@@ -9,10 +10,13 @@
       "path": "DB Sec/Tech Stack, Architecture, Tools,.md"
     },
     {
+=======
+>>>>>>> 290fef1ffa62741691e77c211b40bf45856625e7
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Project Content",
       "path": "SIEM Framework/Project Content.md"
     },
@@ -27,6 +31,18 @@
     {
       "basename": "Project Content",
       "path": "Honey Accounts in Windows AD/Project Content.md"
+=======
+      "basename": "Application Setup - Containers, Postgres",
+      "path": "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "DB Sec/Tech Stack, Architecture, Tools.md"
+    },
+    {
+      "basename": "Hardware & OS Setup - RPI 3",
+      "path": "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md"
+>>>>>>> 290fef1ffa62741691e77c211b40bf45856625e7
     },
     {
       "basename": "Self-Hosting Resources",
@@ -41,8 +57,12 @@
       "path": "DB Sec/self_hosting_architecture.excalidraw.md"
     },
     {
-      "basename": "Hosting Resources (misc)",
-      "path": "DB Sec/Hosting Resources (misc).md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
     },
     {
       "basename": "Azure Initialization",
@@ -65,8 +85,13 @@
       "path": "Honey Accounts in Windows AD/Research Papers.md"
     },
     {
+<<<<<<< HEAD
       "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
       "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+=======
+      "basename": "Journals Hierarchy - Research",
+      "path": "Journals Hierarchy - Research.md"
+>>>>>>> 290fef1ffa62741691e77c211b40bf45856625e7
     },
     {
       "basename": "SIEM_framework_2023",
