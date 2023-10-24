@@ -2,6 +2,8 @@
 ## Vuln Stuff
 - Awesome lists
 	- https://github.com/search?q=awesome+vuln&type=repositories
+	- [redhuntlabs/Awesome-Asset-Discovery: List of Awesome Asset Discovery Resources](https://github.com/redhuntlabs/Awesome-Asset-Discovery) 
+	- 
 - Research
 	- https://scholar.google.com/scholar?start=20&q=database+attack+enumeration+scan&hl=en&as_sdt=0,15&as_ylo=2019 
 - Scanning tools

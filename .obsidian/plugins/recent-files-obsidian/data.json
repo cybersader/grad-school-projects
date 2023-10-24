@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Journals Hierarchy - Research",
-      "path": "Journals Hierarchy - Research.md"
+      "basename": "Related Lists & Curations",
+      "path": "DB Sec/Related Lists & Curations.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Honey Accounts in Windows AD/Misc.md"
+    },
+    {
+      "basename": "Project Content",
+      "path": "Honey Accounts in Windows AD/Project Content.md"
+    },
+    {
+      "basename": "Self-Hosting Resources",
+      "path": "DB Sec/Self-Hosting Resources.md"
     },
     {
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools,",
+      "path": "DB Sec/Tech Stack, Architecture, Tools,.md"
+    },
+    {
+      "basename": "Journals Hierarchy - Research",
+      "path": "Journals Hierarchy - Research.md"
     },
     {
       "basename": "IMG-20231013155729213",
@@ -17,24 +41,8 @@
       "path": "DB Sec/self_hosting_architecture.excalidraw.md"
     },
     {
-      "basename": "Tech Stack, Architecture, Tools,",
-      "path": "DB Sec/Tech Stack, Architecture, Tools,.md"
-    },
-    {
-      "basename": "Related Lists & Curations",
-      "path": "DB Sec/Related Lists & Curations.md"
-    },
-    {
       "basename": "Project Content",
       "path": "SIEM Framework/Project Content.md"
-    },
-    {
-      "basename": "Project Content",
-      "path": "Honey Accounts in Windows AD/Project Content.md"
-    },
-    {
-      "basename": "Self-Hosting Resources",
-      "path": "DB Sec/Self-Hosting Resources.md"
     },
     {
       "basename": "Hardware & OS Setup - RPI 3",
@@ -55,10 +63,6 @@
     {
       "basename": "Azure AD Sys Admin",
       "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
-    },
-    {
-      "basename": "Misc",
-      "path": "Honey Accounts in Windows AD/Misc.md"
     },
     {
       "basename": "Research Papers",
