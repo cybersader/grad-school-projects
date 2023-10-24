@@ -1,44 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Journals Hierarchy - Research",
+      "path": "Journals Hierarchy - Research.md"
+    },
+    {
       "basename": "Project Proposal - Postgres",
       "path": "DB Sec/Project Proposal - Postgres.md"
     },
     {
-      "basename": "Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
-    },
-    {
-      "basename": "Application Setup - Containers, Postgres",
-      "path": "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md"
-    },
-    {
-      "basename": "Hardware & OS Setup - RPI 3",
-      "path": "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md"
-    },
-    {
-      "basename": "Self-Hosting Resources",
-      "path": "DB Sec/Self-Hosting Resources.md"
+      "basename": "IMG-20231013155729213",
+      "path": "SIEM Framework/IMG-20231013155729213.png"
     },
     {
       "basename": "self_hosting_architecture.excalidraw",
       "path": "DB Sec/self_hosting_architecture.excalidraw.md"
     },
     {
-      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
-      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+      "basename": "Tech Stack, Architecture, Tools,",
+      "path": "DB Sec/Tech Stack, Architecture, Tools,.md"
     },
     {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+      "basename": "Related Lists & Curations",
+      "path": "DB Sec/Related Lists & Curations.md"
     },
     {
-      "basename": "Project Deliverables",
-      "path": "Honey Accounts in Windows AD/Project Deliverables.md"
+      "basename": "Project Content",
+      "path": "SIEM Framework/Project Content.md"
     },
     {
       "basename": "Project Content",
       "path": "Honey Accounts in Windows AD/Project Content.md"
+    },
+    {
+      "basename": "Self-Hosting Resources",
+      "path": "DB Sec/Self-Hosting Resources.md"
+    },
+    {
+      "basename": "Hardware & OS Setup - RPI 3",
+      "path": "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md"
+    },
+    {
+      "basename": "Hosting Resources (misc)",
+      "path": "DB Sec/Hosting Resources (misc).md"
+    },
+    {
+      "basename": "Azure Initialization",
+      "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
+    },
+    {
+      "basename": "Project Deliverables",
+      "path": "Honey Accounts in Windows AD/Project Deliverables.md"
     },
     {
       "basename": "Azure AD Sys Admin",
@@ -53,8 +65,8 @@
       "path": "Honey Accounts in Windows AD/Research Papers.md"
     },
     {
-      "basename": "Journals Hierarchy - Research",
-      "path": "Journals Hierarchy - Research.md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
       "basename": "SIEM_framework_2023",
@@ -63,14 +75,6 @@
     {
       "basename": "Project Proposal - SIEM Framework",
       "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
-    },
-    {
-      "basename": "Project Content",
-      "path": "SIEM Framework/Project Content.md"
-    },
-    {
-      "basename": "IMG-20231013155729213",
-      "path": "SIEM Framework/IMG-20231013155729213.png"
     },
     {
       "basename": "README",
