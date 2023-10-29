@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Related Lists & Curations",
-      "path": "DB Sec/Related Lists & Curations.md"
+      "basename": "Azure Initialization",
+      "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
     },
     {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+      "basename": "Project Content",
+      "path": "Honey Accounts in Windows AD/Project Content.md"
     },
     {
       "basename": "Misc",
       "path": "Honey Accounts in Windows AD/Misc.md"
     },
     {
-      "basename": "Project Content",
-      "path": "Honey Accounts in Windows AD/Project Content.md"
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+    },
+    {
+      "basename": "Related Lists & Curations",
+      "path": "Honey Accounts in Windows AD/Related Lists & Curations.md"
+    },
+    {
+      "basename": "Related Lists & Curations",
+      "path": "DB Sec/Related Lists & Curations.md"
     },
     {
       "basename": "Self-Hosting Resources",
@@ -51,10 +59,6 @@
     {
       "basename": "Hosting Resources (misc)",
       "path": "DB Sec/Hosting Resources (misc).md"
-    },
-    {
-      "basename": "Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
     },
     {
       "basename": "Project Deliverables",

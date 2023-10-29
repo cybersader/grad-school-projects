@@ -41,4 +41,3 @@
 - Malicious LNK
     - fileshares on DC
     - NT Directory Services
-
