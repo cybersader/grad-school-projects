@@ -10,17 +10,92 @@
 - Azure account relies on phone number for identity and address.  If possible, use prepaid phones, virtual credit cards, and fake or forwarding addresses.
 ### Step 2: Confirm Subscription
 - Check subscriptions to make sure it worked
-![](IMG-20231028144410239.png)
+![400](IMG-20231029123356289.png)
 - One subscription
-	- ![](IMG-20231028144628078.png)
-	- ![](IMG-20231028144737787.png)
+	- ![](IMG-20231029123356294.png)
+	- ![](IMG-20231029123356296.png)
 # Azure Infrastructure Initialization
 ## Environment & Topology
 - 1 Attacker -> Azure AD Domain
 - DOAZ Lab Environment
-	- ![](IMG-20231028215322094.png) 
+	- [Defensive Origins Lab Environment | DO-LAB](https://www.doazlab.com/) 
+	- ![](IMG-20231029123356298.png) 
 	- 
-## 
+## Setup Lab Environment in Azure
+- [Defensive Origins Lab Environment | DO-LAB](https://www.doazlab.com/) 
+	- [DefensiveOrigins/DO-LAB](https://github.com/DefensiveOrigins/DO-LAB) - Defensive Origins Lab Environment is used within the Defensive Origins courses provided by Defensive Origins, AntiSyphon Security, and Black Hills Information Security.
+- Initialization of Azure Environment:
+	- Choosing subscription, resource group, and log analytics workspace.  
+		- ![500](IMG-20231029132234080.png)
+	- Creation of new resource group
+		- Choosing VMs
+			- B2s are the cheapest
+			- ![400](IMG-20231029132629552.png)
+			- ![400](IMG-20231029132948477.png)
+			- ![400](IMG-20231029133837375.png)
+		- Allow all IP addresses - 0.0.0.0/0
+### Error in Deployment Template
+#### Fixing Windows Version Issue
+```
+The following list of images referenced from the deployment template are not found: Publisher: MicrosoftWindowsServer, Offer: WindowsServer, Sku: 2019-Datacenter, Version: 17763.3125.2112070401. Please refer to https://docs.microsoft.com/en-us/azure/virtual-machines/windows/cli-ps-findimage for instructions on finding available images. (Code: InvalidParameter, Target: imageReference)
+```
+- Also mentioned in issue "AD deployment fails":
+	- https://github.com/DefensiveOrigins/DO-LAB/issues/4 
+
+- Repairing the template:
+	- [Troubleshoot ARM template JSON deployments - Azure Resource Manager | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/quickstart-troubleshoot-arm-deployment?tabs=azure-cli)
+	- Different kinds of errors
+		- **Validation errors** occur before a deployment begins and are caused by syntax errors in your file. A code editor like Visual Studio Code can identify these errors.
+		- **Preflight validation errors** occur when a deployment command is run but resources aren't deployed. These errors are found without starting the deployment. For example, if a parameter value is incorrect, the error is found in preflight validation.
+		- **Deployment errors** occur during the deployment process and can only be found by assessing the deployment's progress in your Azure environment.
+	- Installed [Visual Studio Code](https://code.visualstudio.com/) with the latest [Azure Resource Manager Tools extension](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools).
+		- ![400](IMG-20231029145342136.png)
+		- I can use this to make sure there's no big issues with the template immediately
+		- No immediate errors. Just a few warnings
+			- ![400](IMG-20231029150753256.png)
+	- Tried making sure Windows Server uses latest version
+		- DOAZ Lab azuredeploy.json > Sentinel2Go
+			- DO-LAB/Sentinel2Go/azuredeploy.json
+				- ![400](IMG-20231029155332141.png)
+	- Trying to find the issue from Azure CLI
+		- Installed Azure PS - [Install Azure PowerShell on Windows | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-10.4.1&tabs=windowspowershell&pivots=windows-psgallery) 
+			- ![400](IMG-20231029161914473.png)
+		- Run "az login" to login
+		- Create resource group
+			- ![400](IMG-20231029161252305.png)
+		- Deploy ARM template
+			- ![500](IMG-20231029162317796.png)
+	- Didn't work - trying to manually edit links in templates
+		- [Deploy to Azure button - Azure Resource Manager | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button#template-stored-in-github) 
+			- making a button so I can quickly test with forked templates in my own repo
+			- Got an error
+				- "There was an error downloading the template from URI 'raw.githubusercontent.com/cybersader/DO-LAB/main/azure-deploy.json'. Ensure that the template is publicly accessible and that the publisher has enabled CORS policy on the endpoint. To deploy this template, download the template manually and paste the contents in the 'Build your own template in the editor' option below."
+	- Made my own repo, modified some azure deploy JSON files, and linked new deploy to azure button to my templates
+		- ![400](IMG-20231029180545851.png)
+	- Issue with sysmon installation
+		- ![](IMG-20231029194856580.png)
+		- ![](IMG-20231029195429409.png)
+	- Got message pointing to this same issue 
+
+#### GitHub Issue Message from "hjorrip"
+```
+[@cybersader](https://github.com/cybersader) I made a fix for the windows server version issue here on my fork:  
+[https://github.com/hjorrip/DO-LAB/tree/patch-1](https://github.com/hjorrip/DO-LAB/tree/patch-1)
+
+However, the Sysmon issue is rooted in the Sentinel2Go project which I did not debug (maybe it's patched by now - haven't checked since I posted), and I'm afraid that using this project, you're gonna need that if you want to look at the artifacts in Sentinel.
+
+If you want to play around with "on-prem" virtual machines, domain joined and all that - you could just sign up for Defender for Endpoint trial:  
+[https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint)
+
+Once you have that, you can login to security.microsoft.com using the provided credentials, and use their "Evaluation lab":  
+[https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/evaluation-lab?view=o365-worldwide](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/evaluation-lab?view=o365-worldwide)
+
+It's a very underrated feature - you can create a DC, and bunch of domain joined devices (for free! - but limited time), as well as a Linux attack machine. One addede benefit from this is the devices you create using the Evaluation lab, will be onboarded to Defender for Endpoint. So all hunting you want to do, can then be done using the Device Logs in Advanced Hunting in the security portal.
+
+It's a different take, but if you want to try out password spraying - this could be pretty cool. If you want to take it even a step further, you could sign up for Defender for Identity trial and install the sensor on the domain controller see how that reacts when you spray - but installing the sensor is quite hands on and I'm not aware of a "plug-n-play solution for that".
+```
+#### Attempting to Fix Sysmon Installation Error
+- 
 # Azure Entra ID / AAD Setup
 ## AD Pollution
 ### Prereqs & Setup

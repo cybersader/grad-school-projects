@@ -2,13 +2,13 @@
 
 ## Azure
 - https://azure.microsoft.com/en-us/free/#all-free-services 
+## Azure Environment Setup
+- [Defensive Origins Lab Environment | DO-LAB](https://www.doazlab.com/) 
+	- [OTRF/Microsoft-Sentinel2Go: Microsoft Sentinel2Go is an open source project developed to expedite the deployment of a Microsoft Sentinel research lab.](https://github.com/OTRF/Microsoft-Sentinel2Go) 
 # IAM
 ## Azure Entra ID (f.k.a Azure AD)
 - [Microsoft Entra Plans and Pricing | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing) 
 	- [Home - Microsoft Entra admin center](https://entra.microsoft.com/?culture=en-us&country=us#home) 
-
-## IAM System
-- 
 ## AD Pollution
 - 
 # Detections, SIEM

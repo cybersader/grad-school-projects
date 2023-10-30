@@ -8,28 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c510b852afdf3d00",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Content.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "526866155c818538",
+            "id": "227655159379bed2",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -48,9 +27,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d7b6db9dbd8f9216",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -276,31 +274,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "526866155c818538",
+  "active": "227655159379bed2",
   "lastOpenFiles": [
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231028215322094.png",
-    "Honey Accounts in Windows AD/Project Content.md",
-    "Honey Accounts in Windows AD/Misc.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029195429409.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029194856580.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029180545851.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029162317796.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029161914473.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029161252305.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029155332141.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029155327701.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029150753256.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029145342136.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029145339325.png",
     "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231028144737787.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231028144628078.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231028144410239.png",
-    "Honey Accounts in Windows AD/Related Lists & Curations.md",
-    "Honey Accounts in Windows AD/Untitled",
     "DB Sec/Related Lists & Curations.md",
+    "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Misc.md",
+    "Honey Accounts in Windows AD/Related Lists & Curations.md",
     "DB Sec/Self-Hosting Resources.md",
     "DB Sec/Project Proposal - Postgres.md",
     "DB Sec/Tech Stack, Architecture, Tools,.md",
     "Journals Hierarchy - Research.md",
-    "SIEM Framework/IMG-20231013155729213.png",
     "DB Sec/self_hosting_architecture.excalidraw.md",
-    "__attachments/DB Sec/IMG-20231023102241545.png",
-    "__attachments/DB Sec/IMG-20231023102241532.png",
-    "__attachments/DB Sec/IMG-20231023102241397.png",
-    "__attachments/DB Sec/IMG-20231023102241394.png",
-    "__attachments/DB Sec/IMG-20231023102241382.png",
-    "__attachments/DB Sec/IMG-20231023102241377.png",
     "DB Sec/Project Workspace/Untitled.md",
     "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
@@ -318,6 +315,7 @@
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat Untitled sUntitled",
+    "__attachments/Honey Accounts in Windows AD/Untitled",
     "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Research Papers.md",
     "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
