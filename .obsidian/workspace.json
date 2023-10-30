@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e8b89254ffbf033",
+        "id": "bfe2032b1f861400",
         "type": "tabs",
         "children": [
           {
-            "id": "227655159379bed2",
+            "id": "335af7f2f51a8a83",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,6 +16,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "IMG-20231021103001037",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "IMG-20231021103000263",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000263.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Azure Initialization",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":44},\"to\":{\"line\":11,\"ch\":44}},\"scroll\":39.06031954326327}"
                 }
               ]
             },
@@ -29,7 +47,7 @@
             }
           },
           {
-            "id": "d7b6db9dbd8f9216",
+            "id": "470a030caa181754",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -43,13 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
+                "file": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
               }
             }
           },
@@ -274,25 +293,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "227655159379bed2",
+  "active": "470a030caa181754",
   "lastOpenFiles": [
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029195429409.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029194856580.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029180545851.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029162317796.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029161914473.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029161252305.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029155332141.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029155327701.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029150753256.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029145342136.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029145339325.png",
-    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
+    "SIEM Framework/IMG-20231013155729213.png",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
-    "DB Sec/Related Lists & Curations.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029123356289.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/test.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029195429409.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000263.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png",
     "Honey Accounts in Windows AD/Project Content.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231030180134866.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231030180134917.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001012.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000269.png",
     "Honey Accounts in Windows AD/Misc.md",
+    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "Honey Accounts in Windows AD/Related Lists & Curations.md",
+    "Honey Accounts in Windows AD/Untitled",
+    "DB Sec/Related Lists & Curations.md",
     "DB Sec/Self-Hosting Resources.md",
     "DB Sec/Project Proposal - Postgres.md",
     "DB Sec/Tech Stack, Architecture, Tools,.md",
@@ -315,10 +336,8 @@
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat Untitled sUntitled",
-    "__attachments/Honey Accounts in Windows AD/Untitled",
     "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Research Papers.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
     "DB Sec/Project Proposal.md"

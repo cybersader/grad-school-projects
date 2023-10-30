@@ -12,7 +12,7 @@
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
-	- ![500](IMG-20231018143552299.png)
+	- ![500](IMG-20231013155729213.png)
 ## Curated Lists
 - [correlatedsecurity/Awesome-SOAR: A curated Cyber "Security Orchestration, Automation and Response (SOAR)" awesome list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
 - https://github.com/meirwah/awesome-incident-response#playbooks 
