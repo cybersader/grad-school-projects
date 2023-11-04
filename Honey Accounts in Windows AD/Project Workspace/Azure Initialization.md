@@ -94,8 +94,39 @@ It's a very underrated feature - you can create a DC, and bunch of domain joined
 
 It's a different take, but if you want to try out password spraying - this could be pretty cool. If you want to take it even a step further, you could sign up for Defender for Identity trial and install the sensor on the domain controller see how that reacts when you spray - but installing the sensor is quite hands on and I'm not aware of a "plug-n-play solution for that".
 ```
+#### Detailed Deployment Errors
+- Errors with PowerShellDSC
+	- ![](IMG-20231104150219880.png)
+- Under deployWinAD
+	- WS05-installSysmon
+		- VM has reported a failure when processing extension 'PowerShellDSC' (publisher 'Microsoft.Powershell' and type 'DSC'). Error message: "DSC Configuration 'Install-Sysmon' completed with error(s). Following are the first few: PowerShell DSC resource DSC_xScriptResource  failed to execute Set-TargetResource functionality with error message: System.InvalidOperationException: The set script threw an error. ---> Microsoft.PowerShell.Commands.ServiceCommandException: Service 'Sysmon (sysmon)' cannot be stopped due to the following error: Cannot stop sysmon service on computer '.'. ---> System.InvalidOperationException: Cannot stop sysmon service on computer '.'. ---> System.ComponentModel.Win32Exception: Access is denied
+		       --- End of inner exception stack trace ---
+		       at System.ServiceProcess.ServiceController.Stop()
+		       at Microsoft.PowerShell.Commands.ServiceOperationBaseCommand.DoStopService(ServiceController serviceController, Boolean force, Boolean waitForServiceToStop)
+		       --- End of inner exception stack trace ---
+		       --- End of inner exception stack trace ---  The SendConfigurationApply function did not succeed.". More information on troubleshooting is available at https://aka.ms/VMExtensionDSCWindowsTroubleshoot.  (Code: VMExtensionProvisioningError)
+	- DC01-installSysmon
+		- -VM has reported a failure when processing extension 'PowerShellDSC' (publisher 'Microsoft.Powershell' and type 'DSC'). Error message: "DSC Configuration 'Install-Sysmon' completed with error(s). Following are the first few: PowerShell DSC resource DSC_xScriptResource  failed to execute Set-TargetResource functionality with error message: System.InvalidOperationException: The set script threw an error. ---> Microsoft.PowerShell.Commands.ServiceCommandException: Service 'Sysmon (sysmon)' cannot be stopped due to the following error: Cannot stop sysmon service on computer '.'. ---> System.InvalidOperationException: Cannot stop sysmon service on computer '.'. ---> System.ComponentModel.Win32Exception: Access is denied
+		       --- End of inner exception stack trace ---
+		       at System.ServiceProcess.ServiceController.Stop()
+		       at Microsoft.PowerShell.Commands.ServiceOperationBaseCommand.DoStopService(ServiceController serviceController, Boolean force, Boolean waitForServiceToStop)
+		       --- End of inner exception stack trace ---
+		       --- End of inner exception stack trace ---  The SendConfigurationApply function did not succeed.". More information on troubleshooting is available at https://aka.ms/VMExtensionDSCWindowsTroubleshoot.  (Code: VMExtensionProvisioningError)
 #### Attempting to Fix Sysmon Installation Error
+- I don't have the capacity for this at the moment. Better to try manually installing some of the components if possible
+- Ran through files and changed all github references to my repo
+	- ![](IMG-20231104154448252.png)
+- Updated the sysmon.xml file with XML from [olafhartong/sysmon-modular: A repository of sysmon configuration modules](https://github.com/olafhartong/sysmon-modular) 
+	- Fixed the file under DO-LABMonitoring/sysmon.xml
+		- https://github.com/cybersader/DO-LAB/blob/main/Monitoring/sysmon.xml 
+- Found all the zip files that would need to be updated
+	- ![](IMG-20231104161645641.png)
+#### Initial Deployment
 - 
+#### Create ARM Template
+- Links/Resources
+	- [Creating Azure Resources with ARM Templates Step by Step | Microsoft Learn](https://learn.microsoft.com/en-us/archive/blogs/cloud_solution_architect/creating-azure-resources-with-arm-templates-step-by-step) 
+	- 
 # Azure Entra ID / AAD Setup
 ## AD Pollution
 ### Prereqs & Setup
