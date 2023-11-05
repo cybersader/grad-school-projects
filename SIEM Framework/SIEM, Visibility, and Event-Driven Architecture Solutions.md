@@ -12,7 +12,7 @@
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
-	- ![500](IMG-20231013155729213.png)
+	- ![](IMG-20231105150122971.png)
 ## Curated Lists
 - [correlatedsecurity/Awesome-SOAR: A curated Cyber "Security Orchestration, Automation and Response (SOAR)" awesome list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
 - https://github.com/meirwah/awesome-incident-response#playbooks 
@@ -43,13 +43,23 @@
 ### Open-Source
 - [matanolabs/matano: Open source cloud-native security lake platform (SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](https://github.com/matanolabs/matano) 
 - [TheHive Project](http://thehive-project.org/) 
+- Graylog- User-friendly interface and powerful log management and analysis features. It offers easy log centralization, analysis, and alerting capabilities. : https://graylog.org/
+- Wazuh- Security monitoring platform that combines intrusion detection, vulnerability detection, and log analysis. It integrates with the ELK Stack and offers real-time threat detection : https://wazuh.com/
+- Security Onion- Network security monitoring, intrusion detection, and log management. It incorporates tools like Suricata, Zeek (formerly Bro), and Elasticsearch. : https://securityonionsolutions.com/
+- [Enhance Security with OSSIM | AT&T Cybersecurity](https://cybersecurity.att.com/products/ossim)
 ### Proprietary
+- [Pricing | Blumira](https://www.blumira.com/pricing/)
 - [Gurucul | Global Leader in Advanced Cybersecurity Solutions](https://gurucul.com/?utm_adgroup=%7Badgroup%7D&utm_term=gurucul) 
 - [Microsoft Sentinel - Cloud SIEM Solution | Microsoft Security](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel)
 - [Dynatrace | Modern cloud done right](https://www.dynatrace.com/) 
 - [Cloud Log Management, Monitoring, SIEM Tools | Sumo Logic](https://www.sumologic.com/) 
 - [Graylog: Industry Leading Log Management & SIEM](https://graylog.org/) 
-- 
+- [Securonix: Security Analytics at Cloud Scale](https://www.securonix.com/) 
+- [Exabeam SIEM - Exabeam](https://www.exabeam.com/product/siem/) 
+- [SIEM Solutions & Tools | Get Best Enterprise SIEM Software | FortiSIEM](https://www.fortinet.com/products/siem/fortisiem) 
+- [IBM Security QRadar SIEM](https://www.ibm.com/products/qradar-siem) 
+- [SIEM & Security Analytics | Elastic Security | Elastic SIEM](https://www.elastic.co/security/siem)
+- [LogSentinel SIEM and XDR | Next-gen cloud-first | Affordable for SMEs](https://logsentinel.com/) 
 ## Innovative, Unorthodox Visibility and Analysis (not marketed for security)
 ### search terms
 - General Data Engineering, Storage, Analytics, Visualization?
@@ -58,23 +68,36 @@
 	- distributed data analytics
 	- data warehouse analytics
 	- data lake analytics
-- 
+
 ### Open-Source
-- 
+- Kibana- While commonly used with the ELK (Elasticsearch, Logstash, Kibana) stack for log analysis, Kibana can be adapted for non-security-related data visualization and exploration. : https://www.elastic.co/kibana/ 
+- Pentaho-  Is an open-source business analytics and data integration platform. It's utilized for data visualization, reporting, and ETL (Extract, Transform, Load) tasks. : https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics.html
+- Metabase- Is a business intelligence and data exploration tool that allows users to create interactive dashboards and analyze data stored in various databases. : https://www.metabase.com/ 
+- Jupyter- Is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. It's widely used in data science and research for data analysis and visualization. : https://jupyter.org/
 ### Cloud - Proprietary
-- General Data Engineering, Storage, Analytics, Visualization?
+- General Data Engineering, Storage, Analytics, Visualization, Data Lakehouse
 	- [Data Lakehouse Architecture and AI Company | Databricks](https://www.databricks.com/) 
 		- Platform for working with Apache Spark.
 		- Automated infra management
 		- Microsoft Azure Databricks (integrated into Azure)
-	- Teradata?
-	- Qubole?
-	- Domo?
 	- [Datadog Log Management | Datadog](https://www.datadoghq.com/dg/logs/benefits/)
-	- 
+	- [Dremio | The Easy and Open Data Lakehouse Platform](https://www.dremio.com/) 
+	- Microsoft Fabric
+		- [Data Analytics | Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) 
+		- [What is Microsoft Fabric (Public Preview)? - YouTube](https://www.youtube.com/watch?v=-f0XIVEP7bE) 
+		- Azure Synapse
+			- [Secure a data lakehouse on Synapse - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/secure-data-lakehouse-synapse) 
+			- [Azure Synapse Analytics | Microsoft Azure](https://azure.microsoft.com/en-us/products/synapse-analytics/?ef_id=_k_CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE_k_&OCID=AIDcmm5edswduu_SEM__k_CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE_k_&gad=1&gclid=CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE) 
 
-- Databases, Data Storage, Data Indexing
-	- .
+- Databases, Data Storage, Data Indexing, Data Warehouse, Data Lakes
+	- Curations
+		- [Home - Database of Databases](https://dbdb.io/)
+			- [Browse - Database of Databases](https://dbdb.io/browse?tag=time-series&type=commercial&type=open-source&q=) - timeseries, OS, commercial
+			- 
+	- Related to Log Management
+		- [Cloud Object Storage – Amazon S3 – Amazon Web Services](https://aws.amazon.com/s3/) 
+		- [What is OneLake? - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview) 
+		- [InfluxDB Times Series Data Platform | InfluxData](https://www.influxdata.com/) 
 
 - Automation, IFTTT, Integration Platform as a Service (iPaaS), APIs, Cloud Integration, ESB (enterprise service bus), EAI (enterprise application integration), Middleware
 	- [Power Automate | Microsoft Power Platform](https://powerautomate.microsoft.com/en-us/) 
@@ -128,6 +151,7 @@
 ## Threat Intel?
 ### Open Source
 - [MISP Open Source Threat Intelligence Platform &amp; Open Standards For Threat Information Sharing](https://www.misp-project.org/) 
+- OpenDXL- Framework designed for the integration of security tools and the management of security events. It's built to enhance the interoperability of security products. : https://www.opendxl.com/filebase/
 ### Cloud - Proprietary
 - .
 ## SOAR - Security Orchestration, Automation, and Response
@@ -140,6 +164,7 @@
 - TheHive
 	- [TheHive-Project/Cortex: Cortex: a Powerful Observable Analysis and Active Response Engine](https://github.com/TheHive-Project/Cortex) 
 - [nsacyber/WALKOFF: A flexible, easy to use, automation framework allowing users to integrate their capabilities and devices to cut through the repetitive, tedious tasks slowing them down. #nsacyber](https://github.com/nsacyber/WALKOFF)
+-  EveBox-  Interface for the Suricata intrusion detection system (IDS). It provides alert management and visualization features for Suricata-generated alerts. : https://evebox.org/
 ### Cloud - Proprietary
 - [Tines | Smart, secure workflows](https://www.tines.com/) 
 - [Shuffle Automation - An Open Source SOAR solution](https://shuffler.io/)
@@ -184,6 +209,8 @@
 	- 
 ## Innovative Tech Stack
 ### Open Source
+- Files to Minio to Trino and Iceberg to Hive Metastore to Maria DB
+	- [High-performance open-source Data Lakehouse at home | by Daniel Palma | Medium](https://medium.com/@danthelion/high-performance-open-source-data-lakehouse-at-home-56c8d7fa87b5) 
 - 
 ### Proprietary
 - Loki, Grafana
@@ -191,5 +218,236 @@
 
 - Databricks
 	- 
+
+- Devo
+	- .
+
+- Dremio
+	- .
+## Ranked Qualitatively
+### Qualitative Ranking System
+#### Code
+JS:
+```
+const container = document.getElementById('jsoneditor');
+
+const options = {
+    mode: 'code',
+    modes: ['code', 'form', 'text', 'tree', 'view', 'preview'],
+    onModeChange: function (newMode, oldMode) {
+        console.log('Mode switched from', oldMode, 'to', newMode);
+    }
+};
+
+const configureSections = document.getElementById('configureSections');
+
+let sc_editor;
+let s_editor;
+let numEntities;
+
+document.getElementById('configureEntities').addEventListener('click', () => {
+    numEntities = document.getElementById('numEntities').value;
+    const entityArray = Array.from({ length: numEntities }, (_, i) => i + 1);
+    const entitySchema = {
+        type: 'object',
+        properties: {},
+    };
+    entityArray.forEach((entity) => {
+        entitySchema.properties[entity] = {
+            type: 'object',
+            properties: {
+                name: { type: 'string' },
+                description: { type: 'string' },
+                terms: {
+                    type: 'array',
+                    items: { type: 'string' },
+                },
+            },
+        };
+    });
+
+    const entityData = entityArray.reduce((data, entity, index) => {
+    data[entity] = {
+        name: `Solution_Category_${index + 1}`,
+        description: '',
+        terms: [],
+    };
+    return data;
+}, {});
+
+    sc_editor = new JSONEditor(document.getElementById('solutionCategoriesEditor'), { ...options, schema: entitySchema}, entityData);
+    
+    // Show the hidden sections
+    configureSections.classList.remove('hidden');
+
+		const solutionsData = {
+      1: {
+          name: 'solution_1',
+          categories: [1, 2],
+          value: 5,
+      },
+      2: {
+          name: 'solution_2',
+          categories: [2],
+          value: 3,
+      },
+      3: {
+          name: 'solution_3',
+          categories: [1],
+          value: 4,
+      },
+  	};
+
+    s_editor = new JSONEditor(document.getElementById('solutionsEditor'), { ...options}, solutionsData);
+
+		//console.log(JSON.stringify(sc_editor.get(), null, 2));
+		//console.log(JSON.stringify(s_editor.get(), null, 2));
+    
+});
+
+function calculate_score(entity_values, max_entities, k) {
+    // Calculate the sum of entity values
+    const sum_of_values = entity_values.reduce((acc, value) => acc + value, 0);
+    // Calculate the penalty for entity count
+    const penalty = (max_entities - entity_values.length) * k;
+    // Calculate the score
+    const score = sum_of_values * penalty;
+    return score;
+}
+
+function combinations(arr, k) {
+    const result = [];
+
+    function backtrack(start, current, k) { // Pass k as an argument
+        if (current.length === k) {
+            result.push(current.slice());
+            return;
+        }
+
+        for (let i = start; i < arr.length; i++) {
+            current.push(arr[i]);
+            backtrack(i + 1, current, k); // Pass k to the recursive call
+            current.pop();
+        }
+    }
+
+    backtrack(0, [], k); // Initialize k when calling the function
+    return result;
+}
+
+document.getElementById('generateTechStacks').addEventListener('click', () => {
+
+    const solution_categories = sc_editor.get(); 
+    const solutions = s_editor.get();
+		const textBox = document.getElementById("KValue");
+		const k = textBox.value;
+		const max_entities = numEntities;
+    const r = 2; // Set the desired number of solutions in each combination
+    const combinationsResult = combinations(Object.keys(solutions), r);
+    
+  const scored_combinations = [];
+  for (const combo of combinationsResult) {
+      const entity_values = combo.map((sol) => solutions[sol].value);
+      const score = calculate_score(entity_values, max_entities, k);
+      scored_combinations.push({ combo, score });
+  }
+
+	scored_combinations.sort((a, b) => b.score - a.score);
+
+	const techStacksContainer = document.getElementById('techStacks');
+
+  scored_combinations.forEach((stack, index) => {
+      const stackElement = document.createElement('div');
+      stackElement.classList.add('tech-stack');
+
+      const scoreElement = document.createElement('div');
+      scoreElement.classList.add('score');
+      scoreElement.textContent = `Tech Stack ${index + 1} - Total Score: ${stack.score}`;
+      stackElement.appendChild(scoreElement);
+
+      const solutionsElement = document.createElement('div');
+      stack.combo.forEach((solIndex) => {
+          const solution = solutions[solIndex];
+          const solutionElement = document.createElement('div');
+          solutionElement.classList.add('solution');
+
+          const categories = solution.categories.map((cat) => solution_categories[cat].name);
+          const categoryString = categories.join(', '); // Combine the categories
+
+          const solutionName = `${solution.name} (${solIndex}): (${categoryString})`;
+          solutionElement.textContent = `${solutionName} - value of ${solution.value}`;
+          solutionsElement.appendChild(solutionElement);
+      });
+      stackElement.appendChild(solutionsElement);
+
+      techStacksContainer.appendChild(stackElement);
+  });
+		
+});
+```
+HTML:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Configure Tech Stack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="jsoneditor.min.js"></script>
+    <script src="script.js"></script>
+    
+    <h1>Tech Stack Options Setup</h1>
+      <label for="numEntities">Number of Categories: </label>
+      <input type="number" id="numEntities" min="1">
+      <button id="configureEntities">Configure Categories</button>
+  <div id="configureSections" class="hidden">
+    <h2>Configure Solution Categories</h2>
+      <div id="solutionCategoriesEditor" class="jsoneditor"></div>
+    <h2>Configure Solution Options</h2>
+      <div id="solutionsEditor" class="jsoneditor"></div>
+    <h1>Tech Stack Generation & Analysis</h1>
+      <div>
+        <label for="textbox">Tuning Value:</label>
+        <input type="text" id="KValue" placeholder="Enter number">
+      </div>
+      <br>
+      <button id="generateTechStacks">Generate Tech Stacks</button>
+      <div id="techStacks"></div>
+  </div>
+</body>
+</html>
+```
+CSS:
+```
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tech-stack {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.solution {
+    margin: 5px 0;
+}
+
+.solution-name {
+    font-weight: bold;
+}
+
+.category {
+    color: #007bff;
+}
+
+.score {
+    font-size: 1.2em;
+    color: green;
+}
+
 # Fundamental Security Visibility & Data Engineering
 ![1000](SIEM_framework_2023)
