@@ -12,7 +12,7 @@
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
-	- ![](IMG-20231105150122971.png)
+	- ![](IMG-20231105164512343.png)
 ## Curated Lists
 - [correlatedsecurity/Awesome-SOAR: A curated Cyber "Security Orchestration, Automation and Response (SOAR)" awesome list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
 - https://github.com/meirwah/awesome-incident-response#playbooks 
@@ -47,10 +47,12 @@
 - Wazuh- Security monitoring platform that combines intrusion detection, vulnerability detection, and log analysis. It integrates with the ELK Stack and offers real-time threat detection : https://wazuh.com/
 - Security Onion- Network security monitoring, intrusion detection, and log management. It incorporates tools like Suricata, Zeek (formerly Bro), and Elasticsearch. : https://securityonionsolutions.com/
 - [Enhance Security with OSSIM | AT&T Cybersecurity](https://cybersecurity.att.com/products/ossim)
+- [UTMStack | Open Source SIEM, XDR and Compliance Solution](https://utmstack.com/) 
 ### Proprietary
 - [Pricing | Blumira](https://www.blumira.com/pricing/)
 - [Gurucul | Global Leader in Advanced Cybersecurity Solutions](https://gurucul.com/?utm_adgroup=%7Badgroup%7D&utm_term=gurucul) 
 - [Microsoft Sentinel - Cloud SIEM Solution | Microsoft Security](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel)
+- [Chronicle SIEM | Google Cloud](https://cloud.google.com/chronicle-siem) 
 - [Dynatrace | Modern cloud done right](https://www.dynatrace.com/) 
 - [Cloud Log Management, Monitoring, SIEM Tools | Sumo Logic](https://www.sumologic.com/) 
 - [Graylog: Industry Leading Log Management & SIEM](https://graylog.org/) 
@@ -60,6 +62,15 @@
 - [IBM Security QRadar SIEM](https://www.ibm.com/products/qradar-siem) 
 - [SIEM & Security Analytics | Elastic Security | Elastic SIEM](https://www.elastic.co/security/siem)
 - [LogSentinel SIEM and XDR | Next-gen cloud-first | Affordable for SMEs](https://logsentinel.com/) 
+- [Arcsight - Security Information and Event Management Tool | SIEM Software | CyberRes](https://www.microfocus.com/en-us/cyberres/secops/arcsight-esm) 
+- [Devo: Cloud-Native Integrated SIEM | SOAR | UEBA | AI Solution](https://www.devo.com/)
+- [Hunters SOC Platform: SIEM Alternative | Automate Detection & Response](https://www.hunters.security/) 
+- [Comodo NxSIEM | Security Information and Event](https://www.nxsiem.com/) 
+- [Intelligent Security Operations Platform (ISOP) | NSFOCUS](https://nsfocusglobal.com/products/intelligent-security-operations-platform-isop/) 
+- [LogRhythm SIEM Security & SOC Services | Cloud & Self-Hosted](https://logrhythm.com/) 
+- [Trellix | Revolutionary Threat Detection and Response](https://www.trellix.com/en-sg/)
+- [Security Analytics | Datadog](https://www.datadoghq.com/solutions/security-analytics/) 
+- [Splunk | The Key to Enterprise Resilience](https://www.splunk.com/) 
 ## Innovative, Unorthodox Visibility and Analysis (not marketed for security)
 ### search terms
 - General Data Engineering, Storage, Analytics, Visualization?
@@ -152,6 +163,9 @@
 ### Open Source
 - [MISP Open Source Threat Intelligence Platform &amp; Open Standards For Threat Information Sharing](https://www.misp-project.org/) 
 - OpenDXL- Framework designed for the integration of security tools and the management of security events. It's built to enhance the interoperability of security products. : https://www.opendxl.com/filebase/
+- [Patrowl/PatrowlManager: PatrOwl - Open Source, Smart and Scalable Security Operations Orchestration Platform](https://github.com/Patrowl/PatrowlManager) 
+	- [Exposure Management and External Security Posture Management with Patrowl](https://www.patrowl.io/) 
+- 
 ### Cloud - Proprietary
 - .
 ## SOAR - Security Orchestration, Automation, and Response

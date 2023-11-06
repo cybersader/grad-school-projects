@@ -5,12 +5,16 @@
       "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
-      "basename": "IMG-20231013155729213",
-      "path": "SIEM Framework/IMG-20231013155729213.png"
+      "basename": "Azure AD Sys Admin",
+      "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
     },
     {
       "basename": "Azure Initialization",
       "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
+    },
+    {
+      "basename": "IMG-20231013155729213",
+      "path": "SIEM Framework/IMG-20231013155729213.png"
     },
     {
       "basename": "IMG-20231021103001037",
@@ -91,10 +95,6 @@
     {
       "basename": "Project Deliverables",
       "path": "Honey Accounts in Windows AD/Project Deliverables.md"
-    },
-    {
-      "basename": "Azure AD Sys Admin",
-      "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
     },
     {
       "basename": "Research Papers",
