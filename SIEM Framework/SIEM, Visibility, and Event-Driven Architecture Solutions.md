@@ -43,25 +43,34 @@
 ### Open-Source
 - [matanolabs/matano: Open source cloud-native security lake platform (SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](https://github.com/matanolabs/matano) 
 - [TheHive Project](http://thehive-project.org/) 
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azuresentinel.azure-sentinel-solution-thehive?tab=Overview) 
 - Graylog- User-friendly interface and powerful log management and analysis features. It offers easy log centralization, analysis, and alerting capabilities. : https://graylog.org/
 - Wazuh- Security monitoring platform that combines intrusion detection, vulnerability detection, and log analysis. It integrates with the ELK Stack and offers real-time threat detection : https://wazuh.com/
-- Security Onion- Network security monitoring, intrusion detection, and log management. It incorporates tools like Suricata, Zeek (formerly Bro), and Elasticsearch. : https://securityonionsolutions.com/
+	- [GitHub - wazuh/wazuh: Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.](https://github.com/wazuh/wazuh) 
+	- [Linode Hosting - Wazuh Infrastructure Security Analytics Application | Akamai](https://www.linode.com/marketplace/apps/linode/wazuh/)
+- Security Onion- Network security monitoring, intrusion detection, and log management. It incorporates tools like Suricata, Zeek (formerly Bro), and Elasticsearch. : https://securityonionsolutions.com/ 
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/securityonionsolutions.securityonion?tab=Overview) 
 - [Enhance Security with OSSIM | AT&T Cybersecurity](https://cybersecurity.att.com/products/ossim)
 - [UTMStack | Open Source SIEM, XDR and Compliance Solution](https://utmstack.com/) 
 ### Proprietary
 - [Pricing | Blumira](https://www.blumira.com/pricing/)
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/blumirainc1649268714103.blumira-detection-response?tab=Overview) 
 - [Gurucul | Global Leader in Advanced Cybersecurity Solutions](https://gurucul.com/?utm_adgroup=%7Badgroup%7D&utm_term=gurucul) 
 - [Microsoft Sentinel - Cloud SIEM Solution | Microsoft Security](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel)
 - [Chronicle SIEM | Google Cloud](https://cloud.google.com/chronicle-siem) 
 - [Dynatrace | Modern cloud done right](https://www.dynatrace.com/) 
 - [Cloud Log Management, Monitoring, SIEM Tools | Sumo Logic](https://www.sumologic.com/) 
-- [Graylog: Industry Leading Log Management & SIEM](https://graylog.org/) 
+	- [Sumo Logic - Add-ons - Heroku Elements](https://elements.heroku.com/addons/sumologic) 
 - [Securonix: Security Analytics at Cloud Scale](https://www.securonix.com/) 
 - [Exabeam SIEM - Exabeam](https://www.exabeam.com/product/siem/) 
-- [SIEM Solutions & Tools | Get Best Enterprise SIEM Software | FortiSIEM](https://www.fortinet.com/products/siem/fortisiem) 
-- [IBM Security QRadar SIEM](https://www.ibm.com/products/qradar-siem) 
-- [SIEM & Security Analytics | Elastic Security | Elastic SIEM](https://www.elastic.co/security/siem)
+- [FortiSIEM | SIEM Solutions & Tools | Get Best Enterprise SIEM Software](https://www.fortinet.com/products/siem/fortisiem) 
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/fortinet.fortinet-fortisiem?tab=Overview)
+- [QRadar | IBM Security SIEM](https://www.ibm.com/products/qradar-siem) 
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ibm-usa-ny-armonk-hq-6275750-ibmcloud-asperia.ibm-security-qradar-siem?tab=Overview)
+- [Elastic SIEM | SIEM & Security Analytics | Elastic Security](https://www.elastic.co/security/siem)
+	- [ELK Blueprint | DigitalOcean Marketplace 1-Click App](https://marketplace.digitalocean.com/apps/elk-blueprint)
 - [LogSentinel SIEM and XDR | Next-gen cloud-first | Affordable for SMEs](https://logsentinel.com/) 
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/logsentinel.logsentinel-siem?tab=Overview) 
 - [Arcsight - Security Information and Event Management Tool | SIEM Software | CyberRes](https://www.microfocus.com/en-us/cyberres/secops/arcsight-esm) 
 - [Devo: Cloud-Native Integrated SIEM | SOAR | UEBA | AI Solution](https://www.devo.com/)
 - [Hunters SOC Platform: SIEM Alternative | Automate Detection & Response](https://www.hunters.security/) 
@@ -71,6 +80,8 @@
 - [Trellix | Revolutionary Threat Detection and Response](https://www.trellix.com/en-sg/)
 - [Security Analytics | Datadog](https://www.datadoghq.com/solutions/security-analytics/) 
 - [Splunk | The Key to Enterprise Resilience](https://www.splunk.com/) 
+- [Logz.io: Cloud Observability & Security Powered by Open Source](https://logz.io/)
+	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/logz.logzio-elk-as-a-service-pro?tab=Overview) 
 ## Innovative, Unorthodox Visibility and Analysis (not marketed for security)
 ### search terms
 - General Data Engineering, Storage, Analytics, Visualization?
@@ -159,6 +170,7 @@
 - Data Ingestion & Aggregation
 	- [Grafana Loki OSS | Log aggregation system](https://grafana.com/oss/loki/)
 		- [grafana/loki: Like Prometheus, but for logs.](https://github.com/grafana/loki)
+		- [Grafana Loki | DigitalOcean Marketplace 1-Click App](https://marketplace.digitalocean.com/apps/grafana-loki) 
 ## Threat Intel?
 ### Open Source
 - [MISP Open Source Threat Intelligence Platform &amp; Open Standards For Threat Information Sharing](https://www.misp-project.org/) 
