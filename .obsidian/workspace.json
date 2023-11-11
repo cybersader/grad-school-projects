@@ -4,11 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "bfe2032b1f861400",
+        "id": "0e8b89254ffbf033",
         "type": "tabs",
         "children": [
           {
-            "id": "470a030caa181754",
+            "id": "5c44cc80618de3d8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Project Content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Content.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":168.15885416666666}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "227655159379bed2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "926edabe951d2d6a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -29,7 +83,7 @@
             }
           },
           {
-            "id": "fd72cb19e917296e",
+            "id": "19cb01c5377b2b1c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -43,13 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
+                "file": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -275,28 +329,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "470a030caa181754",
+  "active": "926edabe951d2d6a",
   "lastOpenFiles": [
-    "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md",
-    "__attachments/SIEM Framework",
-    "__attachments/SIEM Framework/IMG-20231105164512343.png",
-    "SIEM Framework/IMG-20231013155729213.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029123356289.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/test.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231029195429409.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000263.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png",
-    "Honey Accounts in Windows AD/Project Content.md",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231030180134866.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231030180134917.png",
-    "Honey Accounts in Windows AD/Misc.md",
     "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
-    "Honey Accounts in Windows AD/Related Lists & Curations.md",
-    "Honey Accounts in Windows AD/Untitled",
+    "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md",
+    "SIEM Framework/Project Content.md",
+    "SIEM Framework/Project Workspace",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "__attachments/SIEM Framework/IMG-20231108213438736.png",
+    "__attachments/SIEM Framework/IMG-20231108213424843.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231107192313858.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231106214521167.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231106214517853.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231106214513806.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231106214507253.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231104161645641.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231104154448252.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231104150219880.png",
     "DB Sec/Related Lists & Curations.md",
+    "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Misc.md",
+    "Honey Accounts in Windows AD/Related Lists & Curations.md",
     "DB Sec/Self-Hosting Resources.md",
     "DB Sec/Project Proposal - Postgres.md",
     "DB Sec/Tech Stack, Architecture, Tools,.md",
@@ -306,7 +360,6 @@
     "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
     "DB Sec/Project Content",
-    "SIEM Framework/Project Content.md",
     "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md",
     "__attachments/DB Sec/Project Workspace",
     "__attachments/DB Sec",
@@ -318,6 +371,8 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveats",
     "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat",
+    "__attachments/Honey Accounts in Windows AD/Implementation & Progress - Notes, Problems & Solutions, Caveat Untitled sUntitled",
+    "Honey Accounts in Windows AD/Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Research Papers.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "SIEM Framework/Project Proposal - SIEM Framework.md",

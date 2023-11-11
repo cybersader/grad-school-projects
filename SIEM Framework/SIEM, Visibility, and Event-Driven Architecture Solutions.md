@@ -12,7 +12,7 @@
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
-	- ![](IMG-20231105164512343.png)
+	- ![](IMG-20231108213438736.png)
 ## Curated Lists
 - [correlatedsecurity/Awesome-SOAR: A curated Cyber "Security Orchestration, Automation and Response (SOAR)" awesome list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
 - https://github.com/meirwah/awesome-incident-response#playbooks 
@@ -215,14 +215,10 @@
 	- 6- Automation
 ## SIEM Focus
 ### Open Source
-- ELK Stack 
-	- ELK - Elasticsearch, Logstash, Kibana
-	- [ELK stack implementation tips for production : r/elasticsearch](https://www.reddit.com/r/elasticsearch/comments/112wcst/elk_stack_implementation_tips_for_production/) 
-	- https://logz.io/blog/open-source-elasticsearch-doubling-down/
-		- Logz.io offers a unified cloud observability platform with log management based on Kibana,  Prometheus as a service, distributed tracing based on Jaeger, and cloud SIEM.  The Logz.io team is intimately immersed with both Kibana and Elasticsearch.
+- Graylog
 	- 
 
-- Graylog
+- Wazuh
 	- 
 ### Proprietary
 - Sentinel
@@ -233,6 +229,12 @@
 
 - Matano
 	- 
+
+- ELK Stack 
+	- ELK - Elasticsearch, Logstash, Kibana
+	- [ELK stack implementation tips for production : r/elasticsearch](https://www.reddit.com/r/elasticsearch/comments/112wcst/elk_stack_implementation_tips_for_production/) 
+	- https://logz.io/blog/open-source-elasticsearch-doubling-down/
+		- Logz.io offers a unified cloud observability platform with log management based on Kibana,  Prometheus as a service, distributed tracing based on Jaeger, and cloud SIEM.  The Logz.io team is intimately immersed with both Kibana and Elasticsearch.
 ## Innovative Tech Stack
 ### Open Source
 - Files to Minio to Trino and Iceberg to Hive Metastore to Maria DB

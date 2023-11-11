@@ -5,12 +5,24 @@
       "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
-      "basename": "Azure AD Sys Admin",
-      "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
-    },
-    {
       "basename": "Azure Initialization",
       "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, and Tools",
+      "path": "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md"
+    },
+    {
+      "basename": "Project Content",
+      "path": "SIEM Framework/Project Content.md"
+    },
+    {
+      "basename": "Azure AD Sys Admin",
+      "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
     },
     {
       "basename": "IMG-20231013155729213",
@@ -49,10 +61,6 @@
       "path": "Honey Accounts in Windows AD/Misc.md"
     },
     {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
-    },
-    {
       "basename": "Related Lists & Curations",
       "path": "Honey Accounts in Windows AD/Related Lists & Curations.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "self_hosting_architecture.excalidraw",
       "path": "DB Sec/self_hosting_architecture.excalidraw.md"
-    },
-    {
-      "basename": "Project Content",
-      "path": "SIEM Framework/Project Content.md"
     },
     {
       "basename": "Hardware & OS Setup - RPI 3",
