@@ -121,12 +121,19 @@ It's a different take, but if you want to try out password spraying - this could
 		- https://github.com/cybersader/DO-LAB/blob/main/Monitoring/sysmon.xml 
 - Found all the zip files that would need to be updated
 	- ![](IMG-20231104161645641.png)
-#### Initial Deployment
+#### Closed Issue, Maintainer Fixed the Code!, New Deployment
+- Ironically, I tried deploying before using the fixed repo and got a different set of errors from previous commits.  Maybe something was also referencing the original repo in these files despite having tried replacing them with a PS script
+	- ![600](IMG-20231114152436621.png)
+
+##### Deploying DO's New Updates ARM Template
+- Deployment configuration
+	- ![](IMG-20231114153604901.png)
+
 - 
-#### Create ARM Template
+#### Create ARM Template?? - maybe
 - Links/Resources
 	- [Creating Azure Resources with ARM Templates Step by Step | Microsoft Learn](https://learn.microsoft.com/en-us/archive/blogs/cloud_solution_architect/creating-azure-resources-with-arm-templates-step-by-step) 
-	- 
+- This could be an option if need be, but I don't have a lot of devops experience, so it would take a lot of investment 
 # Azure Entra ID / AAD Setup
 ## AD Pollution
 ### Prereqs & Setup
