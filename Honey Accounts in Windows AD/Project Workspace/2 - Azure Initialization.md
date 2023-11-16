@@ -121,25 +121,80 @@ It's a different take, but if you want to try out password spraying - this could
 		- https://github.com/cybersader/DO-LAB/blob/main/Monitoring/sysmon.xml 
 - Found all the zip files that would need to be updated
 	- ![](IMG-20231104161645641.png)
-#### Closed Issue, Maintainer Fixed the Code!, New Deployment
-- Ironically, I tried deploying before using the fixed repo and got a different set of errors from previous commits.  Maybe something was also referencing the original repo in these files despite having tried replacing them with a PS script
-	- ![600](IMG-20231114152436621.png)
-
-##### Deploying DO's New Updates ARM Template
-- Deployment configuration
-	- ![](IMG-20231114153604901.png)
-
-- 
 #### Create ARM Template?? - maybe
 - Links/Resources
 	- [Creating Azure Resources with ARM Templates Step by Step | Microsoft Learn](https://learn.microsoft.com/en-us/archive/blogs/cloud_solution_architect/creating-azure-resources-with-arm-templates-step-by-step) 
 - This could be an option if need be, but I don't have a lot of devops experience, so it would take a lot of investment 
-# Azure Entra ID / AAD Setup
-## AD Pollution
-### Prereqs & Setup
-- 
-### BadBlood
-- [Relkci/BadBlood: BadBlood by @davidprowe](https://github.com/Relkci/BadBlood)
-- [davidprowe/BadBlood: BadBlood by @davidprowe](https://github.com/davidprowe/BadBlood)
-- [What is Badblood - Secframe](https://secframe.com/docs/badblood/whatisbadblood/#getting-started) 
-- 
+### Closed Issue, Maintainer Fixed the Code!, New Deployment
+- Ironically, I tried deploying before using the fixed repo and got a different set of errors from previous commits.  Maybe something was also referencing the original repo in these files despite having tried replacing them with a PS script
+	- ![600](IMG-20231114152436621.png)
+#### Deploying (Defensive Origins) DO's ARM Template with New Updates & Recent Commits
+- Deployment configuration
+	- ![](IMG-20231114153604901.png)
+
+- Successful deployments
+	- ![400](IMG-20231115163125897.png)
+
+- 21 resources created
+	- ![](IMG-20231115163332347.png)
+
+#### Lab Network Environment Topology
+"The APT Lab network environment topology and reference information is below. Review this information and continue to the next section of this lab."
+- ![](IMG-20231115170010587.png)
+
+#### Connection Parameters and Config - Generated Outputs from ARM Template
+- These are the public IPs for some of the workstations I will be connecting to throughout the lab
+	- ![](IMG-20231115170248589.png)
+
+|System|Context|Hostname|LAN IP|WAN IP|Connection|Username|Password|
+|---|---|---|---|---|---|---|---|
+|AD Domain|DNS|DOAZLAB.com|192.168.2.4|||||
+||NBNS|DOAZLAB||||||
+||Domain Admin|||||doazlab\DOAdmin|DOLabAdmin1!|
+|Domain Controller|Server 2019|DC01|192.168.2.4|See Azure Portal|RDP via WS01|.\DOAdmin|DOLabAdmin1!|
+|Member Workstation|Windows 10|WS01|192.168.2.5|See Azure Portal|RDP via Internet|||
+|Attack System|Linux|Nux01|10.0.0.8|See Azure Portal|SSH|doadmin|DOLabAdmin1!|
+
+### Connectivity to Workstations & Servers
+
+#### RDP Tests
+##### Member Server
+- Use RDP client to connect to the member server
+
+|Context|Information|
+|---|---|
+|MSRDP|IP Address Provided During Lab Build (Public IP) for Workstation|
+|Username|doazlab\DOAdmin|
+|Password|DOLabAdmin1!|
+
+
+![](IMG-20231115172356037.png)
+![](IMG-20231115172433367.png)
+![](IMG-20231115172457834.png)
+
+![](IMG-20231115172845543.png)
+
+^^^^^ This took a long while to connect to.  I tried disconnecting and reconnecting and ended up with this
+- ![](IMG-20231115173327288.png)
+- After like 6 minutes
+	- ![](IMG-20231115173615465.png) 
+##### Domain Controller
+- Use a remote desktop client to access the following system via RDP:
+
+|Context|Information|
+|---|---|
+|MSRDP|IP Address Provided During Lab Build (Public IP) for Domain Controller|
+|Username|doazlab\DOAdmin|
+|Password|DOLabAdmin1!|
+
+- Connecting to DC
+	- ![](IMG-20231115173812597.png)
+- Connected
+	- ![](IMG-20231115173937411.png)
+
+#### Deployed Environment Topology
+
+- ![](IMG-20231115190116337.png)
+- ![](IMG-20231115190126480.png)
+
+#### 

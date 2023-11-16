@@ -10,5 +10,7 @@
   "obsidian-plugin-toc",
   "obsidian-tasks-plugin",
   "attachment-management",
-  "copy-url-in-preview"
+  "copy-url-in-preview",
+  "table-editor-obsidian",
+  "markdown-table-editor"
 ]

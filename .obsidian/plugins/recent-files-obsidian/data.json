@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/Azure Initialization.md"
+      "basename": "3 - Domain Pollution",
+      "path": "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md"
+    },
+    {
+      "basename": "2 - Azure Initialization",
+      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
+    },
+    {
+      "basename": "1 - Azure AD Sys Admin",
+      "path": "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md"
+    },
+    {
+      "basename": "Project Content",
+      "path": "Honey Accounts in Windows AD/Project Content.md"
     },
     {
       "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
@@ -21,10 +33,6 @@
       "path": "SIEM Framework/Project Content.md"
     },
     {
-      "basename": "Azure AD Sys Admin",
-      "path": "Honey Accounts in Windows AD/Azure AD Sys Admin.md"
-    },
-    {
       "basename": "IMG-20231013155729213",
       "path": "SIEM Framework/IMG-20231013155729213.png"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "IMG-20231021103001034",
       "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png"
-    },
-    {
-      "basename": "Project Content",
-      "path": "Honey Accounts in Windows AD/Project Content.md"
     },
     {
       "basename": "IMG-20231021103001012",
