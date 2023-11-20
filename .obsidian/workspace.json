@@ -6,7 +6,7 @@
       {
         "id": "0f24a714bec8d4e9",
         "type": "tabs",
-        "dimension": 56.5035799522673,
+        "dimension": 56.38424821002387,
         "children": [
           {
             "id": "a5ea132d73c8ce29",
@@ -34,35 +34,13 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6663eb1d406496f5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "49485fc080ff2406",
         "type": "tabs",
-        "dimension": 43.4964200477327,
+        "dimension": 43.61575178997613,
         "children": [
           {
             "id": "bf6d0e8038b467e0",
@@ -404,27 +382,28 @@
   },
   "active": "bf6d0e8038b467e0",
   "lastOpenFiles": [
-    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
-    "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
     "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
+    "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
+    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "SIEM Framework/SIEM_framework_2023.md",
+    "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
+    "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
+    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120090525171.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120084013746.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083956763.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083717297.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083026709.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research",
-    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
     "__attachments/Honey Accounts in Windows AD/Research Papers",
     "Honey Accounts in Windows AD/Complementary Research",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118212605622.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118203854173.png",
-    "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118201916533.png",
     "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118195659066.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118195046657.png",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
-    "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
     "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Project Content.md",
     "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",

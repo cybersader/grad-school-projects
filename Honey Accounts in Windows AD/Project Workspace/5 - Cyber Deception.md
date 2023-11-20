@@ -28,3 +28,6 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 	- ![](IMG-20231118212605622.png)
 
 # Create Controlled Objects
+```powershell
+New-ADUser -UserPrincipalName Luis.Graves@doazlab.com -Path "OU=DomainUsers,dc=doazlab,DC=com" -GivenName "Luis" -Surname "Graves" -Enabled 1 -Name "Luis.Graves" -desc "Accounting Controller" -office "Accounting" -title "Controller" -company "DevLabs" -AccountPassword (ConvertTo-SecureString "Password1!" -AsPlainText -Force) -Credential $Cred
+```

