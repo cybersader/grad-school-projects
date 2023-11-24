@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0f24a714bec8d4e9",
+        "id": "31a4ca0bfe4dac31",
         "type": "tabs",
-        "dimension": 56.38424821002387,
+        "dimension": 53.11418685121107,
         "children": [
           {
-            "id": "a5ea132d73c8ce29",
+            "id": "15ca939003dcc786",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -22,7 +22,35 @@
                   "title": "Misc Papers",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Complementary Research/Misc Papers.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "565fae95cc6a5516",
+        "type": "tabs",
+        "dimension": 46.88581314878893,
+        "children": [
+          {
+            "id": "504eaf93a12c4403",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
@@ -34,16 +62,9 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "49485fc080ff2406",
-        "type": "tabs",
-        "dimension": 43.61575178997613,
-        "children": [
+          },
           {
-            "id": "bf6d0e8038b467e0",
+            "id": "b14cb8583238817a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -64,7 +85,7 @@
             }
           },
           {
-            "id": "ae9fdbe5795ab06c",
+            "id": "7e966e1c47420642",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -74,68 +95,24 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "4 - Azure Sentinel (Log Analytics) SIEM",
+                  "title": "Curated Papers, Research, Content, Tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":198,\"ch\":0},\"to\":{\"line\":198,\"ch\":0}},\"scroll\":184.94170528589845}"
-                },
-                {
-                  "title": "3 - Domain Pollution",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":33},\"to\":{\"line\":23,\"ch\":2}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}},\"scroll\":70.05885568513119}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8e8a9de2c1eb17a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "3 - Domain Pollution",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":30},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":3.3346560846560847}"
-                },
-                {
-                  "title": "2 - Azure Initialization",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":197.0680826755297}"
-                },
-                {
-                  "title": "1 - Azure AD Sys Admin",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":114.99431818181819}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
+                "file": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +202,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -254,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
               }
             }
           },
@@ -380,16 +358,24 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "bf6d0e8038b467e0",
+  "active": "15ca939003dcc786",
   "lastOpenFiles": [
+    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
+    "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
     "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234338619.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234237737.png",
+    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
+    "SIEM Framework/Project Proposal - SIEM Framework.md",
+    "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231120154645437.png",
+    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
     "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
     "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
     "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
-    "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
-    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120090525171.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120084013746.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083956763.png",
@@ -400,13 +386,8 @@
     "Honey Accounts in Windows AD/Complementary Research",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118212605622.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118203854173.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118201916533.png",
-    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118195659066.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118195046657.png",
     "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Project Content.md",
-    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md",
     "SIEM Framework/Project Content.md",
     "SIEM Framework/Project Workspace",
@@ -418,15 +399,11 @@
     "DB Sec/Tech Stack, Architecture, Tools,.md",
     "Journals Hierarchy - Research.md",
     "DB Sec/self_hosting_architecture.excalidraw.md",
-    "DB Sec/Project Workspace/Untitled.md",
-    "DB Sec/Project Workspace/Application Setup - Containers, Postgres.md",
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
     "DB Sec/Project Content",
-    "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md",
     "__attachments/DB Sec/Project Workspace",
     "__attachments/DB Sec",
     "DB Sec/Project Workspace",
-    "DB Sec/Hosting Resources (misc).md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace"
   ]
 }

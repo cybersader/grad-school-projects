@@ -197,4 +197,6 @@ It's a different take, but if you want to try out password spraying - this could
 - ![](IMG-20231115190116337.png)
 - ![](IMG-20231115190126480.png)
 
-#### 
+# Costs
+- This can cost a good bit
+![](IMG-20231120154645437.png)

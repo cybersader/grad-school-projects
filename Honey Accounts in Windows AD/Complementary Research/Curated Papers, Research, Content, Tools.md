@@ -2,8 +2,6 @@
 - [Information | Free Full-Text | A Novel Authentication Method That Combines Honeytokens and Google Authenticator](https://www.mdpi.com/2078-2489/14/7/386) 
 	- Not a great reputable paper, but could be theoretical
 - 
-
-
 # Password Sprays
 ## Attacks & Detections
 ### KQL - Kusto Query Language
@@ -89,7 +87,7 @@ level: medium
 - [Advancing Password Spray Attack Detection - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/advancing-password-spray-attack-detection/ba-p/1276936) 
 	- Password spray is one of the most popular attacks, accounting for more than a third of account compromise in organizations.
 - [2020 State of Password and Authentication Report - YubiKey - Yubico](https://www.yubico.com/blog/yubico-releases-2020-state-of-password-and-authentication-security-behaviors-report/)
-- [The State of Password Security 2023 Report | Bitwarden Resources](https://bitwarden.com/resources/the-state-of-password-security/) 
+- [The State of Password Security 2023 Report | Bitwarden Resources](https://bitwarden.com/resources/the-state-of-password-security/)
 - [Password Manager Industry Report and Market Outlook in 2023 | Security.org](https://www.security.org/digital-safety/password-manager-annual-report/) 
 - [jacobdjwilson/awesome-annual-security-reports: A curated list of annual cyber security reports](https://github.com/jacobdjwilson/awesome-annual-security-reports) 
 - 

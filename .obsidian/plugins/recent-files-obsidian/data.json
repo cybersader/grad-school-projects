@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "4.5 - Applying Research",
+      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+    },
+    {
       "basename": "Misc Papers",
       "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
     },
     {
+      "basename": "Password Research and Stuff",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
+    },
+    {
       "basename": "Curated Papers, Research, Content, Tools",
       "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+    },
+    {
+      "basename": "Project Proposal - SIEM Framework",
+      "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
+    },
+    {
+      "basename": "2 - Azure Initialization",
+      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
+    },
+    {
+      "basename": "0 - Notes & Parameters",
+      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
     },
     {
       "basename": "5 - Cyber Deception",
@@ -29,24 +53,12 @@
       "path": "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md"
     },
     {
-      "basename": "2 - Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
-    },
-    {
-      "basename": "0 - Notes & Parameters",
-      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
-    },
-    {
       "basename": "1 - Azure AD Sys Admin",
       "path": "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md"
     },
     {
       "basename": "Project Content",
       "path": "Honey Accounts in Windows AD/Project Content.md"
-    },
-    {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
     },
     {
       "basename": "Tech Stack, Architecture, and Tools",
@@ -127,10 +139,6 @@
     {
       "basename": "Project Deliverables",
       "path": "Honey Accounts in Windows AD/Project Deliverables.md"
-    },
-    {
-      "basename": "Project Proposal - SIEM Framework",
-      "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
     },
     {
       "basename": "README",
