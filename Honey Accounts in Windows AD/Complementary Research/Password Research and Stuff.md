@@ -16,6 +16,27 @@
 - [Rocktastic](https://labs.nettitude.com/tools/rocktastic/) - Includes many permutations of passwords and patterns that have been observed in the wild.
 - [RockYou2021](https://github.com/ohmybahgosh/RockYou2021.txt) - RockYou2021.txt is a MASSIVE WORDLIST compiled of various other wordlists.
 - [WeakPass](https://weakpass.com/) - Collection of large wordlists.
+# Passwords & Wordlists Resarch
+- [[2309.03384] Measuring Website Password Creation Policies At Scale](https://arxiv.org/abs/2309.03384) 
+- [Future Internet | Free Full-Text | A Systematic Survey of Multi-Factor Authentication for Cloud Infrastructure](https://www.mdpi.com/1999-5903/15/4/146) 
+- [[1908.05901] Evaluating User Perception of Multi-Factor Authentication: A Systematic Review](https://arxiv.org/abs/1908.05901) 
+- [Araña: Discovering and Characterizing Password Guessing Attacks in Practice | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/islam)
+- [[2309.03384] Measuring Website Password Creation Policies At Scale](https://arxiv.org/abs/2309.03384) 
+- [Security and Scalability of E-Commerce Website by OWASP threats. | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10111955) 
+- [A Cognitive Deception Model for Generating Fake Documents to Curb Data Exfiltration in Networks During Cyber-Attacks | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9755446) 
+- [Birthday, Name and Bifacial-security: Understanding Passwords of Chinese Web Users | USENIX](https://www.usenix.org/conference/usenixsecurity19/presentation/wang-ding) 
+- [An Empirical Analysis on the Usability and Security of Passwords | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9191658) 
+- ['Passwords Keep Me Safe' – Understanding What Children Think about Passwords | USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/theofanos) 
+- [A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective) 
+- [Password Guessing Based on Semantic Analysis and Neural Networks | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-13-5913-2_6) 
+- [Advances in Password Recovery Using Generative Deep Learning Techniques | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-86365-4_2) 
+- [Modeling Password Guessability via Variational Auto-Encoder | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9437859) 
+- [No Single Silver Bullet: Measuring the Accuracy of Password Strength Meters | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-ding-silver-bullet)
+## Wordlist Generation for Password Spraying
+- https://www.horizon3.ai/the-unreasonable-effectiveness-of-password-spray/
+	- NodeZero generates probable passwords to spray based on commonly known breached passwords, context-specific terms such as the company name or domain name, or a custom dictionary supplied by the user.
+	- Attackers know that most companies have set up a password policy to enforce a minimum password length of 8 characters, password complexity rules (including lowercase, uppercase, digits, and special characters), and periodic rotation of passwords. Password complexity and rotation policies have ironically led users to creating more predictable passwords such as passwords starting with an uppercase letter, ending in 1!,, or containing seasons and years. NodeZero optimizes for these cases to maximize the likelihood of success.
+	- In addition to spraying probable weak passwords, NodeZero also attempts to spray any passwords it finds organically during the course of a pentest, just like a real-world attacker would do. These are passwords that may be found through unintended data exposure or exploitation, and they may not necessarily be weak. This form of password spray is used to exploit password reuse across multiple accounts.
 # Reports & Stats on Passwords
 * [Password Statistics That Will Change Your Online Habits - Panda Security](https://www.pandasecurity.com/en/mediacenter/password-statistics/)
 * [33 Password Statistics Small Businesses Should Know](https://smallbiztrends.com/2022/10/password-statistics.html)

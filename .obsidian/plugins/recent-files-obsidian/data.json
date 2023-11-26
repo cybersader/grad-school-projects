@@ -5,16 +5,16 @@
       "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
     },
     {
-      "basename": "Misc Papers",
-      "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
-    },
-    {
       "basename": "Password Research and Stuff",
       "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
     },
     {
       "basename": "Curated Papers, Research, Content, Tools",
       "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+    },
+    {
+      "basename": "Misc Papers",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
     },
     {
       "basename": "Tech Stack, Architecture, Tools",
