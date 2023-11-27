@@ -1,8 +1,0 @@
-# Tech Stack
-- 
-
-# Architecture
-- 
-
-# Tools
-- 

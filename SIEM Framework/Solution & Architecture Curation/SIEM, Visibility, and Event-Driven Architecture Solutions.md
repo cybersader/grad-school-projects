@@ -205,277 +205,62 @@
 - 
 - For specific systems:
 	- [Intelligent Threat Detection - Amazon GuardDuty - AWS](https://aws.amazon.com/guardduty/) 
-# Tech Stacks & Architectures
-- Solution Group Numbers:
-	- 1- ETL Proxy
-	- 2- Data Ingestion
-	- 3- Data Storage
-	- 4- Data Processing
-	- 5- Data Analysis
-	- 6- Automation
-## SIEM Focus
-### Open Source
-- Graylog
-	- 
+## ETL (Extract Transform Load), Data Transformation & Integration, Stream Processing, Moving Data, Data Quality, Data Pipelines, Observability
 
-- Wazuh
-	- 
-### Proprietary
-- Sentinel
-	- 
+- [Airbyte | Open-Source Data Integration Platform | ELT tool](https://airbyte.com/) - Free by self-hosting with Docker. Cheap cloud options.
+- [Jitsu : Open Source Data Integration Platform](https://jitsu.com/) - Open-source alternative to Segment. Free by self-hosting with Dock. 
+- [dbt Labs | Transform Data in Your Warehouse](https://www.getdbt.com/) - Uses SQL (con), Open Source, Jinja templates with SQL (ehhh sorta unrelated to most pipeline tools)
 
-- Hive Project
-	- 
+- Cribl Stream & Alternatives
+	- This is my favorite tool to integrate with SIEMs. However, I've had trouble finding similar tools.  I wonder what their competitors are
+	- [Cribl Stream - Simplify Data Stream, Routing & Collection](https://cribl.io/stream/)
+	- [Stitch: Simple, extensible cloud ETL built for data teams | Stitch](https://www.stitchdata.com/) 
+	- [Dataflow Google Cloud](https://cloud.google.com/dataflow/docs) - Stream processing from Google
+	- [ETL Service - Serverless Data Integration - AWS Glue - AWS](https://aws.amazon.com/glue/) 
+	- Azure Stream Analytics
 
-- Matano
-	- 
+- Streaming? (I'm so confused about some of the differences or targets of these solutions)
+	- [Apache Kafka](https://kafka.apache.org/) - Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
 
-- ELK Stack 
-	- ELK - Elasticsearch, Logstash, Kibana
-	- [ELK stack implementation tips for production : r/elasticsearch](https://www.reddit.com/r/elasticsearch/comments/112wcst/elk_stack_implementation_tips_for_production/) 
-	- https://logz.io/blog/open-source-elasticsearch-doubling-down/
-		- Logz.io offers a unified cloud observability platform with log management based on Kibana,  Prometheus as a service, distributed tracing based on Jaeger, and cloud SIEM.  The Logz.io team is intimately immersed with both Kibana and Elasticsearch.
-## Innovative Tech Stack
-### Open Source
-- Files to Minio to Trino and Iceberg to Hive Metastore to Maria DB
-	- [High-performance open-source Data Lakehouse at home | by Daniel Palma | Medium](https://medium.com/@danthelion/high-performance-open-source-data-lakehouse-at-home-56c8d7fa87b5) 
+- Data Pipelines
+	- [Apache Airflow](https://airflow.apache.org/) - programmatically author, schedule and monitor workflows. 
+
+- Misc
+	- [Cloud Data Fusion | Google Cloud](https://cloud.google.com/data-fusion?hl=en) - Fully managed, cloud-native data integration at any scale. Visual point-and-click interface enabling code-free deployment of ETL/ELT data pipelines. 
+	- [Fivetran | Automated data movement platform](https://www.fivetran.com/) 
+	- [Managed Etl Service - AWS Data Pipeline - AWS](https://aws.amazon.com/datapipeline/) 
+	- [Data Science and Analytics Automation Platform | Alteryx](https://www.alteryx.com/) 
+	- [Apache Flink® — Stateful Computations over Data Streams | Apache Flink](https://flink.apache.org/) 
+
+- GUIs (Vendor Lockin, Limited)
+	- [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data. Apache NiFi supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.
+
+- data quality
+	- [Elementary - dbt native data observability, built for data and analytics engineers](https://docs.elementary-data.com/introduction) - With Elementary you can monitor your data pipelines in minutes, in your dbt project. Gain immediate visibility to your jobs, models runs and test results. Detect data issues with freshness, volume, anomaly detection and schema tests. Explore all your test results and data health in a single interface and understand impact and root cause with rich lineage. Distribute actionable alerts to different channels and owners, and be on top of your data health.
+
+### Data Engineering Landscape
+
+- [The State of Data Engineering 2022 - Git for Data - lakeFS](https://lakefs.io/blog/the-state-of-data-engineering-2022/)
+	- ![](https://www.montecarlodata.com/wp-content/uploads/2022/08/the-future-of-data-management-and-engineering-landscape-1024x576.png)
+- [The State of Data Engineering 2023 - Data Version Control at Scale](https://lakefs.io/blog/the-state-of-data-engineering-2023/)
+	- ![](https://cdn-kfpfp.nitrocdn.com/LPJTcQItTfFXIvmLmluGDpHNkMGCVcPt/assets/images/optimized/rev-ab83e30/lakefs.io/wp-content/uploads/2023/05/1200X630-lakeFS-State-of-Data-Engineering-Report-1024x538.png)
+- [A Turbulent Year: The 2019 Data & AI Landscape – Matt Turck](https://mattturck.com/data2019/)
+	- ![](https://allcloud.io/wp-content/uploads/2020/05/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize-e1590324773525.png)
+- [Resilience and Vibrancy: The 2020 Data & AI Landscape – Matt Turck](https://mattturck.com/data2020/)
+- [Red Hot: The 2021 Machine Learning, AI and Data (MAD) Landscape – Matt Turck](https://mattturck.com/data2021/)
+	- ![](https://mattturck.com/wp-content/uploads/2021/12/Data-and-AI-Landscape-2021-v3-small-1200x621.jpg)
 - 
-### Proprietary
-- Loki, Grafana
-	- 
-
-- Databricks
-	- 
-
-- Devo
-	- .
-
-- Dremio
-	- .
-## Ranked Qualitatively
-### Qualitative Ranking System
-#### Code
-JS:
-```
-const container = document.getElementById('jsoneditor');
-
-const options = {
-    mode: 'code',
-    modes: ['code', 'form', 'text', 'tree', 'view', 'preview'],
-    onModeChange: function (newMode, oldMode) {
-        console.log('Mode switched from', oldMode, 'to', newMode);
-    }
-};
-
-const configureSections = document.getElementById('configureSections');
-
-let sc_editor;
-let s_editor;
-let numEntities;
-
-document.getElementById('configureEntities').addEventListener('click', () => {
-    numEntities = document.getElementById('numEntities').value;
-    const entityArray = Array.from({ length: numEntities }, (_, i) => i + 1);
-    const entitySchema = {
-        type: 'object',
-        properties: {},
-    };
-    entityArray.forEach((entity) => {
-        entitySchema.properties[entity] = {
-            type: 'object',
-            properties: {
-                name: { type: 'string' },
-                description: { type: 'string' },
-                terms: {
-                    type: 'array',
-                    items: { type: 'string' },
-                },
-            },
-        };
-    });
-
-    const entityData = entityArray.reduce((data, entity, index) => {
-    data[entity] = {
-        name: `Solution_Category_${index + 1}`,
-        description: '',
-        terms: [],
-    };
-    return data;
-}, {});
-
-    sc_editor = new JSONEditor(document.getElementById('solutionCategoriesEditor'), { ...options, schema: entitySchema}, entityData);
-    
-    // Show the hidden sections
-    configureSections.classList.remove('hidden');
-
-		const solutionsData = {
-      1: {
-          name: 'solution_1',
-          categories: [1, 2],
-          value: 5,
-      },
-      2: {
-          name: 'solution_2',
-          categories: [2],
-          value: 3,
-      },
-      3: {
-          name: 'solution_3',
-          categories: [1],
-          value: 4,
-      },
-  	};
-
-    s_editor = new JSONEditor(document.getElementById('solutionsEditor'), { ...options}, solutionsData);
-
-		//console.log(JSON.stringify(sc_editor.get(), null, 2));
-		//console.log(JSON.stringify(s_editor.get(), null, 2));
-    
-});
-
-function calculate_score(entity_values, max_entities, k) {
-    // Calculate the sum of entity values
-    const sum_of_values = entity_values.reduce((acc, value) => acc + value, 0);
-    // Calculate the penalty for entity count
-    const penalty = (max_entities - entity_values.length) * k;
-    // Calculate the score
-    const score = sum_of_values * penalty;
-    return score;
-}
-
-function combinations(arr, k) {
-    const result = [];
-
-    function backtrack(start, current, k) { // Pass k as an argument
-        if (current.length === k) {
-            result.push(current.slice());
-            return;
-        }
-
-        for (let i = start; i < arr.length; i++) {
-            current.push(arr[i]);
-            backtrack(i + 1, current, k); // Pass k to the recursive call
-            current.pop();
-        }
-    }
-
-    backtrack(0, [], k); // Initialize k when calling the function
-    return result;
-}
-
-document.getElementById('generateTechStacks').addEventListener('click', () => {
-
-    const solution_categories = sc_editor.get(); 
-    const solutions = s_editor.get();
-		const textBox = document.getElementById("KValue");
-		const k = textBox.value;
-		const max_entities = numEntities;
-    const r = 2; // Set the desired number of solutions in each combination
-    const combinationsResult = combinations(Object.keys(solutions), r);
-    
-  const scored_combinations = [];
-  for (const combo of combinationsResult) {
-      const entity_values = combo.map((sol) => solutions[sol].value);
-      const score = calculate_score(entity_values, max_entities, k);
-      scored_combinations.push({ combo, score });
-  }
-
-	scored_combinations.sort((a, b) => b.score - a.score);
-
-	const techStacksContainer = document.getElementById('techStacks');
-
-  scored_combinations.forEach((stack, index) => {
-      const stackElement = document.createElement('div');
-      stackElement.classList.add('tech-stack');
-
-      const scoreElement = document.createElement('div');
-      scoreElement.classList.add('score');
-      scoreElement.textContent = `Tech Stack ${index + 1} - Total Score: ${stack.score}`;
-      stackElement.appendChild(scoreElement);
-
-      const solutionsElement = document.createElement('div');
-      stack.combo.forEach((solIndex) => {
-          const solution = solutions[solIndex];
-          const solutionElement = document.createElement('div');
-          solutionElement.classList.add('solution');
-
-          const categories = solution.categories.map((cat) => solution_categories[cat].name);
-          const categoryString = categories.join(', '); // Combine the categories
-
-          const solutionName = `${solution.name} (${solIndex}): (${categoryString})`;
-          solutionElement.textContent = `${solutionName} - value of ${solution.value}`;
-          solutionsElement.appendChild(solutionElement);
-      });
-      stackElement.appendChild(solutionsElement);
-
-      techStacksContainer.appendChild(stackElement);
-  });
-		
-});
-```
-HTML:
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Configure Tech Stack</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <script src="jsoneditor.min.js"></script>
-    <script src="script.js"></script>
-    
-    <h1>Tech Stack Options Setup</h1>
-      <label for="numEntities">Number of Categories: </label>
-      <input type="number" id="numEntities" min="1">
-      <button id="configureEntities">Configure Categories</button>
-  <div id="configureSections" class="hidden">
-    <h2>Configure Solution Categories</h2>
-      <div id="solutionCategoriesEditor" class="jsoneditor"></div>
-    <h2>Configure Solution Options</h2>
-      <div id="solutionsEditor" class="jsoneditor"></div>
-    <h1>Tech Stack Generation & Analysis</h1>
-      <div>
-        <label for="textbox">Tuning Value:</label>
-        <input type="text" id="KValue" placeholder="Enter number">
-      </div>
-      <br>
-      <button id="generateTechStacks">Generate Tech Stacks</button>
-      <div id="techStacks"></div>
-  </div>
-</body>
-</html>
-```
-CSS:
-```
-body {
-    font-family: Arial, sans-serif;
-}
-
-.tech-stack {
-    border: 1px solid #ccc;
-    margin: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-}
-
-.solution {
-    margin: 5px 0;
-}
-
-.solution-name {
-    font-weight: bold;
-}
-
-.category {
-    color: #007bff;
-}
-
-.score {
-    font-size: 1.2em;
-    color: green;
-}
-
-# Fundamental Security Visibility & Data Engineering
-![1000](SIEM_framework_2023)
+### Data Pipeline Architecture
+- [Data Pipeline Architecture Explained: 6 Diagrams And Best Practices](https://www.montecarlodata.com/blog-data-pipeline-architecture-explained/) 
+- 
+# Data Formats
+- [Apache Parquet](https://parquet.apache.org/) - (Apache foundation / Data Format / Open Source / Free).
+- [Apache ORC](https://orc.apache.org/) - (Apache foundation / Hortonworks / Facebook / Data Format / Open Source / Free).
+- [Apache Avro](https://avro.apache.org/) - (Apache foundation / Data Format / Open Source / Free).
+- [Apache Kudu](https://kudu.apache.org/) - (Apache foundation / Cloudera / Data Format / Open Source / Free).
+- [Apache Arrow](https://arrow.apache.org/) - (Apache foundation / Data Format / Open Source / Free).
+- [Delta](https://delta.io/) - (Databricks / Data Format / Free or License fee).
+- [JSON](https://www.json.org/) - (Data Format / Free).
+- [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) - (Data Format / Free).
+- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) - (Data Format / Free).
+- [HDF5](https://www.hdfgroup.org/solutions/hdf5/) - (The HDF Group / Data Format / Open Source (licensed by [HDF5](https://www.hdfgroup.org/licenses.)) / Free).

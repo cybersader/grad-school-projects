@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "31a4ca0bfe4dac31",
+        "id": "c945a363c13b45cd",
         "type": "tabs",
-        "dimension": 53.11418685121107,
         "children": [
           {
-            "id": "15ca939003dcc786",
+            "id": "4046a243db75fc6c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -19,52 +18,24 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Misc Papers",
+                  "title": "SIEM, Visibility, and Event-Driven Architecture Solutions",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Complementary Research/Misc Papers.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":207,\"ch\":0},\"to\":{\"line\":207,\"ch\":0}},\"scroll\":188.59360730593608}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "565fae95cc6a5516",
-        "type": "tabs",
-        "dimension": 46.88581314878893,
-        "children": [
-          {
-            "id": "504eaf93a12c4403",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+                "file": "SIEM Framework/Project Workspace/Tech Stack & Architecture Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b14cb8583238817a",
+            "id": "a0771dca11274568",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -78,41 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e966e1c47420642",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Curated Papers, Research, Content, Tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}},\"scroll\":70.05885568513119}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
+                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
               }
             }
           },
@@ -358,22 +301,26 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "15ca939003dcc786",
+  "active": "a0771dca11274568",
   "lastOpenFiles": [
-    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
     "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
     "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
     "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "SIEM Framework/Project Workspace/Tech Stack & Architecture Design.md",
+    "SIEM Framework/Solution & Architecture Curation/Data Architecting & Engineering Terminology.md",
+    "SIEM Framework/Project Proposal - SIEM Framework.md",
+    "__attachments/SIEM Framework/Solution & Architecture Curation",
+    "SIEM Framework/Solution & Architecture Curation",
+    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234338619.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234237737.png",
     "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
-    "SIEM Framework/Project Proposal - SIEM Framework.md",
     "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231120154645437.png",
     "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
     "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
     "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
-    "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "SIEM Framework/SIEM_framework_2023.md",
     "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
     "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120090525171.png",
@@ -388,7 +335,6 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231118203854173.png",
     "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md",
     "Honey Accounts in Windows AD/Project Content.md",
-    "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md",
     "SIEM Framework/Project Content.md",
     "SIEM Framework/Project Workspace",
     "DB Sec/Related Lists & Curations.md",
@@ -402,8 +348,6 @@
     "DB Sec/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
     "DB Sec/Project Content",
     "__attachments/DB Sec/Project Workspace",
-    "__attachments/DB Sec",
-    "DB Sec/Project Workspace",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace"
+    "__attachments/DB Sec"
   ]
 }

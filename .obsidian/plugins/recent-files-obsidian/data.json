@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "4.5 - Applying Research",
-      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
-      "basename": "Password Research and Stuff",
-      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
+      "basename": "4.5 - Applying Research",
+      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
     },
     {
       "basename": "Curated Papers, Research, Content, Tools",
@@ -17,12 +17,24 @@
       "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
     },
     {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+      "basename": "Tech Stack & Architecture Design",
+      "path": "SIEM Framework/Project Workspace/Tech Stack & Architecture Design.md"
+    },
+    {
+      "basename": "Data Architecting & Engineering Terminology",
+      "path": "SIEM Framework/Solution & Architecture Curation/Data Architecting & Engineering Terminology.md"
     },
     {
       "basename": "Project Proposal - SIEM Framework",
       "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
+    },
+    {
+      "basename": "Password Research and Stuff",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
     },
     {
       "basename": "2 - Azure Initialization",
@@ -41,10 +53,6 @@
       "path": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md"
     },
     {
-      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
-      "path": "SIEM Framework/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
-    },
-    {
       "basename": "SIEM_framework_2023",
       "path": "SIEM Framework/SIEM_framework_2023.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "Project Content",
       "path": "Honey Accounts in Windows AD/Project Content.md"
-    },
-    {
-      "basename": "Tech Stack, Architecture, and Tools",
-      "path": "SIEM Framework/Project Workspace/Tech Stack, Architecture, and Tools.md"
     },
     {
       "basename": "Project Content",
