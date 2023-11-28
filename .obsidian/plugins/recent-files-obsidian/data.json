@@ -1,6 +1,90 @@
 {
   "recentFiles": [
     {
+      "basename": "8. Archival, Retention, & Restoration",
+      "path": "SIEM Framework/Project Workspace/8. Archival, Retention, & Restoration.md"
+    },
+    {
+      "basename": "7. Observability & Data Quality",
+      "path": "SIEM Framework/Project Workspace/7. Observability & Data Quality.md"
+    },
+    {
+      "basename": "6. Cost-Savings Estimations",
+      "path": "SIEM Framework/Project Workspace/6. Cost-Savings Estimations.md"
+    },
+    {
+      "basename": "5. SIEM",
+      "path": "SIEM Framework/Project Workspace/5. SIEM.md"
+    },
+    {
+      "basename": "4. Data Pipeline Proxy",
+      "path": "SIEM Framework/Project Workspace/4. Data Pipeline Proxy.md"
+    },
+    {
+      "basename": "3. Log or Event Sources",
+      "path": "SIEM Framework/Project Workspace/3. Log or Event Sources.md"
+    },
+    {
+      "basename": "2. Hardware & Infrastructure Initialization",
+      "path": "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md"
+    },
+    {
+      "basename": "3. Networking Refresher",
+      "path": "Secure Database Exposition/Project Workspace/3. Networking Refresher.md"
+    },
+    {
+      "basename": "2. Application Setup - Containers, Postgres",
+      "path": "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md"
+    },
+    {
+      "basename": "1. Hardware & OS Setup - RPI 3",
+      "path": "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md"
+    },
+    {
+      "basename": "8. Other Exposition Methods & Approaches",
+      "path": "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md"
+    },
+    {
+      "basename": "7. Risks of Insecure Exposition",
+      "path": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md"
+    },
+    {
+      "basename": "6. Comparing Exposition Approaches",
+      "path": "Secure Database Exposition/Project Workspace/6. Comparing Exposition Approaches.md"
+    },
+    {
+      "basename": "4. Exposition & Networking",
+      "path": "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md"
+    },
+    {
+      "basename": "5. Reconnaissance Tools",
+      "path": "Secure Database Exposition/Project Workspace/5. Reconnaissance Tools.md"
+    },
+    {
+      "basename": "5. Insecure Exposition",
+      "path": "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md"
+    },
+    {
+      "basename": "Project Proposal - Postgres",
+      "path": "Secure Database Exposition/Project Proposal - Postgres.md"
+    },
+    {
+      "basename": "Related Lists & Curations",
+      "path": "Secure Database Exposition/Related Lists & Curations.md"
+    },
+    {
+      "basename": "Self-Hosting Resources",
+      "path": "Secure Database Exposition/Self-Hosting Resources.md"
+    },
+    {
+      "basename": "Hosting Resources (misc)",
+      "path": "Secure Database Exposition/Hosting Resources (misc).md"
+    },
+    {
+      "basename": "1. Tech Stack & Architecture Design",
+      "path": "SIEM Framework/Project Workspace/1. Tech Stack & Architecture Design.md"
+    },
+    {
       "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
       "path": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
@@ -15,10 +99,6 @@
     {
       "basename": "Misc Papers",
       "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
-    },
-    {
-      "basename": "Tech Stack & Architecture Design",
-      "path": "SIEM Framework/Project Workspace/Tech Stack & Architecture Design.md"
     },
     {
       "basename": "Data Architecting & Engineering Terminology",
@@ -109,20 +189,8 @@
       "path": "Honey Accounts in Windows AD/Related Lists & Curations.md"
     },
     {
-      "basename": "Related Lists & Curations",
-      "path": "DB Sec/Related Lists & Curations.md"
-    },
-    {
-      "basename": "Self-Hosting Resources",
-      "path": "DB Sec/Self-Hosting Resources.md"
-    },
-    {
-      "basename": "Project Proposal - Postgres",
-      "path": "DB Sec/Project Proposal - Postgres.md"
-    },
-    {
       "basename": "Tech Stack, Architecture, Tools,",
-      "path": "DB Sec/Tech Stack, Architecture, Tools,.md"
+      "path": "Secure Database Exposition/Tech Stack, Architecture, Tools,.md"
     },
     {
       "basename": "Journals Hierarchy - Research",
@@ -130,23 +198,7 @@
     },
     {
       "basename": "self_hosting_architecture.excalidraw",
-      "path": "DB Sec/self_hosting_architecture.excalidraw.md"
-    },
-    {
-      "basename": "Hardware & OS Setup - RPI 3",
-      "path": "DB Sec/Project Workspace/Hardware & OS Setup - RPI 3.md"
-    },
-    {
-      "basename": "Hosting Resources (misc)",
-      "path": "DB Sec/Hosting Resources (misc).md"
-    },
-    {
-      "basename": "Project Deliverables",
-      "path": "Honey Accounts in Windows AD/Project Deliverables.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
+      "path": "Secure Database Exposition/self_hosting_architecture.excalidraw.md"
     }
   ],
   "omittedPaths": [],
