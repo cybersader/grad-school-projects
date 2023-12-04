@@ -6,9 +6,10 @@
       {
         "id": "6167d5927c181275",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "70efec1eb0a54538",
+            "id": "378394bfd399b435",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,25 +19,95 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "self_hosting_architecture.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Secure Database Exposition/self_hosting_architecture.excalidraw.md\"}}",
-                  "eState": "{}"
+                  "title": "6. Recon Implementation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/6. Recon Implementation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":30},\"to\":{\"line\":85,\"ch\":30}},\"scroll\":37.83901515151515}"
                 },
                 {
-                  "title": "Self-Hosting Resources",
+                  "title": "X1. Reconnaissance Tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Self-Hosting Resources.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "7. Risks of Insecure Exposition",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":2.819629358257233}"
+                },
+                {
+                  "title": "X1. Reconnaissance Tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":140,\"ch\":214},\"to\":{\"line\":140,\"ch\":214}},\"scroll\":0}"
+                },
+                {
+                  "title": "7. Risks of Insecure Exposition",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Database Exposition/Related Lists & Curations.md",
+                "file": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "875853c5d15ac010",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "9. Comparing Exposition Approaches",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":5,\"ch\":2}}}"
+                },
+                {
+                  "title": "8. Other Exposition Methods & Approaches",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cefef07f3f49a37e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Self_hosting_threat_model_simple.md"
               }
             }
           },
@@ -53,7 +124,7 @@
                 {
                   "title": "5. Reconnaissance Tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/5. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":43},\"to\":{\"line\":60,\"ch\":43}},\"scroll\":35.98511350949014}"
                 }
               ]
@@ -66,30 +137,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cf8341cdb9599d8d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +220,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hostname",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,12 +228,33 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "323ac1b2ed09b08c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 250.5
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -208,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
               }
             }
           },
@@ -334,53 +405,53 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "cf8341cdb9599d8d",
+  "active": "875853c5d15ac010",
   "lastOpenFiles": [
+    "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md",
     "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
+    "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203234341841.png",
+    "Secure Database Exposition/Project Workspace/6. Recon Implementation.md",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203234202527.png",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203233857992.png",
+    "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md",
+    "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203172659347.png",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203171102729.png",
+    "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203170124405.png",
+    "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203161550880.png",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203161532118.png",
+    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203153451979.png",
+    "Excalidraw/Self_hosting_threat_model_simple.md",
+    "__attachments/Excalidraw/IMG-20231203141620750.png",
+    "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
+    "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md",
+    "Secure Database Exposition/Project Workspace/3. Networking Refresher.md",
+    "Excalidraw/Drawing 2023-12-01 16.33.48.excalidraw.md",
+    "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md",
+    "__attachments/Excalidraw",
+    "Excalidraw",
+    "__attachments/Secure Database Exposition/Project Workspace",
     "Secure Database Exposition/Related Lists & Curations.md",
+    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "Secure Database Exposition/Hosting Resources (misc).md",
-    "Secure Database Exposition/Project Workspace/5. Reconnaissance Tools.md",
     "SIEM Framework/Project Workspace/1. Tech Stack & Architecture Design.md",
     "Secure Database Exposition/Tech Stack, Architecture, Tools,.md",
     "Secure Database Exposition/Self-Hosting Resources.md",
     "Secure Database Exposition/self_hosting_architecture.excalidraw.md",
-    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
     "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
     "SIEM Framework/Project Workspace/8. Archival, Retention, & Restoration.md",
     "__attachments/Secure Database Exposition",
     "SIEM Framework/Project Workspace/7. Observability & Data Quality.md",
     "SIEM Framework/Project Workspace/6. Cost-Savings Estimations.md",
     "SIEM Framework/Project Workspace/5. SIEM.md",
-    "SIEM Framework/Project Workspace/4. Data Pipeline Proxy.md",
-    "SIEM Framework/Project Workspace/3. Log or Event Sources.md",
-    "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md",
-    "Secure Database Exposition/Project Workspace/3. Networking Refresher.md",
-    "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md",
-    "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md",
-    "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
-    "Secure Database Exposition/Project Workspace/6. Comparing Exposition Approaches.md",
-    "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md",
-    "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md",
-    "Secure Database Exposition/Project Proposal - Postgres.md",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231127145830749.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231127145621970.png",
-    "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
     "__attachments/SIEM Framework/Solution & Architecture Curation",
     "SIEM Framework/Solution & Architecture Curation",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234338619.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231121234237737.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231120154645437.png",
-    "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120090525171.png",
-    "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120084013746.png",
-    "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083956763.png",
-    "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083717297.png",
-    "__attachments/Honey Accounts in Windows AD/Complementary Research/IMG-20231120083026709.png",
     "__attachments/Honey Accounts in Windows AD/Complementary Research",
     "__attachments/Honey Accounts in Windows AD/Research Papers",
     "Honey Accounts in Windows AD/Complementary Research",
-    "SIEM Framework/Project Workspace",
-    "Secure Database Exposition/Project Content/BenRader-CIT51600-SecureDBExposition.pptx",
-    "Secure Database Exposition/Project Content",
-    "__attachments/DB Sec/Project Workspace"
+    "SIEM Framework/Project Workspace"
   ]
 }

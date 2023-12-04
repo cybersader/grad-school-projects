@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
-      "path": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
+      "basename": "10. Other Network Defenses",
+      "path": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
+    },
+    {
+      "basename": "9. Comparing Exposition Approaches",
+      "path": "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md"
     },
     {
       "basename": "8. Other Exposition Methods & Approaches",
       "path": "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md"
     },
     {
+      "basename": "7. Risks of Insecure Exposition",
+      "path": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md"
+    },
+    {
+      "basename": "6. Recon Implementation",
+      "path": "Secure Database Exposition/Project Workspace/6. Recon Implementation.md"
+    },
+    {
+      "basename": "X1. Reconnaissance Tools",
+      "path": "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md"
+    },
+    {
+      "basename": "5. Insecure Exposition",
+      "path": "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md"
+    },
+    {
+      "basename": "2. Application Setup - Containers, Postgres",
+      "path": "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md"
+    },
+    {
+      "basename": "1. Hardware & OS Setup - RPI 3",
+      "path": "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md"
+    },
+    {
+      "basename": "Self_hosting_threat_model_simple",
+      "path": "Excalidraw/Self_hosting_threat_model_simple.md"
+    },
+    {
+      "basename": "4. Exposition & Networking",
+      "path": "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md"
+    },
+    {
+      "basename": "3. Networking Refresher",
+      "path": "Secure Database Exposition/Project Workspace/3. Networking Refresher.md"
+    },
+    {
+      "basename": "Drawing 2023-12-01 16.33.48.excalidraw",
+      "path": "Excalidraw/Drawing 2023-12-01 16.33.48.excalidraw.md"
+    },
+    {
+      "basename": "0. Introduction - Purpose, Design",
+      "path": "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md"
+    },
+    {
       "basename": "Related Lists & Curations",
       "path": "Secure Database Exposition/Related Lists & Curations.md"
     },
     {
-      "basename": "5. Reconnaissance Tools",
-      "path": "Secure Database Exposition/Project Workspace/5. Reconnaissance Tools.md"
+      "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+      "path": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md"
     },
     {
       "basename": "1. Tech Stack & Architecture Design",
@@ -63,34 +111,6 @@
     {
       "basename": "2. Hardware & Infrastructure Initialization",
       "path": "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md"
-    },
-    {
-      "basename": "3. Networking Refresher",
-      "path": "Secure Database Exposition/Project Workspace/3. Networking Refresher.md"
-    },
-    {
-      "basename": "2. Application Setup - Containers, Postgres",
-      "path": "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md"
-    },
-    {
-      "basename": "1. Hardware & OS Setup - RPI 3",
-      "path": "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md"
-    },
-    {
-      "basename": "7. Risks of Insecure Exposition",
-      "path": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md"
-    },
-    {
-      "basename": "6. Comparing Exposition Approaches",
-      "path": "Secure Database Exposition/Project Workspace/6. Comparing Exposition Approaches.md"
-    },
-    {
-      "basename": "4. Exposition & Networking",
-      "path": "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md"
-    },
-    {
-      "basename": "5. Insecure Exposition",
-      "path": "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md"
     },
     {
       "basename": "Project Proposal - Postgres",
@@ -179,22 +199,6 @@
     {
       "basename": "IMG-20231021103000269",
       "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000269.png"
-    },
-    {
-      "basename": "IMG-20231021103000301",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000301.png"
-    },
-    {
-      "basename": "Misc",
-      "path": "Honey Accounts in Windows AD/Misc.md"
-    },
-    {
-      "basename": "Related Lists & Curations",
-      "path": "Honey Accounts in Windows AD/Related Lists & Curations.md"
-    },
-    {
-      "basename": "Journals Hierarchy - Research",
-      "path": "Journals Hierarchy - Research.md"
     }
   ],
   "omittedPaths": [],
