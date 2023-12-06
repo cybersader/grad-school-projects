@@ -28,3 +28,10 @@
 | Password | DOLabAdmin1!    |
 
 ##### C2 Server
+| Context  | Information     |
+| -------- | --------------- |
+| MSRDP    | 20.232.164.198  |
+| Username | doadmin|
+| Password | DOLabAdmin1!    |
+
+ssh doadmin@20.232.164.198

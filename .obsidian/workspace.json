@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6167d5927c181275",
+        "id": "6a0d602eb0ff5408",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "378394bfd399b435",
+            "id": "d9481d425264c085",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -19,48 +18,78 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "6. Recon Implementation",
+                  "title": "8.X SysInternals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/6. Recon Implementation.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":30},\"to\":{\"line\":85,\"ch\":30}},\"scroll\":37.83901515151515}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":152,\"ch\":0},\"to\":{\"line\":152,\"ch\":0}},\"scroll\":0.11548556430446194}"
                 },
                 {
-                  "title": "X1. Reconnaissance Tools",
+                  "title": "7.X PlumHound Report Examples",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":15.123639589232711}"
                 },
                 {
-                  "title": "7. Risks of Insecure Exposition",
+                  "title": "6.X - Bloodhound Examples",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":2.819629358257233}"
-                },
-                {
-                  "title": "X1. Reconnaissance Tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":140,\"ch\":214},\"to\":{\"line\":140,\"ch\":214}},\"scroll\":0}"
-                },
-                {
-                  "title": "7. Risks of Insecure Exposition",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "7.X PlumHound Report Examples",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "6.X - Bloodhound Examples",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "7.X PlumHound Report Examples",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "6.X - Bloodhound Examples",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":34.29728835978836}"
+                },
+                {
+                  "title": "6 - Bloodhound User Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":127},\"to\":{\"line\":42,\"ch\":127}},\"scroll\":59.1367672168469}"
+                },
+                {
+                  "title": "5 - Cyber Deception",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":18,\"ch\":67}},\"scroll\":0}"
+                },
+                {
+                  "title": "4.5 - Applying Research",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":144},\"to\":{\"line\":96,\"ch\":144}},\"scroll\":416.1058201058201}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "875853c5d15ac010",
+            "id": "98a59e72eba5682c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -68,51 +97,20 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "9. Comparing Exposition Approaches",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":5,\"ch\":2}}}"
-                },
-                {
-                  "title": "8. Other Exposition Methods & Approaches",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cefef07f3f49a37e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Self_hosting_threat_model_simple.md"
-              }
-            }
-          },
-          {
-            "id": "1f9cb189fdcb1520",
+            "id": "a8152ec5957edbd6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -122,24 +120,73 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "5. Reconnaissance Tools",
+                  "title": "0 - Notes & Parameters",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":43},\"to\":{\"line\":60,\"ch\":43}},\"scroll\":35.98511350949014}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":5.337516960651289}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a807151316de0db",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dad5da9403b7546",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.5 - Applying Research",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":377,\"ch\":54},\"to\":{\"line\":377,\"ch\":54}},\"scroll\":147.28598679383714}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -220,7 +267,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hostname",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,7 +301,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -279,7 +327,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +353,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +394,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
+                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
               }
             }
           },
@@ -405,48 +453,47 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "875853c5d15ac010",
+  "active": "4a807151316de0db",
   "lastOpenFiles": [
+    "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
+    "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206092009909.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206091914303.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206090456825.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206041231964.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040819389.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040816613.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040321134.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040156372.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040116453.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040011800.png",
+    "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
+    "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
+    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
+    "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
+    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
+    "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md",
+    "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md",
+    "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
+    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+    "Journals Hierarchy - Research.md",
+    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
+    "Honey Accounts in Windows AD/Project Content.md",
+    "Secure Database Exposition/Project Workspace/X2. More Resources.md",
+    "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md",
+    "Excalidraw/Self_hosting_threat_model_simple 1.md",
+    "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md",
+    "Excalidraw/Self_hosting_threat_model_simple.md",
+    "Secure Database Exposition/Project Workspace/X0. Presentation Outline.md",
     "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md",
     "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
     "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203234341841.png",
     "Secure Database Exposition/Project Workspace/6. Recon Implementation.md",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203234202527.png",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203233857992.png",
-    "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md",
-    "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203172659347.png",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203171102729.png",
-    "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203170124405.png",
-    "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203161550880.png",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203161532118.png",
-    "__attachments/Secure Database Exposition/Project Workspace/IMG-20231203153451979.png",
-    "Excalidraw/Self_hosting_threat_model_simple.md",
-    "__attachments/Excalidraw/IMG-20231203141620750.png",
-    "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md",
-    "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md",
-    "Secure Database Exposition/Project Workspace/3. Networking Refresher.md",
-    "Excalidraw/Drawing 2023-12-01 16.33.48.excalidraw.md",
-    "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md",
     "__attachments/Excalidraw",
     "Excalidraw",
     "__attachments/Secure Database Exposition/Project Workspace",
-    "Secure Database Exposition/Related Lists & Curations.md",
-    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
-    "Secure Database Exposition/Hosting Resources (misc).md",
-    "SIEM Framework/Project Workspace/1. Tech Stack & Architecture Design.md",
-    "Secure Database Exposition/Tech Stack, Architecture, Tools,.md",
-    "Secure Database Exposition/Self-Hosting Resources.md",
-    "Secure Database Exposition/self_hosting_architecture.excalidraw.md",
-    "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
-    "SIEM Framework/Project Workspace/8. Archival, Retention, & Restoration.md",
     "__attachments/Secure Database Exposition",
-    "SIEM Framework/Project Workspace/7. Observability & Data Quality.md",
-    "SIEM Framework/Project Workspace/6. Cost-Savings Estimations.md",
-    "SIEM Framework/Project Workspace/5. SIEM.md",
     "__attachments/SIEM Framework/Solution & Architecture Curation",
     "SIEM Framework/Solution & Architecture Curation",
     "__attachments/Honey Accounts in Windows AD/Complementary Research",

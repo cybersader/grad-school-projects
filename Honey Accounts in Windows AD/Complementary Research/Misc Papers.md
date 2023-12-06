@@ -53,6 +53,11 @@
 - [Advances in Password Recovery Using Generative Deep Learning Techniques | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-86365-4_2) 
 - [Modeling Password Guessability via Variational Auto-Encoder | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9437859) 
 - [No Single Silver Bullet: Measuring the Accuracy of Password Strength Meters | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-ding-silver-bullet)
+# Password Reuse
+- [A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords](https://www.usenix.org/system/files/usenixsecurity23-nisenoff-retrospective.pdf)
+
+# Password Creation
+- [[2309.03384] Measuring Website Password Creation Policies At Scale](https://arxiv.org/abs/2309.03384)
 # Password Spray 
 - searches:
 	- password spray site:usenix.org 
@@ -74,7 +79,7 @@
 
 # UEBA
 - ["My Privacy for their Security": Employees' Privacy Perspectives and Expectations when using Enterprise Security Software | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/stegman)
-	- The user and entity behavioural analytics (UEBA) may reveal the origins of data breaches in addition to reporting illegal or malicious actions undertaken by employees
+	- The user and entity behavioural analytics (UEBA) may reveal the origins of data breaches in addition to reporting illegal or malicious actions undertaken by employees.  However, it has a dilemma just like with entity resolution
 - [[2111.11475] Threat Modeling and Security Analysis of Containers: A Survey](https://arxiv.org/abs/2111.11475) 
 	- By exploiting vulnerability V1 listed in section 3.2, the attacker can gain access to a developer’s credential in the GitHub repo at DS-1 and to embed malware into the code. Some techniques to "steal" credentials are through spearphishing email, password-spraying, brute force, scraping published credentials in repositories
 - [Locking the door: tackling credential abuse - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1353485821000301)

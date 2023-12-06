@@ -196,4 +196,3 @@ union Event, SecurityEvent
 
 - [May 2023 - Difference between Log Analytics and Monitor - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/azure-observability/difference-between-log-analytics-and-monitor/m-p/1290086)
 	- ![](IMG-20231118201916533.png)
-

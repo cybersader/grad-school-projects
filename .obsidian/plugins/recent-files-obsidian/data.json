@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "10. Other Network Defenses",
-      "path": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
+      "basename": "4.5 - Applying Research",
+      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+    },
+    {
+      "basename": "X1. Presentation Outline",
+      "path": "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md"
+    },
+    {
+      "basename": "10.X Password Spray",
+      "path": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md"
+    },
+    {
+      "basename": "4 - Azure Sentinel (Log Analytics) SIEM",
+      "path": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md"
+    },
+    {
+      "basename": "8.X Impacket",
+      "path": "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md"
+    },
+    {
+      "basename": "0 - Notes & Parameters",
+      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
+    },
+    {
+      "basename": "9.X SysInternals",
+      "path": "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md"
+    },
+    {
+      "basename": "5 - Cyber Deception",
+      "path": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
+    },
+    {
+      "basename": "7.X PlumHound Report Examples",
+      "path": "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md"
+    },
+    {
+      "basename": "6.X - Bloodhound Examples",
+      "path": "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md"
+    },
+    {
+      "basename": "6 - Bloodhound User Interface",
+      "path": "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md"
+    },
+    {
+      "basename": "Misc Papers",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
+    },
+    {
+      "basename": "Journals Hierarchy - Research",
+      "path": "Journals Hierarchy - Research.md"
+    },
+    {
+      "basename": "Password Research and Stuff",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
+    },
+    {
+      "basename": "Project Content",
+      "path": "Honey Accounts in Windows AD/Project Content.md"
+    },
+    {
+      "basename": "X2. More Resources",
+      "path": "Secure Database Exposition/Project Workspace/X2. More Resources.md"
+    },
+    {
+      "basename": "X4. Post-Presentation Questions",
+      "path": "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md"
+    },
+    {
+      "basename": "Self_hosting_threat_model_simple 1",
+      "path": "Excalidraw/Self_hosting_threat_model_simple 1.md"
+    },
+    {
+      "basename": "0. Introduction - Purpose, Design",
+      "path": "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md"
+    },
+    {
+      "basename": "Self_hosting_threat_model_simple",
+      "path": "Excalidraw/Self_hosting_threat_model_simple.md"
+    },
+    {
+      "basename": "X0. Presentation Outline",
+      "path": "Secure Database Exposition/Project Workspace/X0. Presentation Outline.md"
     },
     {
       "basename": "9. Comparing Exposition Approaches",
@@ -21,12 +101,12 @@
       "path": "Secure Database Exposition/Project Workspace/6. Recon Implementation.md"
     },
     {
-      "basename": "X1. Reconnaissance Tools",
-      "path": "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md"
-    },
-    {
       "basename": "5. Insecure Exposition",
       "path": "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md"
+    },
+    {
+      "basename": "4. Exposition & Networking",
+      "path": "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md"
     },
     {
       "basename": "2. Application Setup - Containers, Postgres",
@@ -37,28 +117,32 @@
       "path": "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md"
     },
     {
-      "basename": "Self_hosting_threat_model_simple",
-      "path": "Excalidraw/Self_hosting_threat_model_simple.md"
-    },
-    {
-      "basename": "4. Exposition & Networking",
-      "path": "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md"
+      "basename": "10. Other Network Defenses",
+      "path": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
     },
     {
       "basename": "3. Networking Refresher",
       "path": "Secure Database Exposition/Project Workspace/3. Networking Refresher.md"
     },
     {
-      "basename": "Drawing 2023-12-01 16.33.48.excalidraw",
-      "path": "Excalidraw/Drawing 2023-12-01 16.33.48.excalidraw.md"
-    },
-    {
-      "basename": "0. Introduction - Purpose, Design",
-      "path": "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md"
+      "basename": "Project Proposal - Postgres",
+      "path": "Secure Database Exposition/Project Proposal - Postgres.md"
     },
     {
       "basename": "Related Lists & Curations",
       "path": "Secure Database Exposition/Related Lists & Curations.md"
+    },
+    {
+      "basename": "X3. Subnetting, Port Forwarding, NAT",
+      "path": "Secure Database Exposition/Project Workspace/X3. Subnetting, Port Forwarding, NAT.md"
+    },
+    {
+      "basename": "X1. Reconnaissance Tools",
+      "path": "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md"
+    },
+    {
+      "basename": "Drawing 2023-12-01 16.33.48.excalidraw",
+      "path": "Excalidraw/Drawing 2023-12-01 16.33.48.excalidraw.md"
     },
     {
       "basename": "SIEM, Visibility, and Event-Driven Architecture Solutions",
@@ -79,10 +163,6 @@
     {
       "basename": "self_hosting_architecture.excalidraw",
       "path": "Secure Database Exposition/self_hosting_architecture.excalidraw.md"
-    },
-    {
-      "basename": "4.5 - Applying Research",
-      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
     },
     {
       "basename": "8. Archival, Retention, & Restoration",
@@ -113,92 +193,12 @@
       "path": "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md"
     },
     {
-      "basename": "Project Proposal - Postgres",
-      "path": "Secure Database Exposition/Project Proposal - Postgres.md"
-    },
-    {
       "basename": "Curated Papers, Research, Content, Tools",
       "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
     },
     {
-      "basename": "Misc Papers",
-      "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
-    },
-    {
       "basename": "Data Architecting & Engineering Terminology",
       "path": "SIEM Framework/Solution & Architecture Curation/Data Architecting & Engineering Terminology.md"
-    },
-    {
-      "basename": "Project Proposal - SIEM Framework",
-      "path": "SIEM Framework/Project Proposal - SIEM Framework.md"
-    },
-    {
-      "basename": "Password Research and Stuff",
-      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
-    },
-    {
-      "basename": "Tech Stack, Architecture, Tools",
-      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
-    },
-    {
-      "basename": "2 - Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
-    },
-    {
-      "basename": "0 - Notes & Parameters",
-      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
-    },
-    {
-      "basename": "5 - Cyber Deception",
-      "path": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
-    },
-    {
-      "basename": "4 - Azure Sentinel (Log Analytics) SIEM",
-      "path": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md"
-    },
-    {
-      "basename": "SIEM_framework_2023",
-      "path": "SIEM Framework/SIEM_framework_2023.md"
-    },
-    {
-      "basename": "3 - Domain Pollution",
-      "path": "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md"
-    },
-    {
-      "basename": "1 - Azure AD Sys Admin",
-      "path": "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md"
-    },
-    {
-      "basename": "Project Content",
-      "path": "Honey Accounts in Windows AD/Project Content.md"
-    },
-    {
-      "basename": "Project Content",
-      "path": "SIEM Framework/Project Content.md"
-    },
-    {
-      "basename": "IMG-20231013155729213",
-      "path": "SIEM Framework/IMG-20231013155729213.png"
-    },
-    {
-      "basename": "IMG-20231021103001037",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001037.png"
-    },
-    {
-      "basename": "IMG-20231021103000263",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000263.png"
-    },
-    {
-      "basename": "IMG-20231021103001034",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001034.png"
-    },
-    {
-      "basename": "IMG-20231021103001012",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103001012.png"
-    },
-    {
-      "basename": "IMG-20231021103000269",
-      "path": "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231021103000269.png"
     }
   ],
   "omittedPaths": [],
