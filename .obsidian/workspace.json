@@ -87,106 +87,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "98a59e72eba5682c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8152ec5957edbd6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "0 - Notes & Parameters",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":5.337516960651289}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a807151316de0db",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dad5da9403b7546",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "4.5 - Applying Research",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":377,\"ch\":54},\"to\":{\"line\":377,\"ch\":54}},\"scroll\":147.28598679383714}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3,
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -327,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -353,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md"
               }
             }
           },
@@ -453,11 +354,19 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "4a807151316de0db",
+  "active": "d9481d425264c085",
   "lastOpenFiles": [
-    "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
+    "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
+    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
     "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+    "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
     "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
+    "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md",
+    "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md",
+    "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
+    "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
+    "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
+    "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206092009909.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206091914303.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206090456825.png",
@@ -468,14 +377,7 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040156372.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040116453.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040011800.png",
-    "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
-    "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
     "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
-    "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
-    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
-    "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md",
-    "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md",
-    "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
     "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
     "Journals Hierarchy - Research.md",
     "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
