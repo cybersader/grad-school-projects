@@ -12,8 +12,8 @@
 - [Threat-Hunting-and-Detection/Credential Access/Password Spray.md at 7866d9e9c59212cf7cc2da52d012199af6c64dbe · Cyb3r-Monk/Threat-Hunting-and-Detection](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection/blob/7866d9e9c59212cf7cc2da52d012199af6c64dbe/Credential%20Access/Password%20Spray.md?plain=1) 
 - [AzureAD-Attack-Defense/PasswordSpray.md at f862468fc19bf7f67ace5ee75e50ad516525f870 · Cloud-Architekt/AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/blob/f862468fc19bf7f67ace5ee75e50ad516525f870/PasswordSpray.md?plain=1) 
 - [Azure_Active_Directory/Log Analytics/Password Spray KQL at 4ca4a72f73ca4847863a6e7ece866c02b2d87d8f · chadmcox/Azure_Active_Directory](https://github.com/chadmcox/Azure_Active_Directory/blob/4ca4a72f73ca4847863a6e7ece866c02b2d87d8f/Log%20Analytics/Password%20Spray%20KQL) 
-- [AzureAD-Attack-Defense/PasswordSpray.md at 9cf7a942d1a0395098b0002664c8e11fcc1198f0 · mosesrenegade/AzureAD-Attack-Defense](https://github.com/mosesrenegade/AzureAD-Attack-Defense/blob/9cf7a942d1a0395098b0002664c8e11fcc1198f0/PasswordSpray.md?plain=1#L50) 
-- [Sentinel_KQL/Queries/Azure AD Identity Protection/Multiple-Password Spray.kql at 8b3dc8c195140c6c97162d7b022ebaba8965b43a · ep3p/Sentinel_KQL](https://github.com/ep3p/Sentinel_KQL/blob/8b3dc8c195140c6c97162d7b022ebaba8965b43a/Queries/Azure%20AD%20Identity%20Protection/Multiple-Password%20Spray.kql#L6) 
+- [https://github.com/mosesrenegade/AzureAD-Attack-Defense/blob/9cf7a942d1a0395098b0002664c8e11fcc1198f0/PasswordSpray.md?plain=1 > L50](https://github.com/mosesrenegade/AzureAD-Attack-Defense/blob/9cf7a942d1a0395098b0002664c8e11fcc1198f0/PasswordSpray.md?plain=1#L50) 
+- [https://github.com/ep3p/Sentinel_KQL/blob/8b3dc8c195140c6c97162d7b022ebaba8965b43a/Queries/Azure AD Identity Protection/Multiple-Password Spray.kql > L6](https://github.com/ep3p/Sentinel_KQL/blob/8b3dc8c195140c6c97162d7b022ebaba8965b43a/Queries/Azure%20AD%20Identity%20Protection/Multiple-Password%20Spray.kql#L6) 
 - 
 ### Sigma
 - [Password Spraying via Explicit Credentials | Detection.FYI](https://detection.fyi/sigmahq/sigma/unsupported/windows/win_security_susp_failed_logons_explicit_credentials/) 
@@ -59,7 +59,7 @@ level: medium
 - [Password Spraying Attack | OWASP Foundation](https://owasp.org/www-community/attacks/Password_Spraying_Attack)
 ### Main Tooling
 - [dafthack/DomainPasswordSpray: DomainPasswordSpray is a tool written in PowerShell to perform a password spray attack against users of a domain. By default it will automatically generate the userlist from the domain. BE VERY CAREFUL NOT TO LOCKOUT ACCOUNTS!](https://github.com/dafthack/DomainPasswordSpray)
-	- ![IMG-20231120090525171](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120090525171.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120090525171.png)
 ### Additional Password Spray Tools
 - [ustayready/fireprox: AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation](https://github.com/ustayready/fireprox) 
 # Mitre Techniques - ATT&CK, D3FEND
@@ -68,13 +68,13 @@ level: medium
 - ["T1110.003" - Google Scholar](https://scholar.google.com/scholar?start=0&q=%22T1110.003%22&hl=en&as_sdt=0,15&as_ylo=2019) 
 
 - https://d3fend.mitre.org/offensive-technique/attack/T1110.003/ 
-	- ![IMG-20231120083026709](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083026709.png)
-	- ![IMG-20231120083717297](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083717297.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083026709.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083717297.png)
 - https://attack.mitre.org/techniques/T1110/003/
 	- APTs
-		- ![IMG-20231120083956763](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083956763.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083956763.png)
 	- Mitigations and Detection
-		- ![IMG-20231120084013746](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120084013746.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120084013746.png)
 
 ## Wordlist Generation for Password Spraying
 - https://www.horizon3.ai/the-unreasonable-effectiveness-of-password-spray/

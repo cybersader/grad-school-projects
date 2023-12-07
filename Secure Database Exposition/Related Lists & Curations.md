@@ -28,7 +28,7 @@ f# Recon Curations
 # Networking to Remote & Self-Hosted Servers
 - Curated Lists
 	- [anderspitman/awesome-tunneling: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.](https://github.com/anderspitman/awesome-tunneling) 
-	- [mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.](https://github.com/mikeroyal/Self-Hosting-Guide#vpn) 
+	- [https://github.com/mikeroyal/Self-Hosting-Guide > vpn](https://github.com/mikeroyal/Self-Hosting-Guide#vpn) 
 	- [What are some simple beginner friendly network security practices when self hosting? : r/selfhosted](https://www.reddit.com/r/selfhosted/comments/13tkkyt/what_are_some_simple_beginner_friendly_network/) 
 	- [awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted) 
 - 
@@ -42,7 +42,7 @@ f# Recon Curations
 - ORY Stuff
 	- [ORY Oathkeeper](https://github.com/ory/oathkeeper) is an Identity & Access Proxy (IAP) and Access Control Decision API that authorizes HTTP requests based on sets of Access Rules.
 	- [Ory Kratos](https://github.com/ory/kratos) is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similiar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless.
-	- [Ory Hydra](https://github.com/ory/hydra) is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [login and consent app](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
+	- [Ory Hydra](https://github.com/ory/hydra) is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [https://www.ory.sh/docs/hydra/oauth2 > authenticating-users-and-requesting-consent](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
 	- [Ory Keto](https://github.com/ory/keto) is an Open Source (Go) implementation of [Zanzibar: Google's Consistent, Global Authorization System](https://research.google/pubs/pub48190/). It ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
 - [Tailscale · Best VPN Service for Secure Networks](https://tailscale.com/) - a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an overlay network between the computers of your networks using all kinds of NAT traversal sorcery.
 	- [Headscale](https://github.com/juanfont/headscale) - open source, self-hosted implementation of the Tailscale coordination server.

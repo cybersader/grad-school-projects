@@ -7,19 +7,19 @@
       "key": "`"
     }
   ],
-  "obsidian-link-converter:convert-wikis-to-md-in-active-file": [
+  "consistent-attachments-and-links:convert-all-embed-paths-to-relative": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
         "Shift"
       ],
       "key": "R"
     }
   ],
-  "obsidian-link-converter:convert-wikis-to-mdlinks-within-selection": [
+  "consistent-attachments-and-links:convert-all-link-paths-to-relative": [
     {
       "modifiers": [
+        "Alt",
         "Mod",
         "Shift"
       ],

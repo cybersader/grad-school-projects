@@ -23,7 +23,7 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 This should not return any errors or related warnings.
 
-![](IMG-20231205233218551.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205233218551.png)
 
 # BloodHoundAD: Download and Start
 Next, you are going to gather the BloodHound release archive that has been tested and validated in the ARM template lab environment.
@@ -57,7 +57,7 @@ Change the default connection URL to the following (neo4j on Linux system):
 bolt://10.0.0.8:7687
 ```
 
-![](IMG-20231205234239922.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205234239922.png)
 
 If you do not have a green check-mark on your Neo4J Bolt connection, see the next step:
 

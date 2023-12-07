@@ -24,8 +24,8 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 ```
 
 - Results
-	- ![](IMG-20231118203854173.png)
-	- ![](IMG-20231118212605622.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118203854173.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118212605622.png)
 
 # Create Controlled Objects
 
@@ -40,7 +40,7 @@ Next, we will create a second account that we will use create a password spray d
  New-ADUser -UserPrincipalName Heloise.Brinn@doazlab.com -Path "OU=DomainUsers,dc=doazlab,DC=com" -GivenName "Heloise" -Surname "Brinn" -Enabled 1 -Name "Heloise.Brinn" -desc "Chief Executive" -office "Boardroom" -title "CEO" -company "DevLabs" -AccountPassword (ConvertTo-SecureString "Winter2022!" -AsPlainText -Force) -Credential $Cred
 ```
 
-![](IMG-20231205230704216.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205230704216.png)
 # Deploy-Deception: Download Toolkit
 Next we will download the Deploy-Deception tool pack and import the PowerShell module..
 ```powershell
@@ -64,7 +64,7 @@ Set-ExecutionPolicy bypass -Force
 Import-Module .\Deploy-Deception.ps1
 ```
 
-![](IMG-20231205231030040.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231030040.png)
 # Deploy-Deception: Command Syntax
 **NOTE:** There is a complete listing of options available for the Deploy-UserDeception toolkit. Running this command will take a minute or two and is not required for the lab.
 
@@ -79,13 +79,13 @@ When ReadProperty (any property) is used against the decoy, EID [4662](https://
 Create-DecoyUser -UserFirstName DOLabs -UserLastName AnyRead -Password Password1! | Deploy-UserDeception -UserFlag PasswordNeverExpires -Verbose
 ```
 
-![](IMG-20231205231127291.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231127291.png)
 
 ```powershell
 Get-ADUser -Identity DOLabsAnyRead -Properties "ObjectGuid"
 ```
 
-![](IMG-20231205231152798.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231152798.png)
 
 ObjectGUID:
 ```
@@ -101,7 +101,7 @@ The next command creates a decoy user whose password never expires and a [4662]
 Create-DecoyUser -UserFirstName DOLabs -UserLastName ADEx -Password Password1! | Deploy-UserDeception -UserFlag PasswordNeverExpires -Verbose
 ```
 
-![](IMG-20231205231516533.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231516533.png)
 
 Create a decoy user named DOLabsDA and make it a member of the Domain Admins group. As a protection against potential abuse, Deny logon to the user on any machine. Please be aware that if another DA gets compromised the DenyLogon setting can be removed.
 
@@ -111,7 +111,7 @@ If there is any attempt to use the user credentials (password or hashes) a [476
 Create-DecoyUser -UserFirstName DOLabs -UserLastName DA -Password SbaladodPassword1! -Verbose | Deploy-PrivilegedUserDeception -Technique DomainAdminsMemebership -Verbose
 ```
 
-![](IMG-20231205231537270.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231537270.png)
 
 Remember, we may use the objectGUID in a detection later. While you will see these commands again later, we are setting you up to be confident in gathering these strings for use in your own AD environments.
 
@@ -121,7 +121,7 @@ Your output will differ. The GUID creation process is not predictable. Every dom
 Get-ADUser -Identity DOLabsDA -Properties "ObjectGuid"
 ```
 
-![](IMG-20231205231712480.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231712480.png)
 
 ObjectGUID:
 ```
@@ -134,7 +134,7 @@ Deploy-PrivilegedUserDeception -DecoySamaccountName dolabssync -Technique DCSync
 Set-ADUser -Identity dolabssync -LogonWorkStations nonexistent
 ```
 
-![](IMG-20231205231905628.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205231905628.png)
 # Deploy-Deception: Deploy-ComputerDeception
 This function sets up auditing when a specified Right is used by a specified principal against the decoy computer object. Creates a decoy computer that has Unconstrained Delegation enabled and a [4662](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4662) is logged whenever x500uniqueIdentifier property or all the properties of the computer are read.
 
@@ -144,7 +144,7 @@ Create-DecoyComputer -ComputerName Win2K8-Citrix -Verbose | Deploy-ComputerDecep
 Create-DecoyComputer -ComputerName Win2K8-TS01 -Verbose | Deploy-ComputerDeception -PropertyFlag TrustedForDelegation -Verbose
 ```
 
-![](IMG-20231205232149867.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232149867.png)
 # Validate Decoys
 Check on the accounts we created:
 
@@ -158,7 +158,7 @@ ObjectGUID:
 387234eb-cc19-4845-bdf5-4b724ee7bdb3
 ```
 
-![](IMG-20231205232246953.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232246953.png)
 
 
 ```powershell
@@ -171,7 +171,7 @@ ObjectGUID:
 d57b080e-528a-4bf4-924a-d11ad74cb044
 ```
 
-![](IMG-20231205232344050.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232344050.png)
 
 
 ```powershell
@@ -184,7 +184,7 @@ ObjectGUID:
 a2987e94-a3c0-4742-ba4e-c0051bd605ec
 ```
 
-![](IMG-20231205232442371.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232442371.png)
 
 
 ```powershell
@@ -197,7 +197,7 @@ ObjectGUID:
 9fbb1139-7db5-4737-b970-a8a7c8f970a1
 ```
 
-![](IMG-20231205232528026.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232528026.png)
 
 
 ```powershell
@@ -210,7 +210,7 @@ ObjectGUID:
 684fce5a-1bb5-4c7f-ad40-3d88b4300cfd
 ```
 
-![](IMG-20231205232622407.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232622407.png)
 # Hacker Bait
 This next account will be used to entice attackers through potentially interesting items stored in the user's "desc" attribute. You will be prompted for authentication.
 
@@ -218,7 +218,7 @@ This next account will be used to entice attackers through potentially interesti
 New-ADUser -UserPrincipalName ELLA_MEJIA@doazlab.com -Path "ou=DomainUsers,dc=doazlab,dc=com" -Server doazlab.com -GivenName "Ella" -Surname "Mejia" -Enabled 1 -Name "ELLA_MEJIA" -desc "Just so I dont forget my password is Yzafqau7r3EQdrdw!#Eiunp" -office "Oort Cloud" -PasswordNeverExpires $true -title "Lead Investigator" -LogonWorkstations "win2k3-dev.doazlab.com" -company "DevLabs" -AccountPassword (ConvertTo-SecureString "Yzafqau7r3EQdrdw!#Eiunp" -AsPlainText -Force) -Credential $Cred
 ```
 
-![](IMG-20231205232735285.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232735285.png)
 
 ```powershell
 Get-AdUser -Identity ella_mejia -Properties description
@@ -229,4 +229,4 @@ ObjectGUID:
 4efaf737-fc2a-4a61-9bec-c75f421b004b
 ```
 
-![](IMG-20231205232808645.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231205232808645.png)

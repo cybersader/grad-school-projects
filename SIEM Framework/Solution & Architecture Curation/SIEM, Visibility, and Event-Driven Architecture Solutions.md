@@ -12,9 +12,9 @@
 # Curated Solutions
 ## Research & Consulting
 - SIEM Matrices
-	- ![](IMG-20231108213438736.png)
+	- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231108213438736.png)
 ## Curated Lists
-- [correlatedsecurity/Awesome-SOAR: A curated Cyber "Security Orchestration, Automation and Response (SOAR)" awesome list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
+- [[SOAR)" awesome list.](SOAR)"%20awesome%20list.](https://github.com/correlatedsecurity/Awesome-SOAR) 
 - https://github.com/meirwah/awesome-incident-response#playbooks 
 - https://github.com/Correia-jpv/fucking-awesome-incident-response#playbooks 
 - https://github.com/cyb3rxp/awesome-soc/blob/main/README.md 
@@ -41,7 +41,7 @@
 ### search terms
 - .
 ### Open-Source
-- [matanolabs/matano: Open source cloud-native security lake platform (SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](https://github.com/matanolabs/matano) 
+- [[SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](SIEM%20alternative)%20for%20threat%20hunting,%20detection%20&%20response,%20and%20cybersecurity%20analytics%20at%20petabyte%20scale%20on%20AWS](https://github.com/matanolabs/matano) 
 - [TheHive Project](http://thehive-project.org/) 
 	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azuresentinel.azure-sentinel-solution-thehive?tab=Overview) 
 - Graylog- User-friendly interface and powerful log management and analysis features. It offers easy log centralization, analysis, and alerting capabilities. : https://graylog.org/
@@ -75,7 +75,7 @@
 - [Devo: Cloud-Native Integrated SIEM | SOAR | UEBA | AI Solution](https://www.devo.com/)
 - [Hunters SOC Platform: SIEM Alternative | Automate Detection & Response](https://www.hunters.security/) 
 - [Comodo NxSIEM | Security Information and Event](https://www.nxsiem.com/) 
-- [Intelligent Security Operations Platform (ISOP) | NSFOCUS](https://nsfocusglobal.com/products/intelligent-security-operations-platform-isop/) 
+- [[ISOP) | NSFOCUS](ISOP)) 
 - [LogRhythm SIEM Security & SOC Services | Cloud & Self-Hosted](https://logrhythm.com/) 
 - [Trellix | Revolutionary Threat Detection and Response](https://www.trellix.com/en-sg/)
 - [Security Analytics | Datadog](https://www.datadoghq.com/solutions/security-analytics/) 
@@ -106,7 +106,7 @@
 	- [Dremio | The Easy and Open Data Lakehouse Platform](https://www.dremio.com/) 
 	- Microsoft Fabric
 		- [Data Analytics | Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) 
-		- [What is Microsoft Fabric (Public Preview)? - YouTube](https://www.youtube.com/watch?v=-f0XIVEP7bE) 
+		- [[Public Preview)? - YouTube](Public%20Preview)?%20-%20YouTube](https://www.youtube.com/watch?v=-f0XIVEP7bE) 
 		- Azure Synapse
 			- [Secure a data lakehouse on Synapse - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/secure-data-lakehouse-synapse) 
 			- [Azure Synapse Analytics | Microsoft Azure](https://azure.microsoft.com/en-us/products/synapse-analytics/?ef_id=_k_CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE_k_&OCID=AIDcmm5edswduu_SEM__k_CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE_k_&gad=1&gclid=CjwKCAjw-eKpBhAbEiwAqFL0mq1U7WMBFCbbVpJUnMUT0o93peXfbkcUf9jg9ptLtYxMWzShRY8UtRoCZ7UQAvD_BwE) 
@@ -135,22 +135,22 @@
 	- [Albato — a single no-code platform for all automations](https://albato.com/) 
 	- [Celigo: A New Approach to Integration and Automation](https://www.celigo.com/) 
 	- https://github.com/huginn/huginn 
-	- [Azure Logic Apps (Microsoft)](https://azure.microsoft.com/en-us/services/logic-apps/)
+	- [[Microsoft)](Microsoft)](https://azure.microsoft.com/en-us/services/logic-apps/)
 	- [WayScript](https://github.com/wayscript)
-	- [Try Diagram - The most complete Nocode API builder](https://www.ondiagram.com/#features) 
+	- [https://www.ondiagram.com/ > features](https://www.ondiagram.com/#features) 
 	- ESB
 		- [Anypoint Platform](https://www.mulesoft.com/platform/enterprise-integration) - A comprehensive API management and integration platform that simplifies connecting applications from Mulesoft.
 		- [Apache ServiceMix](https://servicemix.apache.org/) - An open-source integration container that combines the functionality of Apache ActiveMQ, Camel, CXF, and Karaf, providing a flexible solution.
 		- [ArcESB](https://www.arcesb.com/integration/) - A versatile integration platform that seamlessly synchronizes data across applications, integrates with partners, and provides data accessibility.
 		- [IBM App Connect](https://www.ibm.com/cloud/app-connect) - An integration platform that can connect applications, irrespective of the message formats or protocols they use, formerly known as IBM Integration Bus.
-		- [NServiceBus (⭐1.9k)](https://github.com/Particular/NServiceBus) - A .NET-based service bus that offers an intuitive developer-friendly environment.
+		- [[⭐1.9k)](⭐1.9k)](https://github.com/Particular/NServiceBus) - A .NET-based service bus that offers an intuitive developer-friendly environment.
 		- [Oracle Service Bus](https://www.oracle.com/middleware/technologies/service-bus.html) - An integration platform that connects, virtualizes, and manages interactions between services and applications.
 		- [Oracle SOA Suite](https://www.oracle.com/middleware/technologies/soasuite.html) - A platform that enables system developers to set up and manage services and to orchestrate them into composite applications and business processes.
 		- [Red Hat Fuse](https://www.redhat.com/en/technologies/jboss-middleware/fuse) - A cloud-native integration platform that supports distributed integration capabilities.
 		- [Software AG webMethods Integration Server](https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html) - An integration platform that enables faster integration of any application.
 		- [TIBCO BusinessWorks](https://www.tibco.com/products/tibco-businessworks) - A platform that implements enterprise patterns for hybrid integrations.
 		- [UltraESB](https://www.adroitlogic.com/products/ultraesb/) - An ESB that supports zero-copy proxying for extreme performance utilizing Direct Memory Access and Non-Blocking IO.
-		- [WSO2 Enterprise Integrator (⭐352)](https://github.com/wso2/product-ei) - An API-centric, cloud-native, and distributed integration platform designed to provide a robust solution for software engineers.
+		- [[⭐352)](⭐352)](https://github.com/wso2/product-ei) - An API-centric, cloud-native, and distributed integration platform designed to provide a robust solution for software engineers.
 	- https://github.com/stn1slv/awesome-integration#ipaas 
 		- [Anypoint Platform](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) - A powerful integration platform that combines API management and integration capabilities in a single platform, enabling software engineers to integrate various applications with ease.
 		- [Boomi AtomSphere](https://boomi.com/platform) - A cloud-native, unified, open, and intelligent platform that connects everything and everyone, allowing software engineers to create and manage integrations easily.
@@ -197,9 +197,9 @@
 - [SIRP SOAR Platform: Security Automation at Lightning Speed](https://www.sirp.io/) 
 - [Chronicle | Suite | SOAR](https://chronicle.security/suite/soar/) 
 - [Devo SOAR -](https://www.devo.com/resources/solution-brief/devo-soar/) 
-- [Top Security Orchestration and Response (SOAR) Software](https://www.fortinet.com/products/fortisoar) 
+- [[SOAR) Software](SOAR)%20Software](https://www.fortinet.com/products/fortisoar) 
 - [IBM Security QRadar SOAR](https://www.ibm.com/products/qradar-soar)
-- [What is SOAR (Security Orchestration, Automation, and Response) - Service Now](https://www.servicenow.com/products/security-operations/what-is-soar.html) 
+- [[Security Orchestration, Automation, and Response) - Service Now](Security%20Orchestration,%20Automation,%20and%20Response)%20-%20Service%20Now](https://www.servicenow.com/products/security-operations/what-is-soar.html) 
 - [AI Enabled Security Automation, SOC Automation, SOAR](https://swimlane.com/) 
 - [Streamlined and Converged Cyber Security - Logpoint](https://www.logpoint.com/en/) 
 - 
@@ -247,7 +247,7 @@
 - [A Turbulent Year: The 2019 Data & AI Landscape – Matt Turck](https://mattturck.com/data2019/)
 	- ![](https://allcloud.io/wp-content/uploads/2020/05/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize-e1590324773525.png)
 - [Resilience and Vibrancy: The 2020 Data & AI Landscape – Matt Turck](https://mattturck.com/data2020/)
-- [Red Hot: The 2021 Machine Learning, AI and Data (MAD) Landscape – Matt Turck](https://mattturck.com/data2021/)
+- [[MAD) Landscape – Matt Turck](MAD)%20Landscape%20–%20Matt%20Turck](https://mattturck.com/data2021/)
 	- ![](https://mattturck.com/wp-content/uploads/2021/12/Data-and-AI-Landscape-2021-v3-small-1200x621.jpg)
 - 
 ### Data Pipeline Architecture

@@ -8,7 +8,7 @@
 # IAM
 ## Azure Entra ID (f.k.a Azure AD)
 - [Microsoft Entra Plans and Pricing | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing) 
-	- [Home - Microsoft Entra admin center](https://entra.microsoft.com/?culture=en-us&country=us#home) 
+	- [https://entra.microsoft.com/?culture=en-us&country=us > home](https://entra.microsoft.com/?culture=en-us&country=us#home) 
 ## AD Pollution
 - 
 # Detections, SIEM
@@ -34,11 +34,11 @@
 - [WeakPass](https://weakpass.com/) - Collection of large wordlists.
 ## Wordlist Generation
 - Misc, Curations, Lists
-	- [n0kovo/awesome-password-cracking: A curated list of awesome tools, research, papers and other projects related to password cracking and password security.](https://github.com/n0kovo/awesome-password-cracking#wordlists)
+	- [https://github.com/n0kovo/awesome-password-cracking > wordlists](https://github.com/n0kovo/awesome-password-cracking#wordlists)
 - Explicitly Defined, Mangling, Permutative
 	- [sc0tfree/mentalist: Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.](https://github.com/sc0tfree/mentalist) 
 	- [edoardottt/longtongue: Customized Password/Passphrase List inputting Target Info](https://github.com/edoardottt/longtongue)
-	- [sec-it/ComPP: Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.](https://github.com/sec-it/ComPP) 
+	- [[aka ComPP) helps making a bruteforce wordlist for a targeted company.](aka%20ComPP)%20helps%20making%20a%20bruteforce%20wordlist%20for%20a%20targeted%20company.](https://github.com/sec-it/ComPP) 
 	- 
 - AI-Based
 	- [ACM-Research/targeted-password-guesses: We refined a GPT-3 model on Wattpad user account data to generate targeted password guesses automatically.](https://github.com/ACM-Research/targeted-password-guesses) 

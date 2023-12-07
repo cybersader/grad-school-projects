@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8f9f5c4ab0f71f6",
+            "id": "050076b509d16ebc",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,20 +18,79 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "README",
+                  "title": "X4. Post-Presentation Questions",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":54},\"to\":{\"line\":11,\"ch\":54}}}"
+                },
+                {
+                  "title": "consistency-report",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"consistency-report.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "5 - Cyber Deception",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":131},\"to\":{\"line\":27,\"ch\":3}},\"scroll\":26.125956746173014}"
+                },
+                {
+                  "title": "4.5 - Applying Research",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":33},\"to\":{\"line\":61,\"ch\":33}},\"scroll\":60.23756105006105}"
+                },
+                {
+                  "title": "Password Research and Stuff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":68.0922619047619}"
+                },
+                {
+                  "title": "IMG-20231108213438736",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"__attachments/SIEM Framework/Solution & Architecture Curation/IMG-20231108213438736.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "IMG-20231013155729213",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"SIEM Framework/IMG-20231013155729213.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SIEM, Visibility, and Event-Driven Architecture Solutions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":130},\"to\":{\"line\":14,\"ch\":3}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "c45fdd70d6dfaa4a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -115,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "![](IMG-20231206005015576.png)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 326.5
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -174,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+                "file": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
               }
             }
           },
@@ -300,21 +359,33 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "a8f9f5c4ab0f71f6",
+  "active": "050076b509d16ebc",
   "lastOpenFiles": [
-    "README.md",
-    "__attachments/IMG-20231207163304775.png",
-    "Journals Hierarchy - Research.md",
-    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
-    "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
+    "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md",
+    "consistency-report.md",
     "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
     "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
+    "__attachments/SIEM Framework/Solution & Architecture Curation/IMG-20231108213438736.png",
+    "SIEM Framework/IMG-20231013155729213.png",
+    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Solutions.md",
+    "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md",
+    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
+    "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md",
+    "Honey Accounts in Windows AD/Project Workspace/1 - Azure AD Sys Admin.md",
+    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
+    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+    "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
     "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
+    "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
+    "README.md",
+    "__attachments/IMG-20231207163304775.png",
+    "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
+    "Journals Hierarchy - Research.md",
+    "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
     "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md",
     "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md",
-    "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
     "Honey Accounts in Windows AD/Project Workspace/4 - Azure Sentinel (Log Analytics) SIEM.md",
-    "Honey Accounts in Windows AD/Project Workspace/8.X Impacket.md",
     "Honey Accounts in Windows AD/Project Workspace/3 - Domain Pollution.md",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206092009909.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206091914303.png",
@@ -323,21 +394,8 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040819389.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040816613.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040321134.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040156372.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040116453.png",
-    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
-    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
-    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
     "Honey Accounts in Windows AD/Project Content.md",
     "Secure Database Exposition/Project Workspace/X2. More Resources.md",
-    "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md",
-    "Excalidraw/Self_hosting_threat_model_simple 1.md",
-    "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md",
-    "Excalidraw/Self_hosting_threat_model_simple.md",
-    "Secure Database Exposition/Project Workspace/X0. Presentation Outline.md",
-    "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md",
-    "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
-    "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
     "__attachments/Excalidraw",
     "Excalidraw",
     "__attachments/Secure Database Exposition/Project Workspace",

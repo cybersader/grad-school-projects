@@ -65,7 +65,7 @@
 	- password spray time series anomaly detection UEBA behavior user 
 	- password spray UEBA behavior user 
 
-- [Multi-Factor Key Derivation Function (MFKDF) for Fast, Flexible, Secure, & Practical Key Management | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/nair-mfkdf) 
+- [[MFKDF) for Fast, Flexible, Secure, & Practical Key Management | USENIX](MFKDF)%20for%20Fast,%20Flexible,%20Secure,%20&%20Practical%20Key%20Management) 
 	- However, the recent surge in **password**-based attacks like credential stuffing and **password** **spraying** has highlighted the critical weakness of **passwords** as a sole authentication factor.
 - [Gossamer: Securely Measuring Password-based Logins | USENIX](https://www.usenix.org/conference/usenixsecurity22/presentation/sanusi-bohuk)
 	- December 22nd, 2020, a total of 12 unique IPs belonging to Digital Ocean Cloud \[1\] carried out a high volume **password** **spraying** attack by targeting 76 K unique users with 169 K

@@ -10,29 +10,29 @@
 - Azure account relies on phone number for identity and address.  If possible, use prepaid phones, virtual credit cards, and fake or forwarding addresses.
 ### Step 2: Confirm Subscription
 - Check subscriptions to make sure it worked
-![400](IMG-20231029123356289.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029123356289.png)
 - One subscription
-	- ![](IMG-20231029123356294.png)
-	- ![](IMG-20231029123356296.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029123356294.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029123356296.png)
 # Azure Infrastructure Initialization
 ## Environment & Topology
 - 1 Attacker -> Azure AD Domain
 - DOAZ Lab Environment
 	- [Defensive Origins Lab Environment | DO-LAB](https://www.doazlab.com/) 
-	- ![](IMG-20231029123356298.png) 
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029123356298.png) 
 	- 
 ## Setup Lab Environment in Azure
 - [Defensive Origins Lab Environment | DO-LAB](https://www.doazlab.com/) 
 	- [DefensiveOrigins/DO-LAB](https://github.com/DefensiveOrigins/DO-LAB) - Defensive Origins Lab Environment is used within the Defensive Origins courses provided by Defensive Origins, AntiSyphon Security, and Black Hills Information Security.
 - Initialization of Azure Environment:
 	- Choosing subscription, resource group, and log analytics workspace.  
-		- ![500](IMG-20231029132234080.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029132234080.png)
 	- Creation of new resource group
 		- Choosing VMs
 			- B2s are the cheapest
-			- ![400](IMG-20231029132629552.png)
-			- ![400](IMG-20231029132948477.png)
-			- ![400](IMG-20231029133837375.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029132629552.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029132948477.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029133837375.png)
 		- Allow all IP addresses - 0.0.0.0/0
 ### Error in Deployment Template
 #### Fixing Windows Version Issue
@@ -49,32 +49,32 @@ The following list of images referenced from the deployment template are not fou
 		- **Preflight validation errors** occur when a deployment command is run but resources aren't deployed. These errors are found without starting the deployment. For example, if a parameter value is incorrect, the error is found in preflight validation.
 		- **Deployment errors** occur during the deployment process and can only be found by assessing the deployment's progress in your Azure environment.
 	- Installed [Visual Studio Code](https://code.visualstudio.com/) with the latest [Azure Resource Manager Tools extension](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools).
-		- ![400](IMG-20231029145342136.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029145342136.png)
 		- I can use this to make sure there's no big issues with the template immediately
 		- No immediate errors. Just a few warnings
-			- ![400](IMG-20231029150753256.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029150753256.png)
 	- Tried making sure Windows Server uses latest version
 		- DOAZ Lab azuredeploy.json > Sentinel2Go
 			- DO-LAB/Sentinel2Go/azuredeploy.json
-				- ![400](IMG-20231029155332141.png)
+				- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029155332141.png)
 	- Trying to find the issue from Azure CLI
 		- Installed Azure PS - [Install Azure PowerShell on Windows | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-10.4.1&tabs=windowspowershell&pivots=windows-psgallery) 
-			- ![400](IMG-20231029161914473.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029161914473.png)
 		- Run "az login" to login
 		- Create resource group
-			- ![400](IMG-20231029161252305.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029161252305.png)
 		- Deploy ARM template
-			- ![500](IMG-20231029162317796.png)
+			- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029162317796.png)
 	- Didn't work - trying to manually edit links in templates
-		- [Deploy to Azure button - Azure Resource Manager | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button#template-stored-in-github) 
+		- [https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button > template-stored-in-github](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button#template-stored-in-github) 
 			- making a button so I can quickly test with forked templates in my own repo
 			- Got an error
 				- "There was an error downloading the template from URI 'raw.githubusercontent.com/cybersader/DO-LAB/main/azure-deploy.json'. Ensure that the template is publicly accessible and that the publisher has enabled CORS policy on the endpoint. To deploy this template, download the template manually and paste the contents in the 'Build your own template in the editor' option below."
 	- Made my own repo, modified some azure deploy JSON files, and linked new deploy to azure button to my templates
-		- ![400](IMG-20231029180545851.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029180545851.png)
 	- Issue with sysmon installation
-		- ![](IMG-20231029194856580.png)
-		- ![](IMG-20231029195429409.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029194856580.png)
+		- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231029195429409.png)
 	- Got message pointing to this same issue 
 
 #### GitHub Issue Message from "hjorrip"
@@ -96,7 +96,7 @@ It's a different take, but if you want to try out password spraying - this could
 ```
 #### Detailed Deployment Errors
 - Errors with PowerShellDSC
-	- ![](IMG-20231104150219880.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231104150219880.png)
 - Under deployWinAD
 	- WS05-installSysmon
 		- VM has reported a failure when processing extension 'PowerShellDSC' (publisher 'Microsoft.Powershell' and type 'DSC'). Error message: "DSC Configuration 'Install-Sysmon' completed with error(s). Following are the first few: PowerShell DSC resource DSC_xScriptResource  failed to execute Set-TargetResource functionality with error message: System.InvalidOperationException: The set script threw an error. ---> Microsoft.PowerShell.Commands.ServiceCommandException: Service 'Sysmon (sysmon)' cannot be stopped due to the following error: Cannot stop sysmon service on computer '.'. ---> System.InvalidOperationException: Cannot stop sysmon service on computer '.'. ---> System.ComponentModel.Win32Exception: Access is denied
@@ -115,36 +115,36 @@ It's a different take, but if you want to try out password spraying - this could
 #### Attempting to Fix Sysmon Installation Error
 - I don't have the capacity for this at the moment. Better to try manually installing some of the components if possible
 - Ran through files and changed all github references to my repo
-	- ![](IMG-20231104154448252.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231104154448252.png)
 - Updated the sysmon.xml file with XML from [olafhartong/sysmon-modular: A repository of sysmon configuration modules](https://github.com/olafhartong/sysmon-modular) 
 	- Fixed the file under DO-LABMonitoring/sysmon.xml
 		- https://github.com/cybersader/DO-LAB/blob/main/Monitoring/sysmon.xml 
 - Found all the zip files that would need to be updated
-	- ![](IMG-20231104161645641.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231104161645641.png)
 #### Create ARM Template?? - maybe
 - Links/Resources
 	- [Creating Azure Resources with ARM Templates Step by Step | Microsoft Learn](https://learn.microsoft.com/en-us/archive/blogs/cloud_solution_architect/creating-azure-resources-with-arm-templates-step-by-step) 
 - This could be an option if need be, but I don't have a lot of devops experience, so it would take a lot of investment 
 ### Closed Issue, Maintainer Fixed the Code!, New Deployment
 - Ironically, I tried deploying before using the fixed repo and got a different set of errors from previous commits.  Maybe something was also referencing the original repo in these files despite having tried replacing them with a PS script
-	- ![600](IMG-20231114152436621.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231114152436621.png)
 #### Deploying (Defensive Origins) DO's ARM Template with New Updates & Recent Commits
 - Deployment configuration
-	- ![](IMG-20231114153604901.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231114153604901.png)
 
 - Successful deployments
-	- ![400](IMG-20231115163125897.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115163125897.png)
 
 - 21 resources created
-	- ![](IMG-20231115163332347.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115163332347.png)
 
 #### Lab Network Environment Topology
 "The APT Lab network environment topology and reference information is below. Review this information and continue to the next section of this lab."
-- ![](IMG-20231115170010587.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115170010587.png)
 
 #### Connection Parameters and Config - Generated Outputs from ARM Template
 - These are the public IPs for some of the workstations I will be connecting to throughout the lab
-	- ![](IMG-20231115170248589.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115170248589.png)
 
 |System|Context|Hostname|LAN IP|WAN IP|Connection|Username|Password|
 |---|---|---|---|---|---|---|---|
@@ -168,16 +168,16 @@ It's a different take, but if you want to try out password spraying - this could
 |Password|DOLabAdmin1!|
 
 
-![](IMG-20231115172356037.png)
-![](IMG-20231115172433367.png)
-![](IMG-20231115172457834.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115172356037.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115172433367.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115172457834.png)
 
-![](IMG-20231115172845543.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115172845543.png)
 
 ^^^^^ This took a long while to connect to.  I tried disconnecting and reconnecting and ended up with this
-- ![](IMG-20231115173327288.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115173327288.png)
 - After like 6 minutes
-	- ![](IMG-20231115173615465.png) 
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115173615465.png) 
 ##### Domain Controller
 - Use a remote desktop client to access the following system via RDP:
 
@@ -188,15 +188,15 @@ It's a different take, but if you want to try out password spraying - this could
 |Password|DOLabAdmin1!|
 
 - Connecting to DC
-	- ![](IMG-20231115173812597.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115173812597.png)
 - Connected
-	- ![](IMG-20231115173937411.png)
+	- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115173937411.png)
 
 #### Deployed Environment Topology
 
-- ![](IMG-20231115190116337.png)
-- ![](IMG-20231115190126480.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115190116337.png)
+- ![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231115190126480.png)
 
 # Costs
 - This can cost a good bit
-![](IMG-20231120154645437.png)
+![](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Project%20Workspace/IMG-20231120154645437.png)

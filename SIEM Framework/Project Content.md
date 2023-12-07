@@ -44,8 +44,8 @@
 * [Annsec/awesome-cybersecurity: Curated list of awesome cybersecurity companies and solutions.](https://github.com/Annsec/awesome-cybersecurity)
 * [cyb3rxp/awesome-soc: A collection of sources of documentation, as well as field best practices, to build/run a SOC](https://github.com/cyb3rxp/awesome-soc)
 * [mthcht/ThreatHunting-Keywords: Awesome list of keywords for Threat Hunting sessions](https://github.com/mthcht/ThreatHunting-Keywords)
-* [paulveillard/cybersecurity-SOAR: A collection of awesome framework, libraries, learning tutorials, videos, webcasts, technical resources and cool stuff about Security Orchestration, Automation and Response (SOAR).](https://github.com/paulveillard/cybersecurity-SOAR)
-* [paulveillard/cybersecurity-SIEM: A collection of awesome framework, libraries, learning tutorials, videos, webcasts, technical resources and cool stuff about Security information and event management (SIEM)](https://github.com/paulveillard/cybersecurity-SIEM)
+* [[SOAR).](SOAR).](https://github.com/paulveillard/cybersecurity-SOAR)
+* [[SIEM)](SIEM)](https://github.com/paulveillard/cybersecurity-SIEM)
 * [netflow anomaly detection - Brave Search](https://search.brave.com/search?q=netflow+anomaly+detection&source=desktop)
 
 ### Comprehensive List

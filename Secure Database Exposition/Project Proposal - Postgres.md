@@ -24,12 +24,12 @@
 	- Cloud, IAM, Databases
 		- [Cloud Security: The Future of Data Storage | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-3961-6_9) 
 	- Postgres IAM 
-		- [User Management and Securing Databases (Postgres) | SpringerLink](https://link.springer.com/chapter/10.1007/978-1-4842-5663-3_3) 
+		- [[Postgres) | SpringerLink](Postgres)) 
 		- 
 - Backing up, immutable storage, ransomware protection, restoring, data recovery, backup retention, BCDR (business continuity & disaster recovery), redundancy, replication, redundancy, NAS
 	- Research
 		- Ransomware detection
-			- [Detecting Database File Tampering through Page Carving (Conference Paper) | NSF PAGES](https://par.nsf.gov/biblio/10078874) 
+			- [[Conference Paper) | NSF PAGES](Conference%20Paper)) 
 	- Postgres Backups, BCDR
 		- Backup Terms
 			- Incremental backups, differential backups, snapshots, full backups
@@ -70,7 +70,7 @@
 - Postgres DFIR, malware removal and/or analysis, etc
 	- Crypto miners on Postgres instances? (PGminer)
 		- [How my server got infected with a crypto mining malware and how I fixed it - BigBinary Blog](https://www.bigbinary.com/blog/how-my-server-got-infected-with-a-crypto-mining-malware-and-how-i-fixed-it)
-		- [Investigation into Postgres malware (hack?) - DEV Community](https://dev.to/sanchitsharma/investigation-into-postgres-malware-hack-2ai0) 
+		- [[hack?) - DEV Community](hack?)%20-%20DEV%20Community](https://dev.to/sanchitsharma/investigation-into-postgres-malware-hack-2ai0) 
 		- 
 - Postgres Vulns
 	- https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=postgres
@@ -83,7 +83,7 @@
 		- VPN solutions
 		- MFA
 		- SSO, IAM, IdP
-			- [casdoor/casdoor: An open-source Identity and Access Management (IAM)](https://github.com/casdoor/casdoor) 
+			- [[IAM)](IAM)](https://github.com/casdoor/casdoor) 
 			- https://github.com/authelia/authelia 
 			- https://github.com/zitadel/zitadel
 			- https://goauthentik.io/ 
