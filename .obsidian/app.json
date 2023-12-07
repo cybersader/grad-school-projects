@@ -1,4 +1,6 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "SIEM Framework"
+  "attachmentFolderPath": "SIEM Framework",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": false
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a0d602eb0ff5408",
+        "id": "3109a42585b72006",
         "type": "tabs",
         "children": [
           {
-            "id": "d9481d425264c085",
+            "id": "a8f9f5c4ab0f71f6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,73 +16,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "8.X SysInternals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":152,\"ch\":0},\"to\":{\"line\":152,\"ch\":0}},\"scroll\":0.11548556430446194}"
-                },
-                {
-                  "title": "7.X PlumHound Report Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":15.123639589232711}"
-                },
-                {
-                  "title": "6.X - Bloodhound Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "7.X PlumHound Report Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "6.X - Bloodhound Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "7.X PlumHound Report Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "6.X - Bloodhound Examples",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":34.29728835978836}"
-                },
-                {
-                  "title": "6 - Bloodhound User Interface",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":127},\"to\":{\"line\":42,\"ch\":127}},\"scroll\":59.1367672168469}"
-                },
-                {
-                  "title": "5 - Cyber Deception",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":18,\"ch\":67}},\"scroll\":0}"
-                },
-                {
-                  "title": "4.5 - Applying Research",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":144},\"to\":{\"line\":96,\"ch\":144}},\"scroll\":416.1058201058201}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "![](IMG-20231206005015576.png)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 200
   },
   "right": {
     "id": "9096515fedbb2868",
@@ -228,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md"
+                "file": "README.md"
               }
             }
           },
@@ -354,13 +294,15 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "d9481d425264c085",
+  "active": "a8f9f5c4ab0f71f6",
   "lastOpenFiles": [
+    "__attachments/IMG-20231207163304775.png",
+    "Journals Hierarchy - Research.md",
+    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
     "Honey Accounts in Windows AD/Project Workspace/9.X SysInternals.md",
     "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
     "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
     "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
-    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md",
     "Honey Accounts in Windows AD/Project Workspace/7.X PlumHound Report Examples.md",
     "Honey Accounts in Windows AD/Project Workspace/6.X - Bloodhound Examples.md",
     "Honey Accounts in Windows AD/Project Workspace/6 - Bloodhound User Interface.md",
@@ -379,7 +321,6 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040011800.png",
     "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
     "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
-    "Journals Hierarchy - Research.md",
     "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
     "Honey Accounts in Windows AD/Project Content.md",
     "Secure Database Exposition/Project Workspace/X2. More Resources.md",
@@ -391,7 +332,6 @@
     "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md",
     "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
     "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md",
-    "Secure Database Exposition/Project Workspace/6. Recon Implementation.md",
     "__attachments/Excalidraw",
     "Excalidraw",
     "__attachments/Secure Database Exposition/Project Workspace",

@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "10.X Password Spray",
-      "path": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Journals Hierarchy - Research",
+      "path": "Journals Hierarchy - Research.md"
+    },
+    {
+      "basename": "10.X Password Spray & Detections",
+      "path": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md"
     },
     {
       "basename": "9.X SysInternals",
@@ -51,10 +59,6 @@
     {
       "basename": "Misc Papers",
       "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
-    },
-    {
-      "basename": "Journals Hierarchy - Research",
-      "path": "Journals Hierarchy - Research.md"
     },
     {
       "basename": "Password Research and Stuff",
@@ -195,10 +199,6 @@
     {
       "basename": "2. Hardware & Infrastructure Initialization",
       "path": "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md"
-    },
-    {
-      "basename": "Curated Papers, Research, Content, Tools",
-      "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
     }
   ],
   "omittedPaths": [],
