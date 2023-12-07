@@ -59,7 +59,7 @@ level: medium
 - [Password Spraying Attack | OWASP Foundation](https://owasp.org/www-community/attacks/Password_Spraying_Attack)
 ### Main Tooling
 - [dafthack/DomainPasswordSpray: DomainPasswordSpray is a tool written in PowerShell to perform a password spray attack against users of a domain. By default it will automatically generate the userlist from the domain. BE VERY CAREFUL NOT TO LOCKOUT ACCOUNTS!](https://github.com/dafthack/DomainPasswordSpray)
-	- ![](IMG-20231120090525171.png)
+	- ![IMG-20231120090525171](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120090525171.png)
 ### Additional Password Spray Tools
 - [ustayready/fireprox: AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation](https://github.com/ustayready/fireprox) 
 # Mitre Techniques - ATT&CK, D3FEND
@@ -68,13 +68,13 @@ level: medium
 - ["T1110.003" - Google Scholar](https://scholar.google.com/scholar?start=0&q=%22T1110.003%22&hl=en&as_sdt=0,15&as_ylo=2019) 
 
 - https://d3fend.mitre.org/offensive-technique/attack/T1110.003/ 
-	- ![](IMG-20231120083026709.png)
-	- ![](IMG-20231120083717297.png)
+	- ![IMG-20231120083026709](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083026709.png)
+	- ![IMG-20231120083717297](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083717297.png)
 - https://attack.mitre.org/techniques/T1110/003/
 	- APTs
-		- ![](IMG-20231120083956763.png)
+		- ![IMG-20231120083956763](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120083956763.png)
 	- Mitigations and Detection
-		- ![](IMG-20231120084013746.png)
+		- ![IMG-20231120084013746](../../__attachments/Honey%20Accounts%20in%20Windows%20AD/Complementary%20Research/IMG-20231120084013746.png)
 
 ## Wordlist Generation for Password Spraying
 - https://www.horizon3.ai/the-unreasonable-effectiveness-of-password-spray/

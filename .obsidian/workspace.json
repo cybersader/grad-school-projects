@@ -16,13 +16,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
               }
             }
           },
@@ -296,6 +302,7 @@
   },
   "active": "a8f9f5c4ab0f71f6",
   "lastOpenFiles": [
+    "README.md",
     "__attachments/IMG-20231207163304775.png",
     "Journals Hierarchy - Research.md",
     "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
@@ -318,7 +325,6 @@
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040321134.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040156372.png",
     "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040116453.png",
-    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231206040011800.png",
     "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
     "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
     "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",

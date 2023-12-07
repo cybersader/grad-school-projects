@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Curated Papers, Research, Content, Tools",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3. Log or Event Sources",
       "path": "SIEM Framework/Project Workspace/3. Log or Event Sources.md"
-    },
-    {
-      "basename": "2. Hardware & Infrastructure Initialization",
-      "path": "SIEM Framework/Project Workspace/2. Hardware & Infrastructure Initialization.md"
     }
   ],
   "omittedPaths": [],
