@@ -16,19 +16,28 @@ Logs, Security Events, Threat feeds, vuln feeds, asset status, files, APIs, etc.
 Data Engineering for Security ^vpiMIZoN
 
 Stream Processing, 
-ETL, 
+In-Memory Processing,
+ETL/ELT,
 Data Streaming, 
-Data Pipelines
+Data Pipelines,
+Data Transformation,
+Data Normalization,
+Data Standardization
 
 - optimize data
 - low computation
 - low hardware util
 - transformations
-- routing ^NwJHUmuM
+- routing
+- low memory usage ^NwJHUmuM
 
-Centralized Data Analysis Platform ^VkOph4mI
+Centralized Data Analytics Platform / SIEM ^VkOph4mI
 
 Data Warehouse,
+Data Lake,
+Data Lakehouse,
+Security Data Lake
+/Lakehouse
 Data Indexing,
 Data Storage,
 Data Structuring,
@@ -81,12 +90,14 @@ Data Ingestion
 solicited or
 unsolicited 
 collection of data
-into storage system ^gAyY3xKh
+into storage 
+systems ^gAyY3xKh
 
 
 IT Systems
 
-Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
+Firewalls, IDS/IPS, Networking, Email, Infra,
+Threat Intelligence ^OT88rBJY
 
 %%
 # Drawing
@@ -98,22 +109,22 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 192,
-			"versionNonce": 1549825452,
+			"version": 287,
+			"versionNonce": 972696829,
 			"isDeleted": false,
 			"id": "bLVPNGWdnHKGb7OLibRo-",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -299.4663022179743,
-			"y": -341.77426240305846,
+			"x": -316.13296888464095,
+			"y": -393.44092906972514,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 175,
-			"height": 235,
+			"width": 169,
+			"height": 274,
 			"seed": 1186555692,
 			"groupIds": [],
 			"frameId": null,
@@ -126,22 +137,22 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"id": "KRFVXhYp"
 				},
 				{
-					"id": "4-64LB9_C4AFlk4fWbKPK",
+					"id": "qx2CleeEg_WYtPkuEYUTv",
 					"type": "arrow"
 				},
 				{
-					"id": "qx2CleeEg_WYtPkuEYUTv",
+					"id": "4-64LB9_C4AFlk4fWbKPK",
 					"type": "arrow"
 				}
 			],
-			"updated": 1697216686340,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 257,
-			"versionNonce": 926866220,
+			"version": 426,
+			"versionNonce": 466152787,
 			"isDeleted": false,
 			"id": "KRFVXhYp",
 			"fillStyle": "hachure",
@@ -150,8 +161,8 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -282.2788022179743,
-			"y": -310.67426240305844,
+			"x": -301.94546888464095,
+			"y": -342.8409290697251,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 140.625,
@@ -161,7 +172,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697216411204,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -173,16 +184,16 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"containerId": "bLVPNGWdnHKGb7OLibRo-",
 			"originalText": "\nData\n\nLogs, Security Events, Threat feeds, vuln feeds, asset status, files, APIs, etc.",
 			"lineHeight": 1.2,
-			"baseline": 168
+			"baseline": 169
 		},
 		{
 			"type": "rectangle",
-			"version": 122,
-			"versionNonce": 183962388,
+			"version": 159,
+			"versionNonce": 327517533,
 			"isDeleted": false,
 			"id": "nPdXWXG8gILP6R-f6LUd7",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
@@ -192,7 +203,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 821.0349586977368,
-			"height": 688.1985737927062,
+			"height": 751.5319071260396,
 			"seed": 1842514988,
 			"groupIds": [],
 			"frameId": null,
@@ -200,37 +211,37 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1697217609772,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 276,
-			"versionNonce": 485691284,
+			"version": 608,
+			"versionNonce": 1276913501,
 			"isDeleted": false,
 			"id": "vpiMIZoN",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 162.79292737631215,
-			"y": -431.3690689144267,
+			"x": -14.848098264713542,
+			"y": -466.11778686314454,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 339.84375,
-			"height": 24,
+			"width": 475.78125,
+			"height": 33.6,
 			"seed": 176694956,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697210341492,
+			"updated": 1702443325574,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 28,
 			"fontFamily": 3,
 			"text": "Data Engineering for Security",
 			"rawText": "Data Engineering for Security",
@@ -239,26 +250,26 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"containerId": null,
 			"originalText": "Data Engineering for Security",
 			"lineHeight": 1.2,
-			"baseline": 19
+			"baseline": 26
 		},
 		{
 			"type": "text",
-			"version": 358,
-			"versionNonce": 15575060,
+			"version": 535,
+			"versionNonce": 1724305853,
 			"isDeleted": false,
 			"id": "NwJHUmuM",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -45.69160918658622,
+			"x": -60.69160918658622,
 			"y": -329.3612360119447,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 178.125,
-			"height": 192,
+			"width": 196.875,
+			"height": 288,
 			"seed": 1655075116,
 			"groupIds": [
 				"xh4tvygFnZJpihLhhszcA"
@@ -271,38 +282,38 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697217604501,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 3,
-			"text": "Stream Processing, \nETL, \nData Streaming, \nData Pipelines\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing",
-			"rawText": "Stream Processing, \nETL, \nData Streaming, \nData Pipelines\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing",
+			"text": "Stream Processing, \nIn-Memory Processing,\nETL/ELT,\nData Streaming, \nData Pipelines,\nData Transformation,\nData Normalization,\nData Standardization\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing\n- low memory usage",
+			"rawText": "Stream Processing, \nIn-Memory Processing,\nETL/ELT,\nData Streaming, \nData Pipelines,\nData Transformation,\nData Normalization,\nData Standardization\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing\n- low memory usage",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Stream Processing, \nETL, \nData Streaming, \nData Pipelines\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing",
+			"originalText": "Stream Processing, \nIn-Memory Processing,\nETL/ELT,\nData Streaming, \nData Pipelines,\nData Transformation,\nData Normalization,\nData Standardization\n\n- optimize data\n- low computation\n- low hardware util\n- transformations\n- routing\n- low memory usage",
 			"lineHeight": 1.2,
-			"baseline": 187
+			"baseline": 284
 		},
 		{
 			"type": "rectangle",
-			"version": 165,
-			"versionNonce": 535819924,
+			"version": 204,
+			"versionNonce": 1796600979,
 			"isDeleted": false,
 			"id": "F-kszY6CRmOsfOofLi9e9",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -65.96587158964468,
+			"x": -75.96587158964468,
 			"y": -351.64567139091184,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 207.24801567570853,
-			"height": 280.46062990897514,
+			"width": 217.24801567570853,
+			"height": 323.7939632423085,
 			"seed": 1704422316,
 			"groupIds": [
 				"xh4tvygFnZJpihLhhszcA"
@@ -321,18 +332,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697217615357,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 167,
-			"versionNonce": 559863980,
+			"version": 201,
+			"versionNonce": 1893700125,
 			"isDeleted": false,
 			"id": "YdQ5-p6oPBbF_HK09HWTm",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
@@ -342,7 +353,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 511.361951721585,
-			"height": 648.7763968978702,
+			"height": 710.4430635645367,
 			"seed": 92608044,
 			"groupIds": [],
 			"frameId": null,
@@ -355,18 +366,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697216693876,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 100,
-			"versionNonce": 402258732,
+			"version": 130,
+			"versionNonce": 1291784829,
 			"isDeleted": false,
 			"id": "VkOph4mI",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
@@ -375,45 +386,45 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"y": -363.9440776139838,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 318.75,
+			"width": 393.75,
 			"height": 19.2,
 			"seed": 1599697068,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697217582584,
+			"updated": 1702443318312,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 3,
-			"text": "Centralized Data Analysis Platform",
-			"rawText": "Centralized Data Analysis Platform",
+			"text": "Centralized Data Analytics Platform / SIEM",
+			"rawText": "Centralized Data Analytics Platform / SIEM",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Centralized Data Analysis Platform",
+			"originalText": "Centralized Data Analytics Platform / SIEM",
 			"lineHeight": 1.2,
 			"baseline": 15
 		},
 		{
 			"type": "rectangle",
-			"version": 287,
-			"versionNonce": 623451284,
+			"version": 345,
+			"versionNonce": 1321289341,
 			"isDeleted": false,
 			"id": "nNsmm3GKbUvV56sLJr5Et",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": 443.83958644118286,
-			"y": -321.6831757406904,
+			"y": -323.34984240735713,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 206.12166776442757,
-			"height": 265.6809758607926,
+			"height": 344.014309194126,
 			"seed": 1656650540,
 			"groupIds": [
 				"b59RvssaSXVZD6eVA09L4"
@@ -423,28 +434,28 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1697217580117,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 484,
-			"versionNonce": 794650644,
+			"version": 578,
+			"versionNonce": 1840917459,
 			"isDeleted": false,
 			"id": "iBwemTp4",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": 460.73480511039816,
-			"y": -311.5460445391612,
+			"y": -314.87937787249456,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 178.125,
-			"height": 249.6,
+			"height": 326.4,
 			"seed": 2048800172,
 			"groupIds": [
 				"b59RvssaSXVZD6eVA09L4"
@@ -461,34 +472,34 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697217573249,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 3,
-			"text": "Data Warehouse,\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
-			"rawText": "Data Warehouse,\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
+			"text": "Data Warehouse,\nData Lake,\nData Lakehouse,\nSecurity Data Lake\n/Lakehouse\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
+			"rawText": "Data Warehouse,\nData Lake,\nData Lakehouse,\nSecurity Data Lake\n/Lakehouse\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Data Warehouse,\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
+			"originalText": "Data Warehouse,\nData Lake,\nData Lakehouse,\nSecurity Data Lake\n/Lakehouse\nData Indexing,\nData Storage,\nData Structuring,\nData Mapping,\nDatabases\n\n- uses various\ninfra models for \neach use case (high\nstore, low read), \n(low store, high\nread), etc",
 			"lineHeight": 1.2,
-			"baseline": 245
+			"baseline": 322
 		},
 		{
 			"type": "rectangle",
-			"version": 177,
-			"versionNonce": 1111551788,
+			"version": 339,
+			"versionNonce": 53309149,
 			"isDeleted": false,
 			"id": "w3S-CStB6HyTXqgKQhR7Q",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -53.46587158964462,
-			"y": -32.0787343653036,
+			"x": -65.13253825631136,
+			"y": 4.587932301362912,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 207.24801567570853,
@@ -507,24 +518,24 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697210400507,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 271,
-			"versionNonce": 28719252,
+			"version": 438,
+			"versionNonce": 600521075,
 			"isDeleted": false,
 			"id": "ZP2J6jSR",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -36.57065292042927,
-			"y": -6.7359063614803745,
+			"x": -48.23731958709601,
+			"y": 29.93076030518614,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 178.125,
@@ -545,7 +556,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697216720102,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -557,22 +568,22 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"containerId": null,
 			"originalText": "APIs, Security\nTool Integrations,\nAutomation,\nResponse, SOAR\n\n- react based on\nanalysis\n- integrations with\nsecurity tools",
 			"lineHeight": 1.2,
-			"baseline": 168
+			"baseline": 169
 		},
 		{
 			"type": "rectangle",
-			"version": 595,
-			"versionNonce": 1414585876,
+			"version": 755,
+			"versionNonce": 1018530621,
 			"isDeleted": false,
 			"id": "vedMIxtC8g5KtNUxdDX94",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 207.28366987191254,
-			"y": -11.804471962244975,
+			"x": 207.28366987191242,
+			"y": 11.528861371088283,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 206.12166776442757,
@@ -591,24 +602,24 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697214040417,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1029,
-			"versionNonce": 2084748588,
+			"version": 1194,
+			"versionNonce": 1000968979,
 			"isDeleted": false,
 			"id": "LevhjoZ9",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 224.17888854112783,
-			"y": -1.6673407607157742,
+			"x": 224.17888854112772,
+			"y": 21.665992572617483,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 178.125,
@@ -629,7 +640,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697214040417,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -641,22 +652,22 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"containerId": null,
 			"originalText": "Data Visualization,\nData Analysis,\nQuerying Systems,\nDashboards,\nAlerts,\nAnalysis Endpoint\n\n- where the user \ninteracts with the \nstored data",
 			"lineHeight": 1.2,
-			"baseline": 187
+			"baseline": 188
 		},
 		{
 			"type": "rectangle",
-			"version": 692,
-			"versionNonce": 483372588,
+			"version": 805,
+			"versionNonce": 1538988957,
 			"isDeleted": false,
 			"id": "akoP642IfK4QLbJRQv9gQ",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": 460.7119499101428,
-			"y": -14.026393251712392,
+			"y": 65.97360674828738,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 202.74262403058466,
@@ -675,28 +686,28 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697214032733,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1137,
-			"versionNonce": 468359828,
+			"version": 1255,
+			"versionNonce": 634108083,
 			"isDeleted": false,
 			"id": "LUE29a1E",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": 477.33019778150197,
-			"y": -4.055444528896771,
+			"y": 74.2134079301195,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 175.119140625,
-			"height": 207.737704918033,
+			"width": 178.125,
+			"height": 211.2,
 			"seed": 1000146092,
 			"groupIds": [
 				"wsY0HApGDeMN6E9bo9d1l"
@@ -713,10 +724,10 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697214032733,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
-			"fontSize": 15.737704918032803,
+			"fontSize": 16,
 			"fontFamily": 3,
 			"text": "Data Processing\n(stream & batch),\nData Normalization,\nData Aggregation,\nData Integration\n\n- control how data\nin data storage is\nstructured and\nmade to interact \nwith analysis",
 			"rawText": "Data Processing\n(stream & batch),\nData Normalization,\nData Aggregation,\nData Integration\n\n- control how data\nin data storage is\nstructured and\nmade to interact \nwith analysis",
@@ -725,26 +736,26 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"containerId": null,
 			"originalText": "Data Processing\n(stream & batch),\nData Normalization,\nData Aggregation,\nData Integration\n\n- control how data\nin data storage is\nstructured and\nmade to interact \nwith analysis",
 			"lineHeight": 1.2,
-			"baseline": 204
+			"baseline": 207
 		},
 		{
 			"type": "arrow",
-			"version": 1202,
-			"versionNonce": 153044372,
+			"version": 1582,
+			"versionNonce": 946839549,
 			"isDeleted": false,
 			"id": "3N8O_mczd5OtQN3qGTG9j",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 558.8898886357782,
-			"y": -50.84459544394899,
+			"x": 558.8418736647485,
+			"y": 22.62207122271761,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 0.14856602591203227,
-			"height": 31.718862058377272,
+			"width": 0.18324280092940626,
+			"height": 38.252195391710444,
 			"seed": 1208962732,
 			"groupIds": [],
 			"frameId": null,
@@ -752,7 +763,7 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697217573249,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -774,29 +785,29 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					0.14856602591203227,
-					31.718862058377272
+					0.18324280092940626,
+					38.252195391710444
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 667,
-			"versionNonce": 1165910572,
+			"version": 1331,
+			"versionNonce": 2144873043,
 			"isDeleted": false,
 			"id": "jVJYlRytXvZiaQ_vBrxm_",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 455.6433843093786,
-			"y": 148.19684856613281,
+			"x": 460.27710819007496,
+			"y": 167.57198152861884,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 41.371433289280276,
-			"height": 1.1863181225288315,
+			"width": 45.47901719233482,
+			"height": 0,
 			"seed": 1938184340,
 			"groupIds": [],
 			"frameId": null,
@@ -804,18 +815,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697214040417,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "LUE29a1E",
-				"focus": -0.4791445460571129,
-				"gap": 21.68681347212339
+				"focus": 0.11785464180737688,
+				"gap": 17.05308959142701
 			},
 			"endBinding": {
 				"elementId": "LevhjoZ9",
-				"focus": 0.5051130769176878,
-				"gap": 11.968062478970523
+				"focus": 0.5198540516250142,
+				"gap": 12.494202456612413
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": "triangle",
@@ -826,29 +837,29 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					-41.371433289280276,
-					-1.1863181225288315
+					-45.47901719233482,
+					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 325,
-			"versionNonce": 688522772,
+			"version": 951,
+			"versionNonce": 685021277,
 			"isDeleted": false,
 			"id": "UUCfg1_OZ9N1-foUHRQAQ",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 205.59414800499096,
-			"y": 138.69385727015865,
+			"x": 205.59414800499084,
+			"y": 168.56417400579744,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48.43296018508397,
-			"height": 1.157217237242321,
+			"width": 60.31703981491583,
+			"height": 0,
 			"seed": 1709155244,
 			"groupIds": [],
 			"frameId": null,
@@ -856,18 +867,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697216720104,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "LevhjoZ9",
-				"focus": -0.4258406566463126,
+				"focus": -0.5301893899289581,
 				"gap": 18.584740536136877
 			},
 			"endBinding": {
 				"elementId": "ZP2J6jSR",
-				"focus": 0.7081135207779605,
-				"gap": 15.606840740336281
+				"focus": 0.6045533993126311,
+				"gap": 15.389427777171022
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": "triangle",
@@ -878,24 +889,24 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					-48.43296018508397,
-					1.157217237242321
+					-60.31703981491583,
+					0
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 341,
-			"versionNonce": 851043988,
+			"version": 414,
+			"versionNonce": 1856333811,
 			"isDeleted": false,
 			"id": "jmUNkBAt199XS--EZYYY6",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 198.7674949365403,
+			"x": 190.43416160320703,
 			"y": -319.20603094094525,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -915,28 +926,28 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697217598678,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 679,
-			"versionNonce": 694779412,
+			"version": 759,
+			"versionNonce": 1186694333,
 			"isDeleted": false,
 			"id": "gAyY3xKh",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 215.66271360575547,
+			"x": 207.3293802724222,
 			"y": -309.06889973941605,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 178.125,
-			"height": 134.4,
+			"width": 168.75,
+			"height": 153.6,
 			"seed": 351299348,
 			"groupIds": [
 				"65AizeSlSuOrOpX6HOtXz"
@@ -953,38 +964,38 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697217584767,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 3,
-			"text": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage system",
-			"rawText": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage system",
+			"text": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage \nsystems",
+			"rawText": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage \nsystems",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage system",
+			"originalText": "Data Ingestion\n\n- interface for \nsolicited or\nunsolicited \ncollection of data\ninto storage \nsystems",
 			"lineHeight": 1.2,
-			"baseline": 130
+			"baseline": 149
 		},
 		{
 			"type": "arrow",
-			"version": 137,
-			"versionNonce": 1561483648,
+			"version": 538,
+			"versionNonce": 943321491,
 			"isDeleted": false,
 			"id": "7muDv1bUJXBaJ-Ef4THbe",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 439.3341947960587,
-			"y": -194.47739601986854,
+			"x": 445.27710819007496,
+			"y": -167.30357279334652,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 37.26090187329339,
-			"height": 0.7054609727087211,
+			"width": 51.04166666666674,
+			"height": 0,
 			"seed": 1699277460,
 			"groupIds": [],
 			"frameId": null,
@@ -992,18 +1003,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697476070410,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "iBwemTp4",
-				"focus": 0.051599414980387046,
-				"gap": 21.400610314339474
+				"focus": 0.09573648848561243,
+				"gap": 15.457696920323201
 			},
 			"endBinding": {
 				"elementId": "gAyY3xKh",
-				"focus": 0.6509712687675729,
-				"gap": 8.28557931700982
+				"focus": 0.8459026946102801,
+				"gap": 18.156061250986
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": "triangle",
@@ -1014,25 +1025,25 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					-37.26090187329339,
-					-0.7054609727087211
+					-51.04166666666674,
+					0
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 243,
-			"versionNonce": 778342444,
+			"version": 307,
+			"versionNonce": 1975903517,
 			"isDeleted": false,
 			"id": "lle3fuidJvsHZX1_Evx_O",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": -303.15997081411234,
-			"y": -22.864594346188483,
+			"y": 65.46873898714477,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 175,
@@ -1057,14 +1068,14 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					"type": "arrow"
 				}
 			],
-			"updated": 1697216523510,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 423,
-			"versionNonce": 1172635052,
+			"version": 565,
+			"versionNonce": 499926835,
 			"isDeleted": false,
 			"id": "OT88rBJY",
 			"fillStyle": "hachure",
@@ -1073,49 +1084,49 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -281.28497081411234,
-			"y": 27.435405653811515,
+			"x": -276.59747081411234,
+			"y": 96.56873898714478,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 131.25,
-			"height": 134.4,
+			"width": 121.875,
+			"height": 172.79999999999998,
 			"seed": 364066324,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697216517199,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 3,
-			"text": "\nIT Systems\n\nFirewalls, \nIDS/IPS, \nNetworking, \nEmail, Infra, ",
-			"rawText": "\nIT Systems\n\nFirewalls, IDS/IPS, Networking, Email, Infra, ",
+			"text": "\nIT Systems\n\nFirewalls, \nIDS/IPS, \nNetworking, \nEmail, Infra,\nThreat \nIntelligence",
+			"rawText": "\nIT Systems\n\nFirewalls, IDS/IPS, Networking, Email, Infra,\nThreat Intelligence",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "lle3fuidJvsHZX1_Evx_O",
-			"originalText": "\nIT Systems\n\nFirewalls, IDS/IPS, Networking, Email, Infra, ",
+			"originalText": "\nIT Systems\n\nFirewalls, IDS/IPS, Networking, Email, Infra,\nThreat Intelligence",
 			"lineHeight": 1.2,
-			"baseline": 130
+			"baseline": 169
 		},
 		{
 			"type": "arrow",
-			"version": 56,
-			"versionNonce": 380415616,
+			"version": 592,
+			"versionNonce": 890827069,
 			"isDeleted": false,
 			"id": "4-64LB9_C4AFlk4fWbKPK",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -212.12058858818438,
-			"y": -23.864594346188497,
+			"x": -217.77635176209333,
+			"y": 64.46873898714476,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 0.8553560091523877,
-			"height": 80.86358029674147,
+			"width": 1.316876327713146,
+			"height": 177.78331484677426,
 			"seed": 836445588,
 			"groupIds": [],
 			"frameId": null,
@@ -1123,18 +1134,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697476034947,
+			"updated": 1702443312999,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "lle3fuidJvsHZX1_Evx_O",
 				"gap": 1,
-				"focus": 0.025745095114996595
+				"focus": -0.01402200991425941
 			},
 			"endBinding": {
 				"elementId": "bLVPNGWdnHKGb7OLibRo-",
-				"gap": 2.0460877601285006,
-				"focus": -0.022149382403054654
+				"gap": 6.126353210095658,
+				"focus": -0.13424082517749605
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1145,28 +1156,28 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					0.8553560091523877,
-					-80.86358029674147
+					-1.316876327713146,
+					-177.78331484677426
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 48,
-			"versionNonce": 1362300544,
+			"version": 552,
+			"versionNonce": 1337034237,
 			"isDeleted": false,
 			"id": "AyiMgMM22R6-2j6rs08Dr",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -122.1730941777871,
-			"y": 109.27792850046478,
+			"x": -126.38955847659167,
+			"y": 169.19377067213426,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 68.7072225881425,
+			"width": 56.66666666666667,
 			"height": 0,
 			"seed": 1927971500,
 			"groupIds": [],
@@ -1175,18 +1186,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697476034947,
+			"updated": 1702443312999,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "lle3fuidJvsHZX1_Evx_O",
-				"gap": 5.986876636325235,
-				"focus": 0.12461721571619802
+				"gap": 1.770412337520682,
+				"focus": -0.1172337728937065
 			},
 			"endBinding": {
 				"elementId": "ZP2J6jSR",
-				"gap": 16.895218669215353,
-				"focus": -0.3427527183095505
+				"gap": 21.485572222828978,
+				"focus": -0.6118403977656034
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": "triangle",
@@ -1197,29 +1208,29 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					68.7072225881425,
+					56.66666666666667,
 					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 78,
-			"versionNonce": 1343114880,
+			"version": 373,
+			"versionNonce": 814561213,
 			"isDeleted": false,
 			"id": "qx2CleeEg_WYtPkuEYUTv",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -123.46630221797432,
-			"y": -225.02942435907187,
+			"x": -141.62605751185592,
+			"y": -230.79952604087123,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 56.37408271704878,
-			"height": 0.5986240265658012,
+			"width": 64.5338380109304,
+			"height": 0,
 			"seed": 1679722796,
 			"groupIds": [],
 			"frameId": null,
@@ -1227,18 +1238,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697476034940,
+			"updated": 1702443312997,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "bLVPNGWdnHKGb7OLibRo-",
-				"gap": 1,
-				"focus": 0.0013039077816132548
+				"gap": 5.5069113727850265,
+				"focus": 0.1871635257580578
 			},
 			"endBinding": {
 				"elementId": "F-kszY6CRmOsfOofLi9e9",
-				"gap": 1.1263479112808454,
-				"focus": 0.10843373493976467
+				"gap": 1.1263479112808596,
+				"focus": 0.25356146766944887
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1249,29 +1260,29 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					56.37408271704878,
-					-0.5986240265658012
+					64.5338380109304,
+					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 584,
-			"versionNonce": 307411328,
+			"version": 801,
+			"versionNonce": 95704691,
 			"isDeleted": false,
 			"id": "L0gwIc9T4fLZLlmuqEPvx",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
 			"x": 142.28214408606385,
-			"y": -137.22205938597097,
+			"y": -225.11028118398622,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 52.94918224449697,
-			"height": 0.987781599647036,
+			"width": 44.61584891116371,
+			"height": 0.7102293931038162,
 			"seed": 866866708,
 			"groupIds": [],
 			"frameId": null,
@@ -1279,18 +1290,18 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697476070410,
+			"updated": 1702439990304,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "F-kszY6CRmOsfOofLi9e9",
-				"focus": 0.5081580928803966,
-				"gap": 1
+				"elementId": "YdQ5-p6oPBbF_HK09HWTm",
+				"focus": -0.5586108152203378,
+				"gap": 31.77426240305857
 			},
 			"endBinding": {
-				"elementId": "jmUNkBAt199XS--EZYYY6",
-				"focus": -0.440185650397733,
-				"gap": 3.5361686059794692
+				"elementId": "gAyY3xKh",
+				"focus": -0.12204828049862229,
+				"gap": 20.431387275194652
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1301,8 +1312,8 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 					0
 				],
 				[
-					52.94918224449697,
-					0.987781599647036
+					44.61584891116371,
+					0.7102293931038162
 				]
 			]
 		}
@@ -1313,21 +1324,21 @@ Firewalls, IDS/IPS, Networking, Email, Infra,  ^OT88rBJY
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
-		"currentItemStrokeWidth": 1,
+		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 3,
-		"currentItemFontSize": 16,
+		"currentItemFontSize": 28,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 358.47289180992493,
-		"scrollY": 569.3805650360619,
+		"scrollX": 362.2927241785226,
+		"scrollY": 681.8087265006552,
 		"zoom": {
-			"value": 0.6000000000000001
+			"value": 0.75
 		},
-		"currentItemRoundness": "round",
+		"currentItemRoundness": "sharp",
 		"gridSize": null,
 		"gridColor": {
 			"Bold": "#C9C9C9FF",

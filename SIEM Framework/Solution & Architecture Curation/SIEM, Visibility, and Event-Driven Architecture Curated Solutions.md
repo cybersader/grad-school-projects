@@ -37,11 +37,11 @@
 	- SOAR tools are a combination of threat intelligence platforms, Security Incident Response Platforms (SIRP) and Security Orchestration and Automation (SOA).
 - SIRP - security incident response platform
 - TIP - threat intel platform
-## Security-Focused (SIEM, SIRP)
+## Security-Focused Analytics Platforms (SIEM, SIRP)
 ### search terms
 - .
 ### Open-Source
-- [[SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](SIEM%20alternative)%20for%20threat%20hunting,%20detection%20&%20response,%20and%20cybersecurity%20analytics%20at%20petabyte%20scale%20on%20AWS](https://github.com/matanolabs/matano) 
+- [Matano - (SIEM alternative) for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS](https://github.com/matanolabs/matano) 
 - [TheHive Project](http://thehive-project.org/) 
 	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azuresentinel.azure-sentinel-solution-thehive?tab=Overview) 
 - Graylog- User-friendly interface and powerful log management and analysis features. It offers easy log centralization, analysis, and alerting capabilities. : https://graylog.org/
@@ -75,13 +75,68 @@
 - [Devo: Cloud-Native Integrated SIEM | SOAR | UEBA | AI Solution](https://www.devo.com/)
 - [Hunters SOC Platform: SIEM Alternative | Automate Detection & Response](https://www.hunters.security/) 
 - [Comodo NxSIEM | Security Information and Event](https://www.nxsiem.com/) 
-- [[ISOP) | NSFOCUS](ISOP)) 
+- [Intelligent Security Operations Platform (ISOP) | NSFOCUS](https://nsfocusglobal.com/products/intelligent-security-operations-platform-isop/)
 - [LogRhythm SIEM Security & SOC Services | Cloud & Self-Hosted](https://logrhythm.com/) 
 - [Trellix | Revolutionary Threat Detection and Response](https://www.trellix.com/en-sg/)
 - [Security Analytics | Datadog](https://www.datadoghq.com/solutions/security-analytics/) 
 - [Splunk | The Key to Enterprise Resilience](https://www.splunk.com/) 
 - [Logz.io: Cloud Observability & Security Powered by Open Source](https://logz.io/)
 	- [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/logz.logzio-elk-as-a-service-pro?tab=Overview) 
+
+## Security-Focused Data Engineering
+### Security Data Lakes
+- [Matano | Cloud native SIEM](https://matanosecurity.com/) 
+- [The Average SIEM Deployment Costs $18M Annually…Clearly, Its time for a change! | by Dan Schoenbaum | Medium](https://schoenbaum.medium.com/the-average-siem-deployment-costs-18m-annually-cf576f6c740d)
+	- Security-driven data can be dimensional, dynamic, and heterogeneous, thus, data warehouse solutions are less effective in delivering the agility and performance users need.
+	- A data lake is considered a subset of a data warehouse, however, in terms of flexibility, it is a major evolution. The data lake is more flexible and supports unstructured and semi-structured data, in its native format and can include log files, feeds, tables, text files, system logs, and more.
+	- For example, .03 cents per/GB/per month if in an S3 bucket. This capability makes the data lake the penultimate evolution of the SIEM.
+* [Why Your Security Data Lake Project Will SUCCEED! | by Omer Singer | Medium](https://osinger.medium.com/why-your-security-data-lake-project-will-succeed-3f6484d17b3)
+	* It turned out that security teams didn’t have time for a science project like Apache Spot or Metron.
+	* The Hadoop data lake was causing enough headaches for the core business units that depended on it, and security had alternatives available in purpose-built SIEM and log management systems.
+	* Apache Spot
+	* One reason why they are being chosen over legacy incumbents in the SIEM market is that these providers don’t have to spend precious cycles developing and maintaining their data backend.
+* [Security Operations on the Data Lakehouse: Hunters SOC Platform is now available for Databricks customers | Databricks Blog](https://www.databricks.com/blog/2023/03/29/security-operations-data-lakehouse-hunters-soc-platform-now-available.html)
+* [What is a Medallion Architecture?](https://www.databricks.com/glossary/medallion-architecture)
+* [Why Security Teams Are Adopting Security Data Lakes As Part Of A SIEM Strategy](https://www.hunters.security/en/blog/security-data-lake-snowflake-siem)
+* [What is a SIEM-less Architecture | Anvilogic](https://www.anvilogic.com/solutions/siem-less)
+* [Why Your Security Data Lake Project Will SUCCEED! | by Omer Singer | Medium](https://osinger.medium.com/why-your-security-data-lake-project-will-succeed-3f6484d17b3)
+* [Connected Apps | Missing Layer in the Modern Data Stack | by Arunim Samat | Medium](https://medium.com/@arunim_98451/connected-apps-missing-layer-in-the-modern-data-stack-70a69abb7d68)
+* [Modernizing Enterprise SOC’s: Anvilogic’s Automated Detection Engineering On Snowflake Security Data Lake Using Generative AI | by Ravi Kumar | Medium](https://medium.com/@ravikuma2003/modernizing-enterprise-socs-anvilogic-s-automated-detection-engineering-on-snowflake-security-d26461aa1747)
+* [Security Data Lake | Gurucul Scalable Architecture](https://gurucul.com/products/security-data-lake)
+* [Security Risk Advisors - Security Data Pipeline Modernization](https://sra.io/security-data-pipeline-modernization/)
+* [Improve SOC Efficiency with Cribl Observability Pipelines in Cloud-Native SIEM - Exabeam](https://www.exabeam.com/security-operations-center/revolutionizing-soc-efficiency-cribl-observability-pipelines-in-cloud-native-siem/) 
+* [What a Robust Security Data Pipeline is Critical in 2023](https://cribl.io/blog/why-a-robust-observability-pipeline-is-critical-for-security-professionals/) 
+* [Security Operations on the Data Lakehouse: Hunters SOC Platform is now available for Databricks customers | Databricks Blog](https://www.databricks.com/blog/2023/03/29/security-operations-data-lakehouse-hunters-soc-platform-now-available.html) 
+* [What is a Medallion Architecture?](https://www.databricks.com/glossary/medallion-architecture) 
+* [Why Security Teams Are Adopting Security Data Lakes As Part Of A SIEM Strategy](https://www.hunters.security/en/blog/security-data-lake-snowflake-siem)
+* [What is a SIEM-less Architecture | Anvilogic](https://www.anvilogic.com/solutions/siem-less)
+* [Connected Apps | Missing Layer in the Modern Data Stack | by Arunim Samat | Medium](https://medium.com/@arunim_98451/connected-apps-missing-layer-in-the-modern-data-stack-70a69abb7d68) 
+* [Modernizing Enterprise SOC’s: Anvilogic’s Automated Detection Engineering On Snowflake Security Data Lake Using Generative AI | by Ravi Kumar | Medium](https://medium.com/@ravikuma2003/modernizing-enterprise-socs-anvilogic-s-automated-detection-engineering-on-snowflake-security-d26461aa1747) 
+* [Security Data Lake | Gurucul Scalable Architecture](https://gurucul.com/products/security-data-lake) 
+* [circulate.dev/blog/security-logs-and-asset-data-in-2023-pt1-the-foundation](https://www.circulate.dev/blog/security-logs-and-asset-data-in-2023-pt1-the-foundation) 
+- [Why Security Teams Are Adopting Security Data Lakes As Part Of A SIEM Strategy](https://www.hunters.security/en/blog/security-data-lake-snowflake-siem)
+- [The Average SIEM Deployment Costs $18M Annually…Clearly, Its time for a change! | by Dan Schoenbaum | Medium](https://schoenbaum.medium.com/the-average-siem-deployment-costs-18m-annually-cf576f6c740d)
+	- Security-driven data can be dimensional, dynamic, and heterogeneous, thus, data warehouse solutions are less effective in delivering the agility and performance users need. A data lake is considered a subset of a data warehouse, however, in terms of flexibility, it is a major evolution. The data lake is more flexible and supports unstructured and semi-structured data, in its native format and can include log files, feeds, tables, text files, system logs, and more. You can stream all of your security data, none is turned away, and everything will be retained. This can easily be made accessible to a security team at a low cost. For example, .03 cents per/GB/per month if in an S3 bucket. This capability makes the data lake the penultimate evolution of the SIEM.
+	- The value of the process is to compare newly observed behavior with historical trends, sometimes comparing to datasets spanning 10 years. This would be cost-prohibitive in a traditional SIEM.
+	- Interesting companies to power your security data lake:
+		- If you are planning on deploying a security data lake or already have, here are **three cutting edge companies** you should know about. I am not an employee of any of these companies, but I am very familiar with them and believe that each will change our industry in a very meaningful way and can transform your own security data lake initiative.
+		- 1. [**Panther:**](https://schoenbaum.medium.com/proxy?q=http%3A%2F%2Fwww.panther.com)Snowflake is a wildly popular data platform primarily focused on mid-market to enterprise departmental use. It was not a SIEM and had no security capabilities. Along came engineers from AWS and Airbnb who created Panther, a platform for threat detection and investigations. The company recently connected Panther with Snowflake and is able to join data between the two platforms to make Snowflake a “next-generation SIEM” or — perhaps better positioning — evolve Snowflake into a highly-performing, cost-effective, security data lake. It is still a newer solution, but it’s a cool idea with a lot of promise and has been replacing Splunk implementations at companies like Dropbox and others at an impressive clip. If you want to get a sense for what the future will look like, [you can even try it for free here.](https://schoenbaum.medium.com/proxy?q=https%3A%2F%2Fpanther.com%2Ffree-trial%2F)
+		- 2. [**Team Cymru**](https://schoenbaum.medium.com/proxy?q=https%3A%2F%2Fteam-cymru.com%2F) is the most powerful security company you have yet to hear of. They have assembled a global network of sensors that “listen” to IP-based traffic on the internet as it passes through ISP’s and can “see” and therefore know more than anyone in a typical SOC. They have built the company by selling this data to large, public security companies such as Crowdstrike, [FireEye](https://schoenbaum.medium.com/proxy?q=https%3A%2F%2Fwww.fireeye.com%2Fmandiant%2Fthreat-intelligence%2Fthreat-intelligence-subscriptions.html), [Microsoft](https://schoenbaum.medium.com/proxy?q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fsecurity%2Fbusiness%2Fsolutions), and now Palo Alto Networks, with their acquisition of [Expanse, which they snapped up for a cool $800M](https://schoenbaum.medium.com/proxy?q=https%3A%2F%2Fwww.cnbc.com%2F2020%2F11%2F16%2Fpalo-alto-networks-ceo-new-acquisition-provides-security-from-hackers-view.html). In addition, cutting-edge SOC teams at JPMC and Walmart are embracing Cymru’s telemetry data feed. Now you can get access to this same data, you will want their 50+ data types and 10+ years of intelligence inside of your data lake to help your team to better identify adversaries and bad actors based on certain traits such as IP or other signatures.
+		1. [**Varada.io**:](https://schoenbaum.medium.com/proxy?q=http%3A%2F%2Fwww.varada.io) The entire value of a security data lake is easy, rapid, and unfettered access to vast amounts of information. It eliminates the need to move and duplicate data and offers the agility and flexibility users demand. As data lakes grow, queries become slower and require extensive data-ops to meet business requirements. Cloud storage may be cheap, but compute becomes very expensive quickly as query engines are most often based on full scans. Varada solved this problem by indexing and virtualizing all critical data in any dimension. Data is kept closer to the SOC — on SSD volumes — in its granular form so that data consumers can leverage the ultimate flexibility in running any query whenever they need. The benefit is a query response time up to 100x faster at a much cheaper rate by avoiding time-consuming full scans. This enables workloads such as the search for attack indicators, post-incident investigation, integrity monitoring, and threat-hunting. Varada was so innovative that data vendor [Starburst](https://schoenbaum.medium.com/proxy?q=http%3A%2F%2Fwww.starburst.io) recently acquired them.
+	- The Security Data lake, while not a simple, “off the shelf” approach, centralizes all of your critical threat and event data in a large, central repository with simple access. It can still leverage an existing SIEM, which may leverage correlation, machine learning algorithms and even AI to detect fraud by evaluating patterns and then triggering alerts. However configured, the security data lake is an exciting step you should be considering, along with the three innovative companies I mentioned in this article.
+	- 
+
+### Security Data Pipelines
+- [Tenzir's security data pipeline platform optimizes SIEM, cloud, and data costs - Help Net Security](https://www.helpnetsecurity.com/2023/08/09/tenzir-security-data-pipeline-platform/)
+	- collection, shaping, enrichment, and routing of data between any security and data technology using a rich set of data types and security-native operators purpose-built for security use cases
+* [Tenzir | Open Source Data Pipelines for Security Teams](https://tenzir.com/) 
+* [Why you need Data Engineering Pipelines before an enterprise SIEM | by Alex Teixeira | Oct, 2023 | Detect FYI](https://detect.fyi/why-you-need-data-engineering-pipelines-before-an-enterprise-siem-0be553584aa9)
+	* Content engineering and detection engineering
+	* Benefits: log viz, data quality, data collab, routing.
+* [What a Robust Security Data Pipeline is Critical in 2023](https://cribl.io/blog/why-a-robust-observability-pipeline-is-critical-for-security-professionals/) 
+* [Launch YC: Tarsal: Data pipeline built for modern security teams | Y Combinator](https://www.ycombinator.com/launches/IU6-tarsal-data-pipeline-built-for-modern-security-teams) 
+	* [Tarsal - #1 Security Data Platform](https://www.tarsal.co/) 
+* [Telemetry Data Pipeline & Log Analysis Solutions | Mezmo](https://www.mezmo.com/)
 ## Innovative, Unorthodox Visibility and Analysis (not marketed for security)
 ### search terms
 - General Data Engineering, Storage, Analytics, Visualization?
@@ -177,7 +232,6 @@
 - OpenDXL- Framework designed for the integration of security tools and the management of security events. It's built to enhance the interoperability of security products. : https://www.opendxl.com/filebase/
 - [Patrowl/PatrowlManager: PatrOwl - Open Source, Smart and Scalable Security Operations Orchestration Platform](https://github.com/Patrowl/PatrowlManager) 
 	- [Exposure Management and External Security Posture Management with Patrowl](https://www.patrowl.io/) 
-- 
 ### Cloud - Proprietary
 - .
 ## SOAR - Security Orchestration, Automation, and Response
@@ -197,9 +251,9 @@
 - [SIRP SOAR Platform: Security Automation at Lightning Speed](https://www.sirp.io/) 
 - [Chronicle | Suite | SOAR](https://chronicle.security/suite/soar/) 
 - [Devo SOAR -](https://www.devo.com/resources/solution-brief/devo-soar/) 
-- [[SOAR) Software](SOAR)%20Software](https://www.fortinet.com/products/fortisoar) 
+- [Fortinet - Fortisoar (SOAR) Software)](https://www.fortinet.com/products/fortisoar) 
 - [IBM Security QRadar SOAR](https://www.ibm.com/products/qradar-soar)
-- [[Security Orchestration, Automation, and Response) - Service Now](Security%20Orchestration,%20Automation,%20and%20Response)%20-%20Service%20Now](https://www.servicenow.com/products/security-operations/what-is-soar.html) 
+- [Security Orchestration, Automation, and Response) - Service Now](https://www.servicenow.com/products/security-operations/what-is-soar.html) 
 - [AI Enabled Security Automation, SOC Automation, SOAR](https://swimlane.com/) 
 - [Streamlined and Converged Cyber Security - Logpoint](https://www.logpoint.com/en/) 
 - 
@@ -247,7 +301,7 @@
 - [A Turbulent Year: The 2019 Data & AI Landscape – Matt Turck](https://mattturck.com/data2019/)
 	- ![](https://allcloud.io/wp-content/uploads/2020/05/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize-e1590324773525.png)
 - [Resilience and Vibrancy: The 2020 Data & AI Landscape – Matt Turck](https://mattturck.com/data2020/)
-- [[MAD) Landscape – Matt Turck](MAD)%20Landscape%20–%20Matt%20Turck](https://mattturck.com/data2021/)
+- [2021 - Data & AI Landscape (MAD) Landscape – Matt Turck](https://mattturck.com/data2021/)
 	- ![](https://mattturck.com/wp-content/uploads/2021/12/Data-and-AI-Landscape-2021-v3-small-1200x621.jpg)
 - 
 ### Data Pipeline Architecture
@@ -264,3 +318,43 @@
 - [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) - (Data Format / Free).
 - [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) - (Data Format / Free).
 - [HDF5](https://www.hdfgroup.org/solutions/hdf5/) - (The HDF Group / Data Format / Open Source (licensed by [HDF5](https://www.hdfgroup.org/licenses.)) / Free).
+# Security Data Lakes
+- Panther
+	- [Comparing the Cost of “SIEM”: How Much and Time-to-Value - Pivot Point Security](https://www.pivotpointsecurity.com/comparing-the-cost-of-siem-how-much-and-time-to-value/#Cutting_SIEM_costs_up_to_70) 
+# ETL & Data Transformation Tool Links Misc
+* [Data Integration Platform for Enterprise Companies | StreamSets](https://streamsets.com/#)
+* [Extract & Load](https://airbyte.com/product/extract-load)
+* [Observability Pipelines | Datadog](https://www.datadoghq.com/product/observability-pipelines/)
+* [fluentbit](https://fluentbit.io/)
+* [Data transformation and data quality | Stitch](https://www.stitchdata.com/platform/datatransformation/)
+* [Transformations | Fivetran](https://www.fivetran.com/data-movement/transformations)
+* [19 Best ETL Tools for 2023](https://blog.hubspot.com/website/etl-tools)
+* [Talend Open Studio: Open-source ETL and Free Data Integration | Talend](https://www.talend.com/products/talend-open-studio/)
+* [Open-source ETL: Talend Open Studio for Data Integration | Talend](https://www.talend.com/lp/open-studio-for-data-integration/)
+* [Singer | Open Source ETL](https://www.singer.io/#what-it-is)
+* [Top ETL Tools Comparison - Skyvia](https://skyvia.com/etl-tools-comparison/#Skyvia)
+* [Top 14 ETL Tools for 2024 | Integrate.io](https://www.integrate.io/blog/top-7-etl-tools/#six)
+* [15+ Best ETL Tools Available in the Market in 2023](https://www.softwaretestinghelp.com/best-etl-tools/)
+* [Apache NiFi](https://nifi.apache.org/)
+* [Data Landscape Tools - Artboard 1](https://mattturck.com/wp-content/uploads/2021/12/2021-MAD-Landscape-v3.pdf)
+* [SnapLogic Snaps | Pre-built Intelligent Connectors](https://www.snaplogic.com/products/snaps)
+* [Datameer | A Data Transformation Platform - Datameer](https://www.datameer.com/)
+* [Data Pipeline Automation Platform](https://www.ascend.io/)
+* [Azure Data Factory - Data Integration Service | Microsoft Azure](https://azure.microsoft.com/en-us/products/data-factory#features)
+- [Jitsu](https://jitsu.com/) 
+- 
+# More Gartner Magic Quadrants
+- Analytics & Business Intelligence
+	- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231210124551307.png)
+- iPaas (Integration Platform)
+	- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231210125833301.png)
+- Data Science & ML Platforms
+	- 2023
+		- .
+	- 2021
+		- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231210124945871.png)
+	 - 2020
+		- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231210124729057.png)
+- Personalization Engines?
+	- ![](../../__attachments/SIEM%20Framework/Solution%20&%20Architecture%20Curation/IMG-20231210124656674.png)
+- 
