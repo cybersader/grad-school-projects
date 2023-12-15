@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ad69aaa2a9243a80",
+        "id": "b51a653b27153bce",
         "type": "tabs",
         "children": [
           {
@@ -16,6 +16,48 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "X1. Presentation Outline",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "5 - Cyber Deception",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":63},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":4.726190476190476}"
+                },
+                {
+                  "title": "X2. Report Outline",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":311,\"ch\":2},\"to\":{\"line\":311,\"ch\":2}},\"scroll\":288.42069392812886}"
+                },
+                {
+                  "title": "X1. Presentation Outline",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":37},\"to\":{\"line\":15,\"ch\":37}}}"
+                },
+                {
+                  "title": "X1. Paper Outline with Refs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "X1. Presentation Outline",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
+                },
+                {
+                  "title": "X1. Paper Outline with Refs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "X0. Research, Refs, Reports",
@@ -46,14 +88,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ce3848389568532b",
+            "id": "e349725c92cf84d5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -61,19 +103,32 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "10.X Password Spray & Detections",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":252,\"ch\":48},\"to\":{\"line\":248,\"ch\":0}},\"scroll\":231.22057001239156}"
+                },
+                {
+                  "title": "X2. Report Outline",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":332,\"ch\":2},\"to\":{\"line\":332,\"ch\":2}},\"scroll\":288.08455284552844}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Curated Solutions.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md",
+                "file": "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md"
+                "file": "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md"
               }
             }
           },
@@ -339,45 +394,45 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "9ce07c6c80fa24c8",
+  "active": "e349725c92cf84d5",
   "lastOpenFiles": [
-    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Curated Solutions.md",
+    "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md",
+    "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md",
+    "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md",
+    "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md",
+    "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md",
+    "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md",
+    "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md",
+    "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214203546057.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214203225046.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214202821990.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214180059848.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214180055140.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214175914225.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214175909206.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214175905236.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214175851398.png",
+    "__attachments/Honey Accounts in Windows AD/Project Workspace/IMG-20231214175731897.png",
+    "().md",
+    "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md",
+    "Honey Accounts in Windows AD/Misc.md",
+    "Honey Accounts in Windows AD/Project Content.md",
+    "Honey Accounts in Windows AD/Project Deliverables.md",
+    "Honey Accounts in Windows AD/Related Lists & Curations.md",
+    "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md",
     "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md",
+    "SIEM Framework/Solution & Architecture Curation/SIEM, Visibility, and Event-Driven Architecture Curated Solutions.md",
     "SIEM Framework/Drawing 2023-12-13 14.45.17.excalidraw.md",
     "SIEM Framework/Drawing 2023-12-13 14.04.56.excalidraw.md",
     "SIEM Framework/Project Workspace/X0. Research, Refs, Reports.md",
-    "__attachments/SIEM Framework/IMG-20231212235534569.png",
     "SIEM Framework/SIEM_framework_2023.md",
-    "__attachments/SIEM Framework/Project Workspace/IMG-20231212234240103.png",
-    "__attachments/SIEM Framework/IMG-20231212225957886.png",
-    "__attachments/SIEM Framework/IMG-20231212225819971.png",
-    "__attachments/SIEM Framework/IMG-20231212225105018.png",
-    "__attachments/SIEM Framework/IMG-20231212225634152.png",
-    "__attachments/IMG-20231207171325264.png",
-    "__attachments/SIEM Framework/Project Workspace/IMG-20231212225425658.png",
     "SIEM Framework/Solution & Architecture Curation/Data Architecting & Engineering Terminology.md",
-    "__attachments/SIEM Framework/Project Workspace/IMG-20231211165310317.png",
-    "__attachments/SIEM Framework/Project Workspace/IMG-20231210223209541.png",
     "Research Cheats.md",
     "SIEM Framework/Project Workspace/1. Tech Stack & Architecture Design.md",
     "__attachments/SIEM Framework/Project Workspace",
     "SIEM Framework/Project Proposal - SIEM Framework.md",
     "Secure Database Exposition/Project Workspace/6. Recon Implementation.md",
-    "Secure Database Exposition/Project Workspace/2. Application Setup - Containers, Postgres.md",
-    "Secure Database Exposition/Project Workspace/1. Hardware & OS Setup - RPI 3.md",
-    "Secure Database Exposition/Project Workspace/3. Networking Refresher.md",
-    "Secure Database Exposition/Project Workspace/4. Exposition & Networking.md",
-    "Secure Database Exposition/Project Workspace/5. Insecure Exposition.md",
-    "Secure Database Exposition/Project Workspace/9. Comparing Exposition Approaches.md",
-    "Secure Database Exposition/Project Workspace/0. Introduction - Purpose, Design.md",
-    "Secure Database Exposition/Project Workspace/X1. Reconnaissance Tools.md",
-    "Secure Database Exposition/Project Workspace/X2. More Resources.md",
-    "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md",
-    "Secure Database Exposition/Project Proposal - Postgres.md",
-    "Secure Database Exposition/Related Lists & Curations.md",
-    "Secure Database Exposition/self_hosting_architecture.excalidraw.md",
-    "Secure Database Exposition/Self-Hosting Resources.md",
-    "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md",
     "__attachments/Excalidraw",
     "Excalidraw",
     "__attachments/Secure Database Exposition/Project Workspace",

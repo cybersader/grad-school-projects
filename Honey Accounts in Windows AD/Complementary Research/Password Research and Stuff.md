@@ -45,7 +45,7 @@
 * [jacobdjwilson/awesome-annual-security-reports: A curated list of annual cyber security reports](https://github.com/jacobdjwilson/awesome-annual-security-reports)
 * [LMI0828a-IAM-LastPass-State-of-the-Password-Report.pdf](https://lp-cdn.lastpass.com/lporcamedia/document-library/lastpass/pdf/en/LMI0828a-IAM-LastPass-State-of-the-Password-Report.pdf)
 * [Yubico report 2020 Final 7](https://www.nass.org/sites/default/files/2020-04/Yubico%20Report%20Ponemon%202020%20State%20of%20Password%20and%20Authentication%20Security%20Behaviors.pdf)
-* [[don't) use password managers effectively | USENIX](don't)%20use%20password%20managers%20effectively)
+* [Why people (don't) use password managers effectively | USENIX](https://www.usenix.org/conference/soups2019/presentation/pearman)
 * [The 2021 State of the Auth Report: 2FA Climbs, While Password Managers and Biometrics Trend | Duo Security](https://duo.com/blog/the-2021-state-of-the-auth-report-2fa-climbs-password-managers-biometrics-trend)
 * [2022 State of Passwordless Security Report | HYPR](https://get.hypr.com/2022-state-of-passwordless-security)
 * [2019 Global Password Security Report - LastPass](https://www.lastpass.com/state-of-the-password/global-password-security-report-2019)
@@ -63,7 +63,7 @@
 	- password spray time series anomaly detection UEBA behavior user 
 	- password spray UEBA behavior user 
 
-- [[MFKDF) for Fast, Flexible, Secure, & Practical Key Management | USENIX](MFKDF)%20for%20Fast,%20Flexible,%20Secure,%20&%20Practical%20Key%20Management) 
+- [Multi-Factor Key Derivation Function (MFKDF) for Fast, Flexible, Secure, & Practical Key Management | USENIX](https://www.usenix.org/conference/usenixsecurity23/presentation/nair-mfkdf)
 	- However, the recent surge in **password**-based attacks like credential stuffing and **password** **spraying** has highlighted the critical weakness of **passwords** as a sole authentication factor.
 - [Gossamer: Securely Measuring Password-based Logins | USENIX](https://www.usenix.org/conference/usenixsecurity22/presentation/sanusi-bohuk)
 	- December 22nd, 2020, a total of 12 unique IPs belonging to Digital Ocean Cloud \[1\] carried out a high volume **password** **spraying** attack by targeting 76 K unique users with 169 K

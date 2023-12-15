@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "X2. Report Outline",
+      "path": "Honey Accounts in Windows AD/Project Workspace/X2. Report Outline.md"
+    },
+    {
+      "basename": "10.X Password Spray & Detections",
+      "path": "Honey Accounts in Windows AD/Project Workspace/10.X Password Spray & Detections.md"
+    },
+    {
+      "basename": "X1. Presentation Outline",
+      "path": "Honey Accounts in Windows AD/Project Workspace/X1. Presentation Outline.md"
+    },
+    {
+      "basename": "5 - Cyber Deception",
+      "path": "Honey Accounts in Windows AD/Project Workspace/5 - Cyber Deception.md"
+    },
+    {
+      "basename": "4.5 - Applying Research",
+      "path": "Honey Accounts in Windows AD/Project Workspace/4.5 - Applying Research.md"
+    },
+    {
+      "basename": "Password Research and Stuff",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Password Research and Stuff.md"
+    },
+    {
+      "basename": "Misc Papers",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Misc Papers.md"
+    },
+    {
+      "basename": "Curated Papers, Research, Content, Tools",
+      "path": "Honey Accounts in Windows AD/Complementary Research/Curated Papers, Research, Content, Tools.md"
+    },
+    {
+      "basename": "0 - Notes & Parameters",
+      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Honey Accounts in Windows AD/Misc.md"
+    },
+    {
+      "basename": "Project Content",
+      "path": "Honey Accounts in Windows AD/Project Content.md"
+    },
+    {
+      "basename": "Project Deliverables",
+      "path": "Honey Accounts in Windows AD/Project Deliverables.md"
+    },
+    {
+      "basename": "Related Lists & Curations",
+      "path": "Honey Accounts in Windows AD/Related Lists & Curations.md"
+    },
+    {
+      "basename": "Tech Stack, Architecture, Tools",
+      "path": "Honey Accounts in Windows AD/Tech Stack, Architecture, Tools.md"
+    },
+    {
       "basename": "X1. Paper Outline with Refs",
       "path": "SIEM Framework/Project Workspace/X1. Paper Outline with Refs.md"
     },
@@ -139,66 +195,6 @@
     {
       "basename": "X4. Post-Presentation Questions",
       "path": "Secure Database Exposition/Project Workspace/X4. Post-Presentation Questions.md"
-    },
-    {
-      "basename": "Project Proposal - Postgres",
-      "path": "Secure Database Exposition/Project Proposal - Postgres.md"
-    },
-    {
-      "basename": "Related Lists & Curations",
-      "path": "Secure Database Exposition/Related Lists & Curations.md"
-    },
-    {
-      "basename": "self_hosting_architecture.excalidraw",
-      "path": "Secure Database Exposition/self_hosting_architecture.excalidraw.md"
-    },
-    {
-      "basename": "Self-Hosting Resources",
-      "path": "Secure Database Exposition/Self-Hosting Resources.md"
-    },
-    {
-      "basename": "IMG-20231023102241394",
-      "path": "__attachments/Secure Database Exposition/IMG-20231023102241394.png"
-    },
-    {
-      "basename": "IMG-20231023102241368",
-      "path": "__attachments/Secure Database Exposition/IMG-20231023102241368.png"
-    },
-    {
-      "basename": "IMG-20231023102241350",
-      "path": "__attachments/Secure Database Exposition/IMG-20231023102241350.png"
-    },
-    {
-      "basename": "IMG-20231023102241252",
-      "path": "__attachments/Secure Database Exposition/IMG-20231023102241252.png"
-    },
-    {
-      "basename": "8. Other Exposition Methods & Approaches",
-      "path": "Secure Database Exposition/Project Workspace/8. Other Exposition Methods & Approaches.md"
-    },
-    {
-      "basename": "7. Risks of Insecure Exposition",
-      "path": "Secure Database Exposition/Project Workspace/7. Risks of Insecure Exposition.md"
-    },
-    {
-      "basename": "X3. Subnetting, Port Forwarding, NAT",
-      "path": "Secure Database Exposition/Project Workspace/X3. Subnetting, Port Forwarding, NAT.md"
-    },
-    {
-      "basename": "X0. Presentation Outline",
-      "path": "Secure Database Exposition/Project Workspace/X0. Presentation Outline.md"
-    },
-    {
-      "basename": "10. Other Network Defenses",
-      "path": "Secure Database Exposition/Project Workspace/10. Other Network Defenses.md"
-    },
-    {
-      "basename": "2 - Azure Initialization",
-      "path": "Honey Accounts in Windows AD/Project Workspace/2 - Azure Initialization.md"
-    },
-    {
-      "basename": "0 - Notes & Parameters",
-      "path": "Honey Accounts in Windows AD/Project Workspace/0 - Notes & Parameters.md"
     }
   ],
   "omittedPaths": [],

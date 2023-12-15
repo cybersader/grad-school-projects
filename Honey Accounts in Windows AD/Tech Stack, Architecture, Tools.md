@@ -38,9 +38,8 @@
 - Explicitly Defined, Mangling, Permutative
 	- [sc0tfree/mentalist: Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with Hashcat and John the Ripper.](https://github.com/sc0tfree/mentalist) 
 	- [edoardottt/longtongue: Customized Password/Passphrase List inputting Target Info](https://github.com/edoardottt/longtongue)
-	- [[aka ComPP) helps making a bruteforce wordlist for a targeted company.](aka%20ComPP)%20helps%20making%20a%20bruteforce%20wordlist%20for%20a%20targeted%20company.](https://github.com/sec-it/ComPP) 
-	- 
+	- [sec-it/ComPP: Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.](https://github.com/sec-it/ComPP)
 - AI-Based
 	- [ACM-Research/targeted-password-guesses: We refined a GPT-3 model on Wattpad user account data to generate targeted password guesses automatically.](https://github.com/ACM-Research/targeted-password-guesses) 
-	- 
+	- [Honey, I Chunked the Passwords: Generating Semantic Honeywords Resistant to Targeted Attacks Using Pre-trained Language Models | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-031-35504-2_5)
 ## 
